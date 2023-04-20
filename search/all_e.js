@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['scl1_5fi2c_0',['SCL1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2',1,'artemis_defs.h']]],
+  ['sda1_5fi2c_1',['SDA1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201',1,'artemis_defs.h']]],
+  ['setup_2',['setup',['../main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d',1,'main.cpp']]],
+  ['slip_5fcalc_5fcrc_3',['slip_calc_crc',['../group__sliplib__functions.html#gaca2c57b4719f3418164fa7cfa49a402f',1,'sliplib.cpp']]],
+  ['slip_5fdecode_4',['slip_decode',['../group__sliplib__functions.html#ga1ada622558a4e384e9590e45379cee64',1,'sliplib.cpp']]],
+  ['slip_5fencode_5',['slip_encode',['../group__sliplib__functions.html#ga21c97c1c7d9fc54acb4ee320bc006f68',1,'sliplib.cpp']]],
+  ['slip_5ffend_6',['SLIP_FEND',['../group__sliplib__constants.html#gab6bbf088b44ab45140be73cc7cf2e462',1,'sliplib.h']]],
+  ['slip_5ffesc_7',['SLIP_FESC',['../group__sliplib__constants.html#gac25e75dd7bc9e954e6976c678a9a4f83',1,'sliplib.h']]],
+  ['slip_5fpack_8',['slip_pack',['../group__sliplib__functions.html#ga4fb85989ed5ac648faded10d57a768b1',1,'sliplib.cpp']]],
+  ['slip_5ftfend_9',['SLIP_TFEND',['../group__sliplib__constants.html#gaed47a6bda96b64e7117f35e7fda56823',1,'sliplib.h']]],
+  ['slip_5ftfesc_10',['SLIP_TFESC',['../group__sliplib__constants.html#ga9fc77b9bc8095e42695cedcee2629cf3',1,'sliplib.h']]],
+  ['slip_5funpack_11',['slip_unpack',['../group__sliplib__functions.html#ga058a12312c8ef53b06ed2a164c0a59ed',1,'sliplib.cpp']]],
+  ['sliplib_2ecpp_12',['sliplib.cpp',['../sliplib_8cpp.html',1,'']]],
+  ['sliplib_2eh_13',['sliplib.h',['../sliplib_8h.html',1,'']]],
+  ['special_20cosmos_20macros_14',['Special COSMOS macros',['../group__defs__macros.html',1,'']]],
+  ['spi0_5fmiso_15',['SPI0_MISO',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1',1,'artemis_defs.h']]],
+  ['spi0_5fmosi_16',['SPI0_MOSI',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467',1,'artemis_defs.h']]],
+  ['spi0_5fsclk_17',['SPI0_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0',1,'artemis_defs.h']]],
+  ['spi1_5fcs1_18',['SPI1_CS1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd',1,'artemis_defs.h']]],
+  ['spi1_5fd0_19',['SPI1_D0',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7',1,'artemis_defs.h']]],
+  ['spi1_5fd1_20',['SPI1_D1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea',1,'artemis_defs.h']]],
+  ['spi1_5fmtx_21',['spi1_mtx',['../artemis__defs_8h.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx():&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx():&#160;artemis_defs.cpp']]],
+  ['spi1_5fsclk_22',['SPI1_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68',1,'artemis_defs.h']]]
+];
