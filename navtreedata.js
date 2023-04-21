@@ -25,9 +25,9 @@
 var NAVTREE =
 [
   [ "Ke Ao Teensy Flight Software", "index.html", [
-    [ "README", "md__c___git_hub_montoyaoa_keao_flight_software_teensy_fsw_include__r_e_a_d_m_e.html", null ],
-    [ "Development Environment", "md__c___git_hub_montoyaoa_keao_flight_software_teensy_fsw__r_e_a_d_m_e.html", [
-      [ "Updating", "md__c___git_hub_montoyaoa_keao_flight_software_teensy_fsw__r_e_a_d_m_e.html#autotoc_md1", null ]
+    [ "README", "md__c__teensy_fsw_include__r_e_a_d_m_e.html", null ],
+    [ "Development Environment", "md__c__teensy_fsw__r_e_a_d_m_e.html", [
+      [ "Updating", "md__c__teensy_fsw__r_e_a_d_m_e.html#autotoc_md1", null ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
@@ -56,7 +56,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__content.html"
+"structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

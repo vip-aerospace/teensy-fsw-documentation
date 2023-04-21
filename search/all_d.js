@@ -3,7 +3,7 @@ var searchData=
   ['rad2deg_0',['RAD2DEG',['../group__mathlib__constants.html#gaacc958134b53425ec947541bb72ac8b1',1,'constants.h']]],
   ['radio_5freset_1',['RADIO_RESET',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708',1,'artemis_defs.h']]],
   ['radof_2',['RADOF',['../group__mathlib__constants.html#ga3fbc03e1df13128b9117e3a24fc6f8b9',1,'constants.h']]],
-  ['readme_3',['README',['../md__c___git_hub_montoyaoa_keao_flight_software_teensy_fsw_include__r_e_a_d_m_e.html',1,'']]],
+  ['readme_3',['README',['../md__c__teensy_fsw_include__r_e_a_d_m_e.html',1,'']]],
   ['rfm23_4',['RFM23',['../class_artemis_1_1_devices_1_1_radios_1_1_r_f_m23.html',1,'Artemis::Devices::Radios']]],
   ['rfm23_5fqueue_5',['rfm23_queue',['../artemis__defs_8h.html#aba61200a48a4acd00dc3dcc14c32ee09',1,'rfm23_queue():&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#aba61200a48a4acd00dc3dcc14c32ee09',1,'rfm23_queue():&#160;artemis_defs.cpp']]],
   ['rfm23_5fqueue_5fmtx_6',['rfm23_queue_mtx',['../artemis__defs_8h.html#a143b889cc28f8c6c0693e135f5ab3e34',1,'rfm23_queue_mtx():&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a143b889cc28f8c6c0693e135f5ab3e34',1,'rfm23_queue_mtx():&#160;artemis_defs.cpp']]],
