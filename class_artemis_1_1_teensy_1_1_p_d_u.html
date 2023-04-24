@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('class_artemis_1_1_teensy_1_1_p_d_u.htm
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -98,76 +99,322 @@ $(document).ready(function(){initNavTree('class_artemis_1_1_teensy_1_1_p_d_u.htm
   <div class="headertitle"><div class="title">Artemis::Teensy::PDU Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Constructor for a <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> object.  
+ <a href="class_artemis_1_1_teensy_1_1_p_d_u.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="pdu_8h_source.html">pdu.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__packet.html">pdu_packet</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> packet.  <a href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__packet.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__telem.html">pdu_telem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> Telemetry data packet.  <a href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__telem.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5821ba051d6b2b18a8981f24cebed32b"><td class="memItemLeft" align="right" valign="top"><a id="a5821ba051d6b2b18a8981f24cebed32b" name="a5821ba051d6b2b18a8981f24cebed32b"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>PDU_Type</b> : uint8_t { <br />
-&#160;&#160;<b>NOP</b>
-, <b>CommandPing</b>
-, <b>CommandSetSwitch</b>
-, <b>CommandGetSwitchStatus</b>
+<tr class="memitem:a5821ba051d6b2b18a8981f24cebed32b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32b">PDU_Type</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32ba1a004f5abe2b334db21328be1ea6b593">NOP</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32bae476e9bddd612a07b0bf038503af1317">CommandPing</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32baa71d14381807abe0d8983285717a024c">CommandSetSwitch</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32ba989d68d9106564cbcd7f26b209ff2976">CommandGetSwitchStatus</a>
 , <br />
-&#160;&#160;<b>DataPong</b>
-, <b>DataSwitchStatus</b>
-, <b>DataSwitchTelem</b>
+&#160;&#160;<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32ba2f524c2c9425f7494d35347868dd863a">DataPong</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32bab4797052084d1246a11b10fff7bf3730">DataSwitchStatus</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32babc25a0d118d60e6988fc23fade2486a0">DataSwitchTelem</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a5821ba051d6b2b18a8981f24cebed32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> packet.  <a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32b">More...</a><br /></td></tr>
 <tr class="separator:a5821ba051d6b2b18a8981f24cebed32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67a50226fcb9d31ee0b1d15f9051a500"><td class="memItemLeft" align="right" valign="top"><a id="a67a50226fcb9d31ee0b1d15f9051a500" name="a67a50226fcb9d31ee0b1d15f9051a500"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>PDU_SW</b> : uint8_t { <br />
-&#160;&#160;<b>None</b>
-, <b>All</b>
-, <b>SW_3V3_1</b>
-, <b>SW_3V3_2</b>
+<tr class="memitem:a67a50226fcb9d31ee0b1d15f9051a500"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a757e10103956cc4325caddc7687d6b20">SW_3V3_1</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500aa2a1578363b285ca05cd675be1670e15">SW_3V3_2</a>
 , <br />
-&#160;&#160;<b>SW_5V_1</b>
-, <b>SW_5V_2</b>
-, <b>SW_5V_3</b>
-, <b>SW_5V_4</b>
+&#160;&#160;<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a54cbe9c50468d32cd8c0544e248296b5">SW_5V_1</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a0caabe21077aadf966fd77001c068d14">SW_5V_2</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a667b163ee86c2aef53cfb8e25f56268c">SW_5V_3</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6">SW_5V_4</a>
 , <br />
-&#160;&#160;<b>SW_12V</b>
-, <b>VBATT</b>
+&#160;&#160;<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a84da1ea86cca667bb1eff62a44ca5ba7">SW_12V</a>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331">VBATT</a>
 , <b>WDT</b>
 , <b>HBRIDGE1</b>
 , <br />
 &#160;&#160;<b>HBRIDGE2</b>
-, <b>BURN</b>
+, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a6ce5f855f667c4a7b51360d8c37e2e66">BURN</a>
 , <b>BURN1</b>
 , <b>BURN2</b>
 , <br />
-&#160;&#160;<b>RPI</b>
+&#160;&#160;<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a853a1b6e6bd8d7ef36bdbbdd4579b4ec">RPI</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a67a50226fcb9d31ee0b1d15f9051a500"><td class="mdescLeft">&#160;</td><td class="mdescRight">The switches on the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>.  <a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">More...</a><br /></td></tr>
 <tr class="separator:a67a50226fcb9d31ee0b1d15f9051a500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a702b39cbcc93b62749d2dd74626e09e6"><td class="memItemLeft" align="right" valign="top"><a id="a702b39cbcc93b62749d2dd74626e09e6" name="a702b39cbcc93b62749d2dd74626e09e6"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) pdu_packet</td></tr>
-<tr class="separator:a702b39cbcc93b62749d2dd74626e09e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb5f0b1c57b9d5096bcbc4d1db9a4cf"><td class="memItemLeft" align="right" valign="top"><a id="adfb5f0b1c57b9d5096bcbc4d1db9a4cf" name="adfb5f0b1c57b9d5096bcbc4d1db9a4cf"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) pdu_telem</td></tr>
-<tr class="separator:adfb5f0b1c57b9d5096bcbc4d1db9a4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae1b949c04ef898de71ac147f675cb46c"><td class="memItemLeft" align="right" valign="top">
+struct <a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__packet.html">Artemis::Teensy::PDU::pdu_packet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed))</td></tr>
+<tr class="separator:gae1b949c04ef898de71ac147f675cb46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae1b949c04ef898de71ac147f675cb46c"><td class="memItemLeft" align="right" valign="top"><a id="gae1b949c04ef898de71ac147f675cb46c" name="gae1b949c04ef898de71ac147f675cb46c"></a>
+struct <a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__telem.html">Artemis::Teensy::PDU::pdu_telem</a>&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed))</td></tr>
+<tr class="separator:gae1b949c04ef898de71ac147f675cb46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9e241fd934d69484a38f8880d4909a7"><td class="memItemLeft" align="right" valign="top"><a id="aa9e241fd934d69484a38f8880d4909a7" name="aa9e241fd934d69484a38f8880d4909a7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>PDU</b> (HardwareSerial *hw_serial, int baud_rate)</td></tr>
 <tr class="separator:aa9e241fd934d69484a38f8880d4909a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72c9c8aa05cd2acc4361f45fb494accd"><td class="memItemLeft" align="right" valign="top"><a id="a72c9c8aa05cd2acc4361f45fb494accd" name="a72c9c8aa05cd2acc4361f45fb494accd"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>set_switch</b> (PDU_SW sw, uint8_t enable)</td></tr>
+<tr class="memitem:a72c9c8aa05cd2acc4361f45fb494accd"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a72c9c8aa05cd2acc4361f45fb494accd">set_switch</a> (<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a> <a class="el" href="pdu_8h.html#adfbea88d62836e5f6bc44c6357cef78c">sw</a>, uint8_t enable)</td></tr>
+<tr class="memdesc:a72c9c8aa05cd2acc4361f45fb494accd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a switch on the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>.  <br /></td></tr>
 <tr class="separator:a72c9c8aa05cd2acc4361f45fb494accd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16d1f688e29c22e081f3113ee0ecd24b"><td class="memItemLeft" align="right" valign="top"><a id="a16d1f688e29c22e081f3113ee0ecd24b" name="a16d1f688e29c22e081f3113ee0ecd24b"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>get_switch</b> (PDU_SW sw)</td></tr>
+<tr class="memitem:a16d1f688e29c22e081f3113ee0ecd24b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a16d1f688e29c22e081f3113ee0ecd24b">get_switch</a> (<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a> <a class="el" href="pdu_8h.html#adfbea88d62836e5f6bc44c6357cef78c">sw</a>)</td></tr>
+<tr class="memdesc:a16d1f688e29c22e081f3113ee0ecd24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the status of a switch on the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>.  <br /></td></tr>
 <tr class="separator:a16d1f688e29c22e081f3113ee0ecd24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3c5491c7bfc9a0a2bb31a5b5a368d46"><td class="memItemLeft" align="right" valign="top"><a id="ac3c5491c7bfc9a0a2bb31a5b5a368d46" name="ac3c5491c7bfc9a0a2bb31a5b5a368d46"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>send</b> (pdu_packet packet)</td></tr>
+<tr class="memitem:ac3c5491c7bfc9a0a2bb31a5b5a368d46"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#ac3c5491c7bfc9a0a2bb31a5b5a368d46">send</a> (<a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__packet.html">pdu_packet</a> packet)</td></tr>
+<tr class="memdesc:ac3c5491c7bfc9a0a2bb31a5b5a368d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a packet to the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>.  <br /></td></tr>
 <tr class="separator:ac3c5491c7bfc9a0a2bb31a5b5a368d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40ac52d057028365dc48776c4b475170"><td class="memItemLeft" align="right" valign="top"><a id="a40ac52d057028365dc48776c4b475170" name="a40ac52d057028365dc48776c4b475170"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>recv</b> (std::string &amp;response)</td></tr>
+<tr class="memitem:a40ac52d057028365dc48776c4b475170"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a40ac52d057028365dc48776c4b475170">recv</a> (std::string &amp;response)</td></tr>
+<tr class="memdesc:a40ac52d057028365dc48776c4b475170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive a response from the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>.  <br /></td></tr>
 <tr class="separator:a40ac52d057028365dc48776c4b475170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6cb0de4999c6fc5f47974fefe6f72e99"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, PDU_SW &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a6cb0de4999c6fc5f47974fefe6f72e99">PDU_SW_Type</a></td></tr>
+<tr class="memitem:a6cb0de4999c6fc5f47974fefe6f72e99"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a6cb0de4999c6fc5f47974fefe6f72e99">PDU_SW_Type</a></td></tr>
+<tr class="memdesc:a6cb0de4999c6fc5f47974fefe6f72e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> switch names to enums.  <br /></td></tr>
 <tr class="separator:a6cb0de4999c6fc5f47974fefe6f72e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Constructor for a <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> object. </p>
+<p>The Power Distribution Unit (<a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>)</p>
+<p>The serial connection is established, cleared and flushed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hw_serial</td><td>The Serial port connecting the Teensy and <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </td></tr>
+    <tr><td class="paramname">baud_rate</td><td>The baud rate for the serial connection.</td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a67a50226fcb9d31ee0b1d15f9051a500" name="a67a50226fcb9d31ee0b1d15f9051a500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67a50226fcb9d31ee0b1d15f9051a500">&#9670;&#160;</a></span>PDU_SW</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">Artemis::Teensy::PDU::PDU_SW</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The switches on the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a6adf97f83acf6453d4a6a4b1070f3754" name="a67a50226fcb9d31ee0b1d15f9051a500a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>No switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680" name="a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>All switches. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a757e10103956cc4325caddc7687d6b20" name="a67a50226fcb9d31ee0b1d15f9051a500a757e10103956cc4325caddc7687d6b20"></a>SW_3V3_1&#160;</td><td class="fielddoc"><p>The first 3.3V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500aa2a1578363b285ca05cd675be1670e15" name="a67a50226fcb9d31ee0b1d15f9051a500aa2a1578363b285ca05cd675be1670e15"></a>SW_3V3_2&#160;</td><td class="fielddoc"><p>The second 3.3V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a54cbe9c50468d32cd8c0544e248296b5" name="a67a50226fcb9d31ee0b1d15f9051a500a54cbe9c50468d32cd8c0544e248296b5"></a>SW_5V_1&#160;</td><td class="fielddoc"><p>The first 5V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a0caabe21077aadf966fd77001c068d14" name="a67a50226fcb9d31ee0b1d15f9051a500a0caabe21077aadf966fd77001c068d14"></a>SW_5V_2&#160;</td><td class="fielddoc"><p>The second 5V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a667b163ee86c2aef53cfb8e25f56268c" name="a67a50226fcb9d31ee0b1d15f9051a500a667b163ee86c2aef53cfb8e25f56268c"></a>SW_5V_3&#160;</td><td class="fielddoc"><p>The third 5V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6" name="a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6"></a>SW_5V_4&#160;</td><td class="fielddoc"><p>The fourth 5V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a84da1ea86cca667bb1eff62a44ca5ba7" name="a67a50226fcb9d31ee0b1d15f9051a500a84da1ea86cca667bb1eff62a44ca5ba7"></a>SW_12V&#160;</td><td class="fielddoc"><p>The 12V switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331" name="a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331"></a>VBATT&#160;</td><td class="fielddoc"><p>The battery voltage switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a6ce5f855f667c4a7b51360d8c37e2e66" name="a67a50226fcb9d31ee0b1d15f9051a500a6ce5f855f667c4a7b51360d8c37e2e66"></a>BURN&#160;</td><td class="fielddoc"><p>The burnwire switch. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a853a1b6e6bd8d7ef36bdbbdd4579b4ec" name="a67a50226fcb9d31ee0b1d15f9051a500a853a1b6e6bd8d7ef36bdbbdd4579b4ec"></a>RPI&#160;</td><td class="fielddoc"><p>The Raspberry Pi switch. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a5821ba051d6b2b18a8981f24cebed32b" name="a5821ba051d6b2b18a8981f24cebed32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5821ba051d6b2b18a8981f24cebed32b">&#9670;&#160;</a></span>PDU_Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a5821ba051d6b2b18a8981f24cebed32b">Artemis::Teensy::PDU::PDU_Type</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The type of <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> packet. </p>
+<p>This enumerates the types of packet that the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> can interact with. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32ba1a004f5abe2b334db21328be1ea6b593" name="a5821ba051d6b2b18a8981f24cebed32ba1a004f5abe2b334db21328be1ea6b593"></a>NOP&#160;</td><td class="fielddoc"><p>A null packet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32bae476e9bddd612a07b0bf038503af1317" name="a5821ba051d6b2b18a8981f24cebed32bae476e9bddd612a07b0bf038503af1317"></a>CommandPing&#160;</td><td class="fielddoc"><p>A ping request packet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32baa71d14381807abe0d8983285717a024c" name="a5821ba051d6b2b18a8981f24cebed32baa71d14381807abe0d8983285717a024c"></a>CommandSetSwitch&#160;</td><td class="fielddoc"><p>A set switch packet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32ba989d68d9106564cbcd7f26b209ff2976" name="a5821ba051d6b2b18a8981f24cebed32ba989d68d9106564cbcd7f26b209ff2976"></a>CommandGetSwitchStatus&#160;</td><td class="fielddoc"><p>A switch status request packet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32ba2f524c2c9425f7494d35347868dd863a" name="a5821ba051d6b2b18a8981f24cebed32ba2f524c2c9425f7494d35347868dd863a"></a>DataPong&#160;</td><td class="fielddoc"><p>A pong reply packet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32bab4797052084d1246a11b10fff7bf3730" name="a5821ba051d6b2b18a8981f24cebed32bab4797052084d1246a11b10fff7bf3730"></a>DataSwitchStatus&#160;</td><td class="fielddoc"><p>A switch status reply packet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5821ba051d6b2b18a8981f24cebed32babc25a0d118d60e6988fc23fade2486a0" name="a5821ba051d6b2b18a8981f24cebed32babc25a0d118d60e6988fc23fade2486a0"></a>DataSwitchTelem&#160;</td><td class="fielddoc"><p>A switch telemetry packet. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a16d1f688e29c22e081f3113ee0ecd24b" name="a16d1f688e29c22e081f3113ee0ecd24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16d1f688e29c22e081f3113ee0ecd24b">&#9670;&#160;</a></span>get_switch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t Artemis::Teensy::PDU::get_switch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a>&#160;</td>
+          <td class="paramname"><em>sw</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the status of a switch on the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </p>
+<p>The status packet is sent to the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>, and a response is awaited. If, after 5 cycles of 5 seconds, there is no response, the attempt fails. The response is (optionally) printed to the serial console.</p>
+<p>TODO: Send to PacketComm packet -&gt; then to ground</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sw</td><td>The switch to be checked. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Returns the switch status (1 or 0) if successful, -1 if unsuccessful. If all switches are being checked, returns 0 if any switch is 0. </dd></dl>
+
+</div>
+</div>
+<a id="a40ac52d057028365dc48776c4b475170" name="a40ac52d057028365dc48776c4b475170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ac52d057028365dc48776c4b475170">&#9670;&#160;</a></span>recv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t Artemis::Teensy::PDU::recv </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>response</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive a response from the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </p>
+<p>The serial connection is checked for a response. If there is one, the response is copied to the passed in string object and (optionally) printed to the serial console.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">response</td><td>A string object that will carry the response from the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Returns the length of the response if successful. Returns -1 if unsuccesful. </dd></dl>
+
+</div>
+</div>
+<a id="ac3c5491c7bfc9a0a2bb31a5b5a368d46" name="ac3c5491c7bfc9a0a2bb31a5b5a368d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c5491c7bfc9a0a2bb31a5b5a368d46">&#9670;&#160;</a></span>send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t Artemis::Teensy::PDU::send </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__packet.html">pdu_packet</a>&#160;</td>
+          <td class="paramname"><em>packet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send a packet to the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </p>
+<p>The packet's contents are copied and sent over the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>'s serial connection. The contents are also (optionally) printed to the serial console for debugging.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packet</td><td>The <a class="el" href="struct_artemis_1_1_teensy_1_1_p_d_u_1_1pdu__packet.html">packet </a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
+
+</div>
+</div>
+<a id="a72c9c8aa05cd2acc4361f45fb494accd" name="a72c9c8aa05cd2acc4361f45fb494accd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c9c8aa05cd2acc4361f45fb494accd">&#9670;&#160;</a></span>set_switch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t Artemis::Teensy::PDU::set_switch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a>&#160;</td>
+          <td class="paramname"><em>sw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>_enable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a switch on the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>. </p>
+<p>The switch command is sent to the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a>, and a response is awaited. If, after 5 cycles of 5 seconds, there is no response, the attempt fails. The response is (optionally) printed to the serial console.</p>
+<p>TODO: Send to PacketComm packet -&gt; then to ground</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sw</td><td>The switch to be set. </td></tr>
+    <tr><td class="paramname">_enable</td><td>The value of the switch. Any non-zero value sets the switch to 1. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if setting the switch is sucessful, -1 if unsuccessful. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a6cb0de4999c6fc5f47974fefe6f72e99" name="a6cb0de4999c6fc5f47974fefe6f72e99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cb0de4999c6fc5f47974fefe6f72e99">&#9670;&#160;</a></span>PDU_SW_Type</h2>
@@ -176,29 +423,43 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, PDU_SW&gt; Artemis::Teensy::PDU::PDU_SW_Type</td>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500">PDU_SW</a>&gt; Artemis::Teensy::PDU::PDU_SW_Type</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">                {<span class="stringliteral">&quot;all&quot;</span>, PDU_SW::All},</div>
-<div class="line">                {<span class="stringliteral">&quot;3v3_1&quot;</span>, PDU_SW::SW_3V3_1},</div>
-<div class="line">                {<span class="stringliteral">&quot;3v3_2&quot;</span>, PDU_SW::SW_3V3_2},</div>
-<div class="line">                {<span class="stringliteral">&quot;5v_1&quot;</span>, PDU_SW::SW_5V_1},</div>
-<div class="line">                {<span class="stringliteral">&quot;5v_2&quot;</span>, PDU_SW::SW_5V_2},</div>
-<div class="line">                {<span class="stringliteral">&quot;5v_3&quot;</span>, PDU_SW::SW_5V_3},</div>
-<div class="line">                {<span class="stringliteral">&quot;5v_4&quot;</span>, PDU_SW::SW_5V_4},</div>
-<div class="line">                {<span class="stringliteral">&quot;12v&quot;</span>, PDU_SW::SW_12V},</div>
-<div class="line">                {<span class="stringliteral">&quot;vbatt&quot;</span>, PDU_SW::VBATT},</div>
+<div class="line">                {<span class="stringliteral">&quot;all&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680">PDU_SW::All</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;3v3_1&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a757e10103956cc4325caddc7687d6b20">PDU_SW::SW_3V3_1</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;3v3_2&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500aa2a1578363b285ca05cd675be1670e15">PDU_SW::SW_3V3_2</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;5v_1&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a54cbe9c50468d32cd8c0544e248296b5">PDU_SW::SW_5V_1</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;5v_2&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a0caabe21077aadf966fd77001c068d14">PDU_SW::SW_5V_2</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;5v_3&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a667b163ee86c2aef53cfb8e25f56268c">PDU_SW::SW_5V_3</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;5v_4&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6">PDU_SW::SW_5V_4</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;12v&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a84da1ea86cca667bb1eff62a44ca5ba7">PDU_SW::SW_12V</a>},</div>
+<div class="line">                {<span class="stringliteral">&quot;vbatt&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331">PDU_SW::VBATT</a>},</div>
 <div class="line">                {<span class="stringliteral">&quot;wdt&quot;</span>, PDU_SW::WDT},</div>
 <div class="line">                {<span class="stringliteral">&quot;hbridge1&quot;</span>, PDU_SW::HBRIDGE1},</div>
 <div class="line">                {<span class="stringliteral">&quot;hbridge2&quot;</span>, PDU_SW::HBRIDGE2},</div>
-<div class="line">                {<span class="stringliteral">&quot;burn&quot;</span>, PDU_SW::BURN},</div>
+<div class="line">                {<span class="stringliteral">&quot;burn&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a6ce5f855f667c4a7b51360d8c37e2e66">PDU_SW::BURN</a>},</div>
 <div class="line">                {<span class="stringliteral">&quot;burn1&quot;</span>, PDU_SW::BURN1},</div>
 <div class="line">                {<span class="stringliteral">&quot;burn2&quot;</span>, PDU_SW::BURN2},</div>
-<div class="line">                {<span class="stringliteral">&quot;rpi&quot;</span>, PDU_SW::RPI},</div>
+<div class="line">                {<span class="stringliteral">&quot;rpi&quot;</span>, <a class="code hl_enumvalue" href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a853a1b6e6bd8d7ef36bdbbdd4579b4ec">PDU_SW::RPI</a>},</div>
 <div class="line">            }</div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a0caabe21077aadf966fd77001c068d14"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a0caabe21077aadf966fd77001c068d14">Artemis::Teensy::PDU::PDU_SW::SW_5V_2</a></div><div class="ttdeci">@ SW_5V_2</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a54cbe9c50468d32cd8c0544e248296b5"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a54cbe9c50468d32cd8c0544e248296b5">Artemis::Teensy::PDU::PDU_SW::SW_5V_1</a></div><div class="ttdeci">@ SW_5V_1</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a667b163ee86c2aef53cfb8e25f56268c"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a667b163ee86c2aef53cfb8e25f56268c">Artemis::Teensy::PDU::PDU_SW::SW_5V_3</a></div><div class="ttdeci">@ SW_5V_3</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a6ce5f855f667c4a7b51360d8c37e2e66"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a6ce5f855f667c4a7b51360d8c37e2e66">Artemis::Teensy::PDU::PDU_SW::BURN</a></div><div class="ttdeci">@ BURN</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331">Artemis::Teensy::PDU::PDU_SW::VBATT</a></div><div class="ttdeci">@ VBATT</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a757e10103956cc4325caddc7687d6b20"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a757e10103956cc4325caddc7687d6b20">Artemis::Teensy::PDU::PDU_SW::SW_3V3_1</a></div><div class="ttdeci">@ SW_3V3_1</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a84da1ea86cca667bb1eff62a44ca5ba7"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a84da1ea86cca667bb1eff62a44ca5ba7">Artemis::Teensy::PDU::PDU_SW::SW_12V</a></div><div class="ttdeci">@ SW_12V</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500a853a1b6e6bd8d7ef36bdbbdd4579b4ec"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a853a1b6e6bd8d7ef36bdbbdd4579b4ec">Artemis::Teensy::PDU::PDU_SW::RPI</a></div><div class="ttdeci">@ RPI</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500aa2a1578363b285ca05cd675be1670e15"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500aa2a1578363b285ca05cd675be1670e15">Artemis::Teensy::PDU::PDU_SW::SW_3V3_2</a></div><div class="ttdeci">@ SW_3V3_2</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680">Artemis::Teensy::PDU::PDU_SW::All</a></div><div class="ttdeci">@ All</div></div>
+<div class="ttc" id="aclass_artemis_1_1_teensy_1_1_p_d_u_html_a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6"><div class="ttname"><a href="class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6">Artemis::Teensy::PDU::PDU_SW::SW_5V_4</a></div><div class="ttdeci">@ SW_5V_4</div></div>
 </div><!-- fragment -->
+<p>Maps <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> switch names to enums. </p>
+<p>This mapping correlates the string name of each switch in the <a class="el" href="class_artemis_1_1_teensy_1_1_p_d_u.html" title="Constructor for a PDU object.">PDU</a> to its corresponding enum value. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('ax25class_8h_source.html',''); initRes
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            int32_t set_data(vector &lt;uint8_t&gt; input);</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            int32_t set_ax25_packet(vector &lt;uint8_t&gt; packet);</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            int32_t set_hdlc_packet(vector &lt;uint8_t&gt; packet);</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            int32_t unload();</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            int32_t unload(<span class="keywordtype">bool</span> checkcrc=<span class="keyword">true</span>);</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            int32_t load(vector&lt;uint8_t&gt; data={});</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            int32_t stuff(vector&lt;uint8_t&gt; ax25data={}, uint8_t flagcount=2, uint8_t flag=0x7e);</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            int32_t unstuff(vector&lt;uint8_t&gt; hdlcdata={}, uint8_t flag=0x7e);</div>

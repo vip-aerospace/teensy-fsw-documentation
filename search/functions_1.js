@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kill_5fthread_0',['kill_thread',['../artemis__defs_8h.html#a82fa082dd730d0cbb09766de10a9e2a2',1,'kill_thread(uint8_t channel_id):&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a82fa082dd730d0cbb09766de10a9e2a2',1,'kill_thread(uint8_t channel_id):&#160;artemis_defs.cpp']]]
+  ['crc16_0',['CRC16',['../class_c_r_c16.html#a0074af6197fe02821317000c9579a6af',1,'CRC16']]]
 ];

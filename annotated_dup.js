@@ -8,9 +8,9 @@ var annotated_dup =
         ] ]
       ] ],
       [ "Teensy", null, [
-        [ "PDU", "class_artemis_1_1_teensy_1_1_p_d_u.html", null ]
+        [ "PDU", "class_artemis_1_1_teensy_1_1_p_d_u.html", "class_artemis_1_1_teensy_1_1_p_d_u" ]
       ] ],
-      [ "Devices", "class_artemis_1_1_devices.html", null ]
+      [ "Devices", "class_artemis_1_1_devices.html", "class_artemis_1_1_devices" ]
     ] ],
     [ "Cosmos", null, [
       [ "Devices", null, [
