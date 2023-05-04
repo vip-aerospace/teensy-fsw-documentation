@@ -7,6 +7,5 @@ var searchData=
   ['ain3_4',['AIN3',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97adf240be12a6248ba0651d6f8c1a3b834',1,'artemis_defs.h']]],
   ['ain4_5',['AIN4',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ac158a505d3211303f76657940efae895',1,'artemis_defs.h']]],
   ['ain5_6',['AIN5',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a863dcb4c6d837defcdb0377a00435c5b',1,'artemis_defs.h']]],
-  ['ain6_7',['AIN6',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ad2364bb0573ddfa36277cd7d5283e74a',1,'artemis_defs.h']]],
-  ['all_8',['All',['../class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500ab1c94ca2fbc3e78fc30069c8d0f01680',1,'Artemis::Teensy::PDU']]]
+  ['ain6_7',['AIN6',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ad2364bb0573ddfa36277cd7d5283e74a',1,'artemis_defs.h']]]
 ];

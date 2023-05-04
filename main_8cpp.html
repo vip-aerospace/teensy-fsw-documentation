@@ -102,9 +102,9 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 <code>#include &lt;Arduino.h&gt;</code><br />
 <code>#include &lt;USBHost_t36.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="config_cosmos_kernel_8h_source.html">support/configCosmosKernel.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="pdu_8h_source.html">pdu.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="artemis__channels_8h_source.html">channels/artemis_channels.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="artemis__devices_8h_source.html">artemis_devices.h</a>&quot;</code><br />
+<code>#include &lt;pdu.h&gt;</code><br />
+<code>#include &quot;channels/artemis_channels.h&quot;</code><br />
+<code>#include &quot;artemis_devices.h&quot;</code><br />
 <code>#include &quot;artemisbeacons.h&quot;</code><br />
 <code>#include &quot;tests/packet_tests.h&quot;</code><br />
 </div><table class="memberdecls">
@@ -177,8 +177,6 @@ The main_queue is checked for a packet. If there is a packet, check its header f
 The sensors are periodically polled and the corresponding readings updated.</h2>
 <h2><a class="anchor" id="subsec3"></a>
 The GPS is updated on every iteration.</h2>
-<h2><a class="anchor" id="subsec4"></a>
-Each iteration of the loop is paused for 10 ms.</h2>
 
 </div>
 </div>
@@ -205,7 +203,7 @@ Each iteration of the loop is paused for 10 ms.</h2>
 <p>The pin that enables the Raspberry Pi is set up as an output pin.</p>
 <p>The various sensors in the satellite are initialized. Specifically, the magnetometer, Inertial Measurement Unit (IMU), current, and GPS sensors are initialized.</p>
 <p>Each thread that the Teensy processes is assigned a slice of computing time.</p>
-<p>The threads are initialized. The threads are stored in a linked list called <a class="el" href="artemis__defs_8h.html#a6d3c9c7b408768fa3d2fc823eccd74bc" title="The list of threads currently running on the Teensy.">thread_list</a>. Each thread is added to the end of this list.</p>
+<p>The threads are initialized. The threads are stored in a linked list called thread_list. Each thread is added to the end of this list.</p>
 
 </div>
 </div>

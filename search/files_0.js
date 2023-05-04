@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['artemis_5fchannels_2eh_0',['artemis_channels.h',['../artemis__channels_8h.html',1,'']]],
-  ['artemis_5fdefs_2ecpp_1',['artemis_defs.cpp',['../artemis__defs_8cpp.html',1,'']]],
-  ['artemis_5fdefs_2eh_2',['artemis_defs.h',['../artemis__defs_8h.html',1,'']]],
-  ['artemis_5fdevices_2ecpp_3',['artemis_devices.cpp',['../artemis__devices_8cpp.html',1,'']]],
-  ['artemis_5fdevices_2eh_4',['artemis_devices.h',['../artemis__devices_8h.html',1,'']]],
-  ['astrodev_5fchannel_2ecpp_5',['astrodev_channel.cpp',['../astrodev__channel_8cpp.html',1,'']]]
+  ['artemis_5fdefs_2ecpp_0',['artemis_defs.cpp',['../artemis__defs_8cpp.html',1,'']]],
+  ['artemis_5fdefs_2eh_1',['artemis_defs.h',['../artemis__defs_8h.html',1,'']]]
 ];

@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['piece_5ftype_5fbox_0',['PIECE_TYPE_BOX',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930dab96968dcfc61193ff705af9914051505',1,'cosmos-defs.h']]],
-  ['piece_5ftype_5fcone_1',['PIECE_TYPE_CONE',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930daace16e73c43ba63568c13448c7a1fb71',1,'cosmos-defs.h']]],
-  ['piece_5ftype_5fcylinder_2',['PIECE_TYPE_CYLINDER',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930da9d659988280a70e0421faa84e576d059',1,'cosmos-defs.h']]],
-  ['piece_5ftype_5fdimensionless_3',['PIECE_TYPE_DIMENSIONLESS',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930da7fe989cd1c32f311d7630b705fc64a0d',1,'cosmos-defs.h']]],
-  ['piece_5ftype_5fexternal_5fpanel_4',['PIECE_TYPE_EXTERNAL_PANEL',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930da6d4a7a25145351ea2978c4426c969100',1,'cosmos-defs.h']]],
-  ['piece_5ftype_5finternal_5fpanel_5',['PIECE_TYPE_INTERNAL_PANEL',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930da2fb1bea7034ee092eb301bcf38e73419',1,'cosmos-defs.h']]],
-  ['piece_5ftype_5fsphere_6',['PIECE_TYPE_SPHERE',['../group__defs__piece.html#gga30867d32ae0c776ddd66b07a2f4d930dab48828d84bb72fe07170d2acc67abfd9',1,'cosmos-defs.h']]],
-  ['pleiades_5fnode_5fid_7',['PLEIADES_NODE_ID',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aeaaaac117acf1735a1959f51c0e3cad6ef8',1,'artemis_defs.h']]],
-  ['ppc_8',['PPC',['../group__mathlib__constants.html#gga1c781d3784e382d213a9c7938b154669ae854a6217ff1e49413ffa5353f124c64',1,'constants.h']]]
+  ['scl1_5fi2c_0',['SCL1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2',1,'artemis_defs.h']]],
+  ['sda1_5fi2c_1',['SDA1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201',1,'artemis_defs.h']]],
+  ['spi0_5fmiso_2',['SPI0_MISO',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1',1,'artemis_defs.h']]],
+  ['spi0_5fmosi_3',['SPI0_MOSI',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467',1,'artemis_defs.h']]],
+  ['spi0_5fsclk_4',['SPI0_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0',1,'artemis_defs.h']]],
+  ['spi1_5fcs1_5',['SPI1_CS1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd',1,'artemis_defs.h']]],
+  ['spi1_5fd0_6',['SPI1_D0',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7',1,'artemis_defs.h']]],
+  ['spi1_5fd1_7',['SPI1_D1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea',1,'artemis_defs.h']]],
+  ['spi1_5fsclk_8',['SPI1_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68',1,'artemis_defs.h']]]
 ];

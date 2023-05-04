@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vbatt_0',['VBATT',['../class_artemis_1_1_teensy_1_1_p_d_u.html#a67a50226fcb9d31ee0b1d15f9051a500a70a707408a55a78f090c7e2ff92bd331',1,'Artemis::Teensy::PDU']]]
+  ['wrap_0',['Wrap',['../class_cosmos_1_1_support_1_1_packet_comm.html#a0ebb58eb698c0b30fcaedf673c5d90b0',1,'Cosmos::Support::PacketComm']]]
 ];
