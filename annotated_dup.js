@@ -3,14 +3,14 @@ var annotated_dup =
     [ "Artemis", null, [
       [ "Devices", null, [
         [ "Radios", null, [
-          [ "RFM23", "class_artemis_1_1_devices_1_1_radios_1_1_r_f_m23.html", null ],
-          [ "RFM98", "class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html", null ]
+          [ "RFM23", "class_artemis_1_1_devices_1_1_radios_1_1_r_f_m23.html", "class_artemis_1_1_devices_1_1_radios_1_1_r_f_m23" ],
+          [ "RFM98", "class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html", "class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98" ]
         ] ]
       ] ],
       [ "Teensy", null, [
-        [ "PDU", "class_artemis_1_1_teensy_1_1_p_d_u.html", null ]
+        [ "PDU", "class_artemis_1_1_teensy_1_1_p_d_u.html", "class_artemis_1_1_teensy_1_1_p_d_u" ]
       ] ],
-      [ "Devices", "class_artemis_1_1_devices.html", null ]
+      [ "Devices", "class_artemis_1_1_devices.html", "class_artemis_1_1_devices" ]
     ] ],
     [ "Cosmos", null, [
       [ "Devices", null, [
@@ -24,5 +24,11 @@ var annotated_dup =
       ] ]
     ] ],
     [ "CRC16", "class_c_r_c16.html", "class_c_r_c16" ],
+    [ "currentbeacon1", "structcurrentbeacon1.html", "structcurrentbeacon1" ],
+    [ "currentbeacon2", "structcurrentbeacon2.html", "structcurrentbeacon2" ],
+    [ "gpsbeacon", "structgpsbeacon.html", "structgpsbeacon" ],
+    [ "imubeacon", "structimubeacon.html", "structimubeacon" ],
+    [ "magbeacon", "structmagbeacon.html", "structmagbeacon" ],
+    [ "temperaturebeacon", "structtemperaturebeacon.html", "structtemperaturebeacon" ],
     [ "thread_struct", "structthread__struct.html", "structthread__struct" ]
 ];

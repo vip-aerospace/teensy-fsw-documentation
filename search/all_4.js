@@ -17,5 +17,7 @@ var searchData=
   ['event_5fscale_5fpriority_14',['EVENT_SCALE_PRIORITY',['../group__defs__event__flag.html#ga238adf4c853d2fcdfc13f9789a777ffa',1,'cosmos-defs.h']]],
   ['event_5fscale_5fwarning_15',['EVENT_SCALE_WARNING',['../group__defs__event__flag.html#ga906a63f8dce9ab300c0a073283164d2f',1,'cosmos-defs.h']]],
   ['event_5ftype_5fphysical_16',['EVENT_TYPE_PHYSICAL',['../group__defs__event__type.html#ga40723122629bd786ed03816faca69aef',1,'cosmos-defs.h']]],
-  ['event_5ftype_5frequest_17',['EVENT_TYPE_REQUEST',['../group__defs__event__type.html#ga2a23d353c9c00382440fb6aa1817a04b',1,'cosmos-defs.h']]]
+  ['event_5ftype_5frequest_17',['EVENT_TYPE_REQUEST',['../group__defs__event__type.html#ga2a23d353c9c00382440fb6aa1817a04b',1,'cosmos-defs.h']]],
+  ['ext_5fevent_5fpin12_5ffunctions_18',['ext_event_pin12_functions',['../struct_cosmos_1_1_devices_1_1_radios_1_1_astrodev_1_1function__config1.html#a70b567d9749be03d6be6b3b1bcd71b7c',1,'Cosmos::Devices::Radios::Astrodev::function_config1']]],
+  ['external_5fevent_5fhigh_19',['external_event_high',['../struct_cosmos_1_1_devices_1_1_radios_1_1_astrodev_1_1response.html#a305e1b1a60136e143601c5a22e17d013',1,'Cosmos::Devices::Radios::Astrodev::response']]]
 ];

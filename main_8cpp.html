@@ -102,11 +102,11 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 <code>#include &lt;Arduino.h&gt;</code><br />
 <code>#include &lt;USBHost_t36.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="config_cosmos_kernel_8h_source.html">support/configCosmosKernel.h</a>&gt;</code><br />
-<code>#include &lt;pdu.h&gt;</code><br />
-<code>#include &quot;channels/artemis_channels.h&quot;</code><br />
-<code>#include &quot;artemis_devices.h&quot;</code><br />
-<code>#include &quot;artemisbeacons.h&quot;</code><br />
-<code>#include &quot;tests/packet_tests.h&quot;</code><br />
+<code>#include &lt;<a class="el" href="pdu_8h_source.html">pdu.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="artemis__channels_8h_source.html">channels/artemis_channels.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="artemis__devices_8h_source.html">artemis_devices.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="artemisbeacons_8h_source.html">artemisbeacons.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="packet__tests_8h_source.html">tests/packet_tests.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -114,13 +114,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization code.  <br /></td></tr>
 <tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
-<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating code. Periodically checks for incoming packets and polls the attached sensors. This function runs in a loop forever, after <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> completes.  <br /></td></tr>
+<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating code.  <br /></td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The main operating loop for the Teensy. </p>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2023-04-10 </dd></dl>
+<p>This file contains the main oprerating loop that runs on the Teensy. Like an Arduino sketch, it consists of a setup and loop function, the latter of which constantly runs in a loop. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe461d27b9c48d5921c00d521181f12f">&#9670;&#160;</a></span>loop()</h2>
@@ -137,46 +136,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Operating code. Periodically checks for incoming packets and polls the attached sensors. This function runs in a loop forever, after <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> completes. </p>
-<p>In one iteration of the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code. Periodically checks for incoming packets and polls the attached sensors....">loop()</a> function, the following main actions occur:</p>
-<h2><a class="anchor" id="subsec1"></a>
-The main_queue is checked for a packet. If there is a packet, check its header for the destination node.</h2>
-<ul>
-<li>If the destination node is the Ground Station, check the packet's destination channel.<ul>
-<li>If the destination channel is the RFM23, add the packet to the RFM23 queue.</li>
-<li>If the destination channel is Astrodev, add the packet to the Astrodev queue.</li>
-</ul>
-</li>
-<li>Otherwise, if the destination node is the Raspberry Pi, add the packet to the Raspberry Pi queue.</li>
-<li>Otherwise, if the destination node is the Teensy, check the type of packet by inspecting its header.<ul>
-<li>If the packet is a Ping packet, change the packet to become a Pong reply packet, and check the destination channel of the Ping packet.<ul>
-<li>If the destination channel is the RFM23, add the Pong reply packet to the RFM23 queue.</li>
-<li>If the destination channel is Astrodev, add the Pong reply packet to the Astrodev queue.</li>
-</ul>
-</li>
-<li>If the packet is a PDU command packet, add the packet to the PDU queue.</li>
-<li>If the packet is a switch command, check the first 8 bits of the packet's data, which represents the switch being commanded.<ul>
-<li>If the switch to be commanded is the Raspberry Pi switch, check the current (or voltage?) of the battery board.<ul>
-<li>If the first two values of data in the packet's payload are '11' and the current (or voltage?) is above a certain threshold, enable the Raspberry Pi and add the Raspberry Pi thread to the thread list.</li>
-<li>Otherwise if the first value of data in the packet's payload is a '0', add the packet to the Raspberry Pi queue.</li>
-</ul>
-</li>
-<li>Otherwise, add the packet to the PDU queue.</li>
-</ul>
-</li>
-<li>If the packet is a switch status command, check the first 8 bits of the packet's data, which represents the switch being polled.<ul>
-<li>If the switch to be polled is the Raspberry Pi switch, change the packet's payload to contain the status of the Raspberry Pi enable pin, the packet's header to be a reply, and add the reply packet to the RFM23 queue.</li>
-<li>Otherwise, add the packet to the PDU queue.</li>
-</ul>
-</li>
-<li>If the packet is a beacon command, poll all the sensors.</li>
-</ul>
-</li>
-</ul>
-<h2><a class="anchor" id="subsec2"></a>
-The sensors are periodically polled and the corresponding readings updated.</h2>
-<h2><a class="anchor" id="subsec3"></a>
-The GPS is updated on every iteration.</h2>
+<p>Operating code. </p>
+<p>Periodically checks for incoming packets and polls the attached sensors. This function runs in a loop forever, after <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> completes.</p>
+<p>In each iteration of the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a> function, the <a class="el" href="artemis__defs_8h.html#ae77a939baa88784acde567432857faac">main_queue</a> is checked for a packet. If there is one, it is routed to its intended destination by adding that packet to the appropriate queue. That queue corresponds to a thread, which processes that packet when it has processing time.</p>
+<p>Additionally, the sensors are periodically polled, with the corresponding readings updated. The GPS sensor's readings are updated on each iteration of the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a>.</p>
+<p>See the code for a detailed explaination. </p>
 
 </div>
 </div>
@@ -196,14 +160,7 @@ The GPS is updated on every iteration.</h2>
 </div><div class="memdoc">
 
 <p>Initialization code. </p>
-<p>Initializes the various sensors attached to the Teensy. This function is called once, upon powerup. </p>
-<p>First, a serial connection is established. This allows the Teensy to communicate to the attached host computer over USB.</p>
-<p>Next, the frequency of the Teensy's processor is set. Allowed frequencies in MHz are: 24, 150, 396, 450, 528, 600.</p>
-<p>Then, the USB connection is started.</p>
-<p>The pin that enables the Raspberry Pi is set up as an output pin.</p>
-<p>The various sensors in the satellite are initialized. Specifically, the magnetometer, Inertial Measurement Unit (IMU), current, and GPS sensors are initialized.</p>
-<p>Each thread that the Teensy processes is assigned a slice of computing time.</p>
-<p>The threads are initialized. The threads are stored in a linked list called thread_list. Each thread is added to the end of this list.</p>
+<p>Initializes the various sensors and connections on the Teensy. This function is called once, upon powerup. The frequency of the Teensy's processor is also set here. Allowed frequencies in MHz are: 24, 150, 396, 450, 528, 600. The threads that the Teensy processes are set up. Each is allotted a fraction of processor time, and added to the <a class="el" href="artemis__defs_8h.html#a6d3c9c7b408768fa3d2fc823eccd74bc">thread_list</a>. </p>
 
 </div>
 </div>

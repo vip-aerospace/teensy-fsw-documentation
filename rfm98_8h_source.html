@@ -93,64 +93,79 @@ $(document).ready(function(){initNavTree('rfm98_8h_source.html',''); initResizab
   <div class="headertitle"><div class="title">rfm98.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef _RFM98_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define _RFM98_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;RH_RF95.h&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;RHHardwareSPI1.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;TeensyThreads.h&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;support/packetcomm.h&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>Artemis</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">namespace </span>Devices</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">namespace </span>Radios</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">   15</a></span>            <span class="keyword">class </span><a class="code hl_class" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">RFM98</a></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                <span class="keyword">struct </span>__attribute__((packed)) rfm98_config</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                    uint16_t freq;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                    uint8_t tx_power;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                    <span class="keyword">struct</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                    {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                        uint8_t spi_miso;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                        uint8_t spi_mosi;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                        uint8_t spi_sck;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                        uint8_t nirq;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                        uint8_t cs;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                        uint8_t reset;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                    } pins;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                };</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                <a class="code hl_class" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">RFM98</a>(uint8_t slaveSelectPin, uint8_t interruptPin, RHGenericSPI &amp;spi = hardware_spi1);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                int32_t reset();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                int32_t init(rfm98_config cfg, Threads::Mutex *mtx);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                int32_t send(<a class="code hl_class" href="class_cosmos_1_1_support_1_1_packet_comm.html">PacketComm</a> &amp;packet);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                int32_t recv(<a class="code hl_class" href="class_cosmos_1_1_support_1_1_packet_comm.html">PacketComm</a> &amp;packet, uint16_t timeout);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                RH_RF95 rfm98;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                Threads::Mutex *spi_mtx;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                rfm98_config config;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            };</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#endif </span><span class="comment">// _RFM98_H</span></div>
-<div class="ttc" id="aclass_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_html"><div class="ttname"><a href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">Artemis::Devices::Radios::RFM98</a></div><div class="ttdef"><b>Definition:</b> rfm98.h:16</div></div>
+<a href="rfm98_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef _RFM98_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define _RFM98_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;RH_RF95.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;RHHardwareSPI1.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;TeensyThreads.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;support/packetcomm.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span>Artemis</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">namespace </span>Devices</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">namespace </span>Radios</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">   20</a></span>            <span class="keyword">class </span><a class="code hl_class" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">RFM98</a></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html">   39</a></span>                <span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html">rfm98_config</a></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html#adb4eee791d4c36f98d771cf1cda4fb32">   46</a></span>                    uint16_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html#adb4eee791d4c36f98d771cf1cda4fb32">freq</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html#ab807731558ceeeee3753063e0f21db4b">   56</a></span>                    uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html#ab807731558ceeeee3753063e0f21db4b">tx_power</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html">   72</a></span>                    <span class="keyword">struct </span><a class="code hl_struct" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html">pins</a></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                    {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#aaceaf7f360d8738f4c54e620a113f4c2">   75</a></span>                        uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#aaceaf7f360d8738f4c54e620a113f4c2">spi_miso</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a5c3a9bfd2eccb079869432f51f74bc1f">   77</a></span>                        uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a5c3a9bfd2eccb079869432f51f74bc1f">spi_mosi</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#af8712072a0d1f545b98c2e88ec7d497a">   79</a></span>                        uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#af8712072a0d1f545b98c2e88ec7d497a">spi_sck</a>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a486d2ef3d1ffbae037cc6613cb7f1d37">   81</a></span>                        uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a486d2ef3d1ffbae037cc6613cb7f1d37">nirq</a>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#aafc2531afd5df2b1ffc7a6dee0735350">   83</a></span>                        uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#aafc2531afd5df2b1ffc7a6dee0735350">cs</a>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a15534417f2298e8ab8f88545cb60fd6d">   85</a></span>                        uint8_t <a class="code hl_variable" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a15534417f2298e8ab8f88545cb60fd6d">reset</a>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                    } <a class="code hl_struct" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html">pins</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                };</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                <a class="code hl_class" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">RFM98</a>(uint8_t slaveSelectPin, uint8_t interruptPin, RHGenericSPI &amp;spi = hardware_spi1);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                int32_t <a class="code hl_function" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#af4ed55dd3128b9fe14b7ca066ec556e4">reset</a>();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                int32_t <a class="code hl_function" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#a89130e6377f8be84b95b766e82fe077f">init</a>(<a class="code hl_struct" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html">rfm98_config</a> cfg, Threads::Mutex *mtx);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                int32_t <a class="code hl_function" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#a80561be7d16dec3f9bef44a4519e03dc">send</a>(<a class="code hl_class" href="class_cosmos_1_1_support_1_1_packet_comm.html">PacketComm</a> &amp;packet);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>                int32_t <a class="code hl_function" href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#ac9ed1086710968bd265bdd660425492c">recv</a>(<a class="code hl_class" href="class_cosmos_1_1_support_1_1_packet_comm.html">PacketComm</a> &amp;packet, uint16_t timeout);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>            <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                RH_RF95 rfm98;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>                Threads::Mutex *spi_mtx;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>                <a class="code hl_struct" href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html">rfm98_config</a> config;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>            };</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        }</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    }</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>}</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="preprocessor">#endif </span><span class="comment">// _RFM98_H</span></div>
+<div class="ttc" id="aclass_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_html"><div class="ttname"><a href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html">Artemis::Devices::Radios::RFM98</a></div><div class="ttdoc">The RFM98 class.</div><div class="ttdef"><b>Definition:</b> rfm98.h:21</div></div>
+<div class="ttc" id="aclass_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_html_a80561be7d16dec3f9bef44a4519e03dc"><div class="ttname"><a href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#a80561be7d16dec3f9bef44a4519e03dc">Artemis::Devices::Radios::RFM98::send</a></div><div class="ttdeci">int32_t send(PacketComm &amp;packet)</div><div class="ttdoc">Transmit a packet using the RFM98 radio.</div><div class="ttdef"><b>Definition:</b> rfm98.cpp:113</div></div>
+<div class="ttc" id="aclass_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_html_a89130e6377f8be84b95b766e82fe077f"><div class="ttname"><a href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#a89130e6377f8be84b95b766e82fe077f">Artemis::Devices::Radios::RFM98::init</a></div><div class="ttdeci">int32_t init(rfm98_config cfg, Threads::Mutex *mtx)</div><div class="ttdoc">Initialization of the RFM98 radio.</div><div class="ttdef"><b>Definition:</b> rfm98.cpp:33</div></div>
+<div class="ttc" id="aclass_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_html_ac9ed1086710968bd265bdd660425492c"><div class="ttname"><a href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#ac9ed1086710968bd265bdd660425492c">Artemis::Devices::Radios::RFM98::recv</a></div><div class="ttdeci">int32_t recv(PacketComm &amp;packet, uint16_t timeout)</div><div class="ttdoc">Receive a packet using the RFM98 radio.</div><div class="ttdef"><b>Definition:</b> rfm98.cpp:156</div></div>
+<div class="ttc" id="aclass_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_html_af4ed55dd3128b9fe14b7ca066ec556e4"><div class="ttname"><a href="class_artemis_1_1_devices_1_1_radios_1_1_r_f_m98.html#af4ed55dd3128b9fe14b7ca066ec556e4">Artemis::Devices::Radios::RFM98::reset</a></div><div class="ttdeci">int32_t reset()</div><div class="ttdoc">Resets the RFM98 radio.</div><div class="ttdef"><b>Definition:</b> rfm98.cpp:98</div></div>
 <div class="ttc" id="aclass_cosmos_1_1_support_1_1_packet_comm_html"><div class="ttname"><a href="class_cosmos_1_1_support_1_1_packet_comm.html">Cosmos::Support::PacketComm</a></div><div class="ttdef"><b>Definition:</b> packetcomm.h:12</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html">Artemis::Devices::Radios::RFM98::rfm98_config::pins</a></div><div class="ttdoc">The pins used to connect the RFM98 to the Teensy.</div><div class="ttdef"><b>Definition:</b> rfm98.h:73</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html_a15534417f2298e8ab8f88545cb60fd6d"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a15534417f2298e8ab8f88545cb60fd6d">Artemis::Devices::Radios::RFM98::rfm98_config::pins::reset</a></div><div class="ttdeci">uint8_t reset</div><div class="ttdoc">The reset pin.</div><div class="ttdef"><b>Definition:</b> rfm98.h:85</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html_a486d2ef3d1ffbae037cc6613cb7f1d37"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a486d2ef3d1ffbae037cc6613cb7f1d37">Artemis::Devices::Radios::RFM98::rfm98_config::pins::nirq</a></div><div class="ttdeci">uint8_t nirq</div><div class="ttdoc">The interrupt pin.</div><div class="ttdef"><b>Definition:</b> rfm98.h:81</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html_a5c3a9bfd2eccb079869432f51f74bc1f"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#a5c3a9bfd2eccb079869432f51f74bc1f">Artemis::Devices::Radios::RFM98::rfm98_config::pins::spi_mosi</a></div><div class="ttdeci">uint8_t spi_mosi</div><div class="ttdoc">The Master Out, Slave In (MOSI) pin.</div><div class="ttdef"><b>Definition:</b> rfm98.h:77</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html_aaceaf7f360d8738f4c54e620a113f4c2"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#aaceaf7f360d8738f4c54e620a113f4c2">Artemis::Devices::Radios::RFM98::rfm98_config::pins::spi_miso</a></div><div class="ttdeci">uint8_t spi_miso</div><div class="ttdoc">The Master In, Slave Out (MISO) pin.</div><div class="ttdef"><b>Definition:</b> rfm98.h:75</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html_aafc2531afd5df2b1ffc7a6dee0735350"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#aafc2531afd5df2b1ffc7a6dee0735350">Artemis::Devices::Radios::RFM98::rfm98_config::pins::cs</a></div><div class="ttdeci">uint8_t cs</div><div class="ttdoc">The chip select pin.</div><div class="ttdef"><b>Definition:</b> rfm98.h:83</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins_html_af8712072a0d1f545b98c2e88ec7d497a"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_1_1pins.html#af8712072a0d1f545b98c2e88ec7d497a">Artemis::Devices::Radios::RFM98::rfm98_config::pins::spi_sck</a></div><div class="ttdeci">uint8_t spi_sck</div><div class="ttdoc">The SPI clock pin.</div><div class="ttdef"><b>Definition:</b> rfm98.h:79</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_html"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html">Artemis::Devices::Radios::RFM98::rfm98_config</a></div><div class="ttdoc">The RFM98 configuration structure.</div><div class="ttdef"><b>Definition:</b> rfm98.h:40</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_html_ab807731558ceeeee3753063e0f21db4b"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html#ab807731558ceeeee3753063e0f21db4b">Artemis::Devices::Radios::RFM98::rfm98_config::tx_power</a></div><div class="ttdeci">uint8_t tx_power</div><div class="ttdoc">The transmitter power level in dBm.</div><div class="ttdef"><b>Definition:</b> rfm98.h:56</div></div>
+<div class="ttc" id="astruct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config_html_adb4eee791d4c36f98d771cf1cda4fb32"><div class="ttname"><a href="struct_artemis_1_1_devices_1_1_radios_1_1_r_f_m98_1_1rfm98__config.html#adb4eee791d4c36f98d771cf1cda4fb32">Artemis::Devices::Radios::RFM98::rfm98_config::freq</a></div><div class="ttdeci">uint16_t freq</div><div class="ttdoc">The operating frequency of the radio in MHz.</div><div class="ttdef"><b>Definition:</b> rfm98.h:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d3431abf3635df4ecc3460510eb8d42d.html">teensy_fsw</a></li><li class="navelem"><a class="el" href="dir_16a0c4574dcd0f2b7c64fd8d5ad1ce50.html">lib</a></li><li class="navelem"><a class="el" href="dir_e153fa16b314113fd9d37cbc8b74c3f7.html">rfm98</a></li><li class="navelem"><b>rfm98.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d3431abf3635df4ecc3460510eb8d42d.html">teensy_fsw</a></li><li class="navelem"><a class="el" href="dir_16a0c4574dcd0f2b7c64fd8d5ad1ce50.html">lib</a></li><li class="navelem"><a class="el" href="dir_e153fa16b314113fd9d37cbc8b74c3f7.html">rfm98</a></li><li class="navelem"><a class="el" href="rfm98_8h.html">rfm98.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

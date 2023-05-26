@@ -93,80 +93,100 @@ $(document).ready(function(){initNavTree('artemisbeacons_8h_source.html',''); in
   <div class="headertitle"><div class="title">artemisbeacons.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef _ARTEMIS_BEACONS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define _ARTEMIS_BEACONS_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="artemis__defs_8h.html">config/artemis_defs.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">enum class</span> TypeId : uint8_t</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    None,</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    temperature,</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    current1,</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    current2,</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    imu,</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    mag,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    gps,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>};</div>
+<a href="artemisbeacons_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef _ARTEMIS_BEACONS_H</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define _ARTEMIS_BEACONS_H</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">struct </span>__attribute__((packed)) temperaturebeacon</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    TypeId type = TypeId::temperature;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    uint32_t deci = 0;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">float</span> temperatureC[<a class="code hl_define" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>];</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">struct </span>__attribute__((packed)) currentbeacon1</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    TypeId type = TypeId::current1;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    uint32_t deci = 0;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">float</span> busvoltage[<a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">float</span> current[<a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">struct </span>__attribute__((packed)) currentbeacon2</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    TypeId type = TypeId::current2;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    uint32_t deci = 0;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">float</span> busvoltage[<a class="code hl_define" href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a> - <a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">float</span> current[<a class="code hl_define" href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a> - <a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">struct </span>__attribute__((packed)) magbeacon</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    TypeId type = TypeId::mag;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    uint32_t deci = 0;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">float</span> magx = 0, magy = 0, magz = 0;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">struct </span>__attribute__((packed)) imubeacon</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>{</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    TypeId type = TypeId::imu;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    uint32_t deci = 0;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">float</span> accelx = 0, accely = 0, accelz = 0;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">float</span> gyrox = 0, gyroy = 0, gyroz = 0;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">float</span> imutemp = 0;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">struct </span>__attribute__((packed)) gpsbeacon</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    TypeId type = TypeId::gps;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    uint32_t deci = 0;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> latitude = 0, longitude = 0, speed = 0, angle = 0, altitude = 0, satellites = 0;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif </span><span class="comment">// _ARTEMIS_BEACONS_H</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="artemis__defs_8h.html">config/artemis_defs.h</a>&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">   27</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> : uint8_t</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a6adf97f83acf6453d4a6a4b1070f3754">None</a>,           </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170aeef438f7e448aa48c1f8db568d27b591">temperature</a>,    </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a20c1cac8c3d8063cbae3bcc9a062680b">current1</a>,       </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a82812f877d0a4727ec406ae5da43cd56">current2</a>,       </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a2ba0b99abec8c19b66d7d036b19999ae">imu</a>,            </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a741f63d12d767bb3fd2b0251ed839499">mag</a>,            </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">gps</a>             </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structtemperaturebeacon.html">   47</a></span><span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="structtemperaturebeacon.html">temperaturebeacon</a></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structtemperaturebeacon.html#ab1f242eb08ddba0623d675319c041a6a">   53</a></span>    <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> type = TypeId::temperature;              </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="structtemperaturebeacon.html#afa8b95b2484c284a96cca09437396e97">   59</a></span>    uint32_t deci = 0;                              </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="structtemperaturebeacon.html#a390846fccb00f821c2cdbad0013c8ead">   66</a></span>    <span class="keywordtype">float</span> temperatureC[<a class="code hl_define" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>];  </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structcurrentbeacon1.html">   88</a></span><span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="structcurrentbeacon1.html">currentbeacon1</a></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>{</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="structcurrentbeacon1.html#a3758d7900f1782f87e775998557fe76e">   94</a></span>    <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> type = TypeId::current1;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="structcurrentbeacon1.html#af03aca8df026af876d7959ee9b62b96e">  100</a></span>    uint32_t deci = 0;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="structcurrentbeacon1.html#a06fbbf9d94fa8aa7c1e0af91b2951e99">  109</a></span>    <span class="keywordtype">float</span> busvoltage[<a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="structcurrentbeacon1.html#aa9cf1106d345533f801f2f8452b7495e">  117</a></span>    <span class="keywordtype">float</span> current[<a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="structcurrentbeacon2.html">  139</a></span><span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="structcurrentbeacon2.html">currentbeacon2</a></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>{</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="structcurrentbeacon2.html#a7c576fadde29eee7ef2fd75f6048dbd8">  145</a></span>    <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> type = TypeId::current2;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="structcurrentbeacon2.html#abce8b23b2387db4bc93e22a9b0f03b5b">  151</a></span>    uint32_t deci = 0;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="structcurrentbeacon2.html#a182cb3a214c25345a8af3337c65b7d9f">  160</a></span>    <span class="keywordtype">float</span> busvoltage[<a class="code hl_define" href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a> - <a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="structcurrentbeacon2.html#a7ce72de1594dd2aeadcd59cebf8e35ca">  169</a></span>    <span class="keywordtype">float</span> current[<a class="code hl_define" href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a> - <a class="code hl_define" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>];</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>};</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="structmagbeacon.html">  191</a></span><span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="structmagbeacon.html">magbeacon</a></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>{</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="structmagbeacon.html#ab9c6bf52ccbc265718078928d59cf1a8">  197</a></span>    <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> type = TypeId::mag;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="structmagbeacon.html#ab89e2571142f4065fe2c7831da0031c5">  203</a></span>    uint32_t deci = 0;</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="structmagbeacon.html#a36f092f8f2779f6886c99f5c53a075aa">  205</a></span>    <span class="keywordtype">float</span> magx = 0;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="structmagbeacon.html#a0ff520d871d2b31dca25546a51b7b734">  207</a></span>    <span class="keywordtype">float</span> magy = 0;</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno"><a class="line" href="structmagbeacon.html#a73dc34b666ddcaea6484f50720b57779">  209</a></span>    <span class="keywordtype">float</span> magz = 0;</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>};</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="structimubeacon.html">  232</a></span><span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="structimubeacon.html">imubeacon</a></div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>{</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="structimubeacon.html#a8fc934c82c4414a5dfc0624bc884ae41">  238</a></span>    <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> type = TypeId::imu;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno"><a class="line" href="structimubeacon.html#accd31d2770c069f15eb2d274deebd043">  243</a></span>    uint32_t deci = 0;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="structimubeacon.html#a795784611b8af8b4204a20c0bf2c41f9">  245</a></span>    <span class="keywordtype">float</span> accelx = 0;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="structimubeacon.html#a7ca2666fea659374559029de363b2d7a">  247</a></span>    <span class="keywordtype">float</span> accely = 0;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="structimubeacon.html#a3281cae51c7a8c5bce0ac420d9881279">  249</a></span>    <span class="keywordtype">float</span> accelz = 0;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno"><a class="line" href="structimubeacon.html#a6456e4f67dd87b8e5ca1ea2cddc568f9">  251</a></span>    <span class="keywordtype">float</span> gyrox = 0;</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno"><a class="line" href="structimubeacon.html#a9520b0d4716c3e402b0ab262bd4b954e">  253</a></span>    <span class="keywordtype">float</span> gyroy = 0;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="structimubeacon.html#af31daf39bcd43917eef01386928d8e9c">  255</a></span>    <span class="keywordtype">float</span> gyroz = 0;</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="structimubeacon.html#a1cac4399f3ffb5130604a02f7031b81c">  257</a></span>    <span class="keywordtype">float</span> imutemp = 0;</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>};</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno"><a class="line" href="structgpsbeacon.html">  281</a></span><span class="keyword">struct </span>__attribute__((packed)) <a class="code hl_struct" href="structgpsbeacon.html">gpsbeacon</a></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>{</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#ad6f7d41053d7fa4adbba85e1419f5b80">  287</a></span>    <a class="code hl_enumeration" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> type = TypeId::gps;</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#aeab3f1719c2d24ddd7f57dea04b4f318">  292</a></span>    uint32_t deci = 0;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#a5f39a06178c9dd69f96f089367eeb3cd">  294</a></span>    <span class="keywordtype">float</span> latitude = 0;</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#a20b5a794ce813c98ef819c360700a767">  296</a></span>    <span class="keywordtype">float</span> longitude = 0;</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#a4a74a1c73d574dcbaccb7009438e89d7">  298</a></span>    <span class="keywordtype">float</span> speed = 0;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#a61924a1a61ccaadc89a5c3707d4f44be">  300</a></span>    <span class="keywordtype">float</span> angle = 0;</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#ae71a1034affbb1a486018b4da92fda5a">  302</a></span>    <span class="keywordtype">float</span> altitude = 0;</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno"><a class="line" href="structgpsbeacon.html#a684dca0ce1f9a9c119ad3c7086957ae0">  304</a></span>    <span class="keywordtype">float</span> satellites = 0;</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>};</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span><span class="preprocessor">#endif </span><span class="comment">// _ARTEMIS_BEACONS_H</span></div>
 <div class="ttc" id="aartemis__defs_8h_html"><div class="ttname"><a href="artemis__defs_8h.html">artemis_defs.h</a></div><div class="ttdoc">The Artemis definitions header file.</div></div>
-<div class="ttc" id="aartemis__defs_8h_html_a13eb4f64726e26c58b0c31db0260b7f5"><div class="ttname"><a href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a></div><div class="ttdeci">#define ARTEMIS_CURRENT_SENSOR_COUNT</div><div class="ttdoc">The number of current sensors in the satellite.</div><div class="ttdef"><b>Definition:</b> artemis_defs.h:27</div></div>
-<div class="ttc" id="aartemis__defs_8h_html_a3b4152ba9546ee95b13dfb8d46b282c4"><div class="ttname"><a href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a></div><div class="ttdeci">#define ARTEMIS_TEMP_SENSOR_COUNT</div><div class="ttdoc">The number of temperature sensors in the satellite.</div><div class="ttdef"><b>Definition:</b> artemis_defs.h:32</div></div>
-<div class="ttc" id="aartemis__defs_8h_html_a69799b0a5a16e327c77608d3cae7dbb0"><div class="ttname"><a href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a></div><div class="ttdeci">#define ARTEMIS_CURRENT_BEACON_1_COUNT</div><div class="ttdoc">The number of readings that can fit in one beacon.</div><div class="ttdef"><b>Definition:</b> artemis_defs.h:22</div></div>
+<div class="ttc" id="aartemis__defs_8h_html_a13eb4f64726e26c58b0c31db0260b7f5"><div class="ttname"><a href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a></div><div class="ttdeci">#define ARTEMIS_CURRENT_SENSOR_COUNT</div><div class="ttdoc">The number of current sensors in the satellite.</div><div class="ttdef"><b>Definition:</b> artemis_defs.h:17</div></div>
+<div class="ttc" id="aartemis__defs_8h_html_a3b4152ba9546ee95b13dfb8d46b282c4"><div class="ttname"><a href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a></div><div class="ttdeci">#define ARTEMIS_TEMP_SENSOR_COUNT</div><div class="ttdoc">The number of temperature sensors in the satellite.</div><div class="ttdef"><b>Definition:</b> artemis_defs.h:19</div></div>
+<div class="ttc" id="aartemis__defs_8h_html_a69799b0a5a16e327c77608d3cae7dbb0"><div class="ttname"><a href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a></div><div class="ttdeci">#define ARTEMIS_CURRENT_BEACON_1_COUNT</div><div class="ttdoc">The number of readings that can fit in the first beacon.</div><div class="ttdef"><b>Definition:</b> artemis_defs.h:15</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a></div><div class="ttdeci">TypeId</div><div class="ttdoc">Enumeration of beacon type.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:28</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">TypeId::gps</a></div><div class="ttdeci">@ gps</div><div class="ttdoc">GPS beacon.</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a20c1cac8c3d8063cbae3bcc9a062680b"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a20c1cac8c3d8063cbae3bcc9a062680b">TypeId::current1</a></div><div class="ttdeci">@ current1</div><div class="ttdoc">First current beacon.</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a2ba0b99abec8c19b66d7d036b19999ae"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a2ba0b99abec8c19b66d7d036b19999ae">TypeId::imu</a></div><div class="ttdeci">@ imu</div><div class="ttdoc">IMU beacon.</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a6adf97f83acf6453d4a6a4b1070f3754"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a6adf97f83acf6453d4a6a4b1070f3754">TypeId::None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">No particular beacon type. Just raw data.</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a741f63d12d767bb3fd2b0251ed839499"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a741f63d12d767bb3fd2b0251ed839499">TypeId::mag</a></div><div class="ttdeci">@ mag</div><div class="ttdoc">Magnetometer beacon.</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a82812f877d0a4727ec406ae5da43cd56"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a82812f877d0a4727ec406ae5da43cd56">TypeId::current2</a></div><div class="ttdeci">@ current2</div><div class="ttdoc">Second current beacon.</div></div>
+<div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170aeef438f7e448aa48c1f8db568d27b591"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170aeef438f7e448aa48c1f8db568d27b591">TypeId::temperature</a></div><div class="ttdeci">@ temperature</div><div class="ttdoc">Temperature beacon.</div></div>
+<div class="ttc" id="astructcurrentbeacon1_html"><div class="ttname"><a href="structcurrentbeacon1.html">currentbeacon1</a></div><div class="ttdoc">The first current beacon structure.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:89</div></div>
+<div class="ttc" id="astructcurrentbeacon2_html"><div class="ttname"><a href="structcurrentbeacon2.html">currentbeacon2</a></div><div class="ttdoc">The second current beacon structure.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:140</div></div>
+<div class="ttc" id="astructgpsbeacon_html"><div class="ttname"><a href="structgpsbeacon.html">gpsbeacon</a></div><div class="ttdoc">The GPS beacon structure.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:282</div></div>
+<div class="ttc" id="astructimubeacon_html"><div class="ttname"><a href="structimubeacon.html">imubeacon</a></div><div class="ttdoc">The IMU beacon structure.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:233</div></div>
+<div class="ttc" id="astructmagbeacon_html"><div class="ttname"><a href="structmagbeacon.html">magbeacon</a></div><div class="ttdoc">The magnetometer beacon structure.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:192</div></div>
+<div class="ttc" id="astructtemperaturebeacon_html"><div class="ttname"><a href="structtemperaturebeacon.html">temperaturebeacon</a></div><div class="ttdoc">The temperature beacon structure.</div><div class="ttdef"><b>Definition:</b> artemisbeacons.h:48</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d3431abf3635df4ecc3460510eb8d42d.html">teensy_fsw</a></li><li class="navelem"><a class="el" href="dir_c7cba72cdc5a174b782d79a97658f075.html">include</a></li><li class="navelem"><b>artemisbeacons.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d3431abf3635df4ecc3460510eb8d42d.html">teensy_fsw</a></li><li class="navelem"><a class="el" href="dir_c7cba72cdc5a174b782d79a97658f075.html">include</a></li><li class="navelem"><a class="el" href="artemisbeacons_8h.html">artemisbeacons.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

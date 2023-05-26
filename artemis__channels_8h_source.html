@@ -93,44 +93,50 @@ $(document).ready(function(){initNavTree('artemis__channels_8h_source.html','');
   <div class="headertitle"><div class="title">artemis_channels.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef _ARTEMIS_CHANNELS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define _ARTEMIS_CHANNELS_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="artemis__defs_8h.html">config/artemis_defs.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>Artemis</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keyword">namespace </span>Teensy</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keyword">namespace </span>Channels</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        {</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            <span class="comment">// Channel IDs</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>            <span class="keyword">enum</span> Channel_ID : uint8_t</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                RFM23_CHANNEL = 1,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                RFM98_CHANNEL,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                ASTRODEV_CHANNEL,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                PDU_CHANNEL,</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                RPI_CHANNEL,</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            };</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keywordtype">void</span> rfm23_channel();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            <span class="keywordtype">void</span> rfm98_channel();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            <span class="keywordtype">void</span> astrodev_channel();</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordtype">void</span> pdu_channel();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keywordtype">void</span> rpi_channel();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        }</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif </span><span class="comment">// _ARTEMIS_CHANNELS_H</span></div>
+<a href="artemis__channels_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#ifndef _ARTEMIS_CHANNELS_H</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define _ARTEMIS_CHANNELS_H</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;<a class="code" href="artemis__defs_8h.html">config/artemis_defs.h</a>&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">namespace </span>Artemis</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">namespace </span>Teensy</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keyword">namespace </span>Channels</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58">   39</a></span>            <span class="keyword">enum</span> <a class="code hl_enumeration" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58">Channel_ID</a> : uint8_t</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a5d83eb2947c0708f31f1013c704eb854">   41</a></span>                <a class="code hl_enumvalue" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a5d83eb2947c0708f31f1013c704eb854">RFM23_CHANNEL</a> = 1,  </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58abddee6187ed4262aa27ff23c6ed54cb4">   42</a></span>                <a class="code hl_enumvalue" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58abddee6187ed4262aa27ff23c6ed54cb4">RFM98_CHANNEL</a>,      </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58ace153b2914c0737499790be53dd0067e">   43</a></span>                <a class="code hl_enumvalue" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58ace153b2914c0737499790be53dd0067e">ASTRODEV_CHANNEL</a>,   </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a3c0caa6af2109695c3c0cadb10863f51">   44</a></span>                <a class="code hl_enumvalue" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a3c0caa6af2109695c3c0cadb10863f51">PDU_CHANNEL</a>,        </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a299eadc771327d56d2e8c6c95c5d86eb">   45</a></span>                <a class="code hl_enumvalue" href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a299eadc771327d56d2e8c6c95c5d86eb">RPI_CHANNEL</a>,        </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            };</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordtype">void</span> rfm23_channel();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <span class="keywordtype">void</span> rfm98_channel();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordtype">void</span> astrodev_channel();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            <span class="keywordtype">void</span> pdu_channel();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <span class="keywordtype">void</span> rpi_channel();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif </span><span class="comment">// _ARTEMIS_CHANNELS_H</span></div>
+<div class="ttc" id="aartemis__channels_8h_html_a13ac2df4e3d7c1a6eeeae82d4cffaa58"><div class="ttname"><a href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58">Artemis::Teensy::Channels::Channel_ID</a></div><div class="ttdeci">Channel_ID</div><div class="ttdoc">Enumeration of channel ID.</div><div class="ttdef"><b>Definition:</b> artemis_channels.h:40</div></div>
+<div class="ttc" id="aartemis__channels_8h_html_a13ac2df4e3d7c1a6eeeae82d4cffaa58a299eadc771327d56d2e8c6c95c5d86eb"><div class="ttname"><a href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a299eadc771327d56d2e8c6c95c5d86eb">Artemis::Teensy::Channels::RPI_CHANNEL</a></div><div class="ttdeci">@ RPI_CHANNEL</div><div class="ttdoc">The channel controlling the Raspberry Pi.</div><div class="ttdef"><b>Definition:</b> artemis_channels.h:45</div></div>
+<div class="ttc" id="aartemis__channels_8h_html_a13ac2df4e3d7c1a6eeeae82d4cffaa58a3c0caa6af2109695c3c0cadb10863f51"><div class="ttname"><a href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a3c0caa6af2109695c3c0cadb10863f51">Artemis::Teensy::Channels::PDU_CHANNEL</a></div><div class="ttdeci">@ PDU_CHANNEL</div><div class="ttdoc">The channel controlling the PDU.</div><div class="ttdef"><b>Definition:</b> artemis_channels.h:44</div></div>
+<div class="ttc" id="aartemis__channels_8h_html_a13ac2df4e3d7c1a6eeeae82d4cffaa58a5d83eb2947c0708f31f1013c704eb854"><div class="ttname"><a href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58a5d83eb2947c0708f31f1013c704eb854">Artemis::Teensy::Channels::RFM23_CHANNEL</a></div><div class="ttdeci">@ RFM23_CHANNEL</div><div class="ttdoc">The channel controlling the RFM23 radio.</div><div class="ttdef"><b>Definition:</b> artemis_channels.h:41</div></div>
+<div class="ttc" id="aartemis__channels_8h_html_a13ac2df4e3d7c1a6eeeae82d4cffaa58abddee6187ed4262aa27ff23c6ed54cb4"><div class="ttname"><a href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58abddee6187ed4262aa27ff23c6ed54cb4">Artemis::Teensy::Channels::RFM98_CHANNEL</a></div><div class="ttdeci">@ RFM98_CHANNEL</div><div class="ttdoc">The channel controlling the RFM98 radio.</div><div class="ttdef"><b>Definition:</b> artemis_channels.h:42</div></div>
+<div class="ttc" id="aartemis__channels_8h_html_a13ac2df4e3d7c1a6eeeae82d4cffaa58ace153b2914c0737499790be53dd0067e"><div class="ttname"><a href="artemis__channels_8h.html#a13ac2df4e3d7c1a6eeeae82d4cffaa58ace153b2914c0737499790be53dd0067e">Artemis::Teensy::Channels::ASTRODEV_CHANNEL</a></div><div class="ttdeci">@ ASTRODEV_CHANNEL</div><div class="ttdoc">The channel controlling the Astrodev (Li-3) radio.</div><div class="ttdef"><b>Definition:</b> artemis_channels.h:43</div></div>
 <div class="ttc" id="aartemis__defs_8h_html"><div class="ttname"><a href="artemis__defs_8h.html">artemis_defs.h</a></div><div class="ttdoc">The Artemis definitions header file.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d3431abf3635df4ecc3460510eb8d42d.html">teensy_fsw</a></li><li class="navelem"><a class="el" href="dir_c7cba72cdc5a174b782d79a97658f075.html">include</a></li><li class="navelem"><a class="el" href="dir_ff516368061b224ad964848b76cec971.html">channels</a></li><li class="navelem"><b>artemis_channels.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d3431abf3635df4ecc3460510eb8d42d.html">teensy_fsw</a></li><li class="navelem"><a class="el" href="dir_c7cba72cdc5a174b782d79a97658f075.html">include</a></li><li class="navelem"><a class="el" href="dir_ff516368061b224ad964848b76cec971.html">channels</a></li><li class="navelem"><a class="el" href="artemis__channels_8h.html">artemis_channels.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

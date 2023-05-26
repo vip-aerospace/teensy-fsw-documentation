@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['crc16_0',['CRC16',['../class_c_r_c16.html',1,'']]],
-  ['crcset_1',['crcset',['../struct_c_r_c16_1_1crcset.html',1,'CRC16']]]
+  ['beacon_5fconfig_0',['beacon_config',['../struct_cosmos_1_1_devices_1_1_radios_1_1_astrodev_1_1beacon__config.html',1,'Cosmos::Devices::Radios::Astrodev']]]
 ];

@@ -29,14 +29,16 @@ var NAVTREE =
     [ "Development Environment", "md__c__teensy_fsw__r_e_a_d_m_e.html", [
       [ "Updating", "md__c__teensy_fsw__r_e_a_d_m_e.html#autotoc_md1", null ]
     ] ],
+    [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -56,7 +58,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659"
+"class_cosmos_1_1_devices_1_1_radios_1_1_astrodev.html#ab5d1649e84dc3d9efa102478bbe2b280a7e01571820af6a385c5cabd3b338e399",
+"struct_cosmos_1_1_devices_1_1_radios_1_1_astrodev_1_1function__config2.html#a42c40c6111640270508fd777ef7a3997"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -102,7 +102,21 @@ $(document).ready(function(){initNavTree('class_cosmos_1_1_support_1_1_packet_co
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_c_c_s_d_s___header.html">CCSDS_Header</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_communicate_header.html">CommunicateHeader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_communicate_response_header.html">CommunicateResponseHeader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_file_chunk_data.html">FileChunkData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_file_meta.html">FileMeta</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_header.html">Header</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_response_header.html">ResponseHeader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_test_header.html">TestHeader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -206,41 +220,20 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:aa4d597df87d2ad1759ca8032ce5f1859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6746f27109c1006f51ab974580ca5518"><td class="memItemLeft" align="right" valign="top"><a id="a6746f27109c1006f51ab974580ca5518" name="a6746f27109c1006f51ab974580ca5518"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AdcsResponseHeader</b> = CommunicateResponseHeader</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AdcsResponseHeader</b> = <a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_communicate_response_header.html">CommunicateResponseHeader</a></td></tr>
 <tr class="separator:a6746f27109c1006f51ab974580ca5518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a659b631bab31bfa86a48e7ff0eeb5f91"><td class="memItemLeft" align="right" valign="top"><a id="a659b631bab31bfa86a48e7ff0eeb5f91" name="a659b631bab31bfa86a48e7ff0eeb5f91"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>EpsResponseHeader</b> = CommunicateResponseHeader</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>EpsResponseHeader</b> = <a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_communicate_response_header.html">CommunicateResponseHeader</a></td></tr>
 <tr class="separator:a659b631bab31bfa86a48e7ff0eeb5f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdb6cecf374ecd6b999a77a73a880654"><td class="memItemLeft" align="right" valign="top"><a id="abdb6cecf374ecd6b999a77a73a880654" name="abdb6cecf374ecd6b999a77a73a880654"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>RadioResponseHeader</b> = CommunicateResponseHeader</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>RadioResponseHeader</b> = <a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_communicate_response_header.html">CommunicateResponseHeader</a></td></tr>
 <tr class="separator:abdb6cecf374ecd6b999a77a73a880654"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a587dda3e1d8fd4ae279b64e80bcb958e"><td class="memItemLeft" align="right" valign="top"><a id="a587dda3e1d8fd4ae279b64e80bcb958e" name="a587dda3e1d8fd4ae279b64e80bcb958e"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) CCSDS_Header</td></tr>
-<tr class="separator:a587dda3e1d8fd4ae279b64e80bcb958e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07125432b206279e346c0be056c9cf07"><td class="memItemLeft" align="right" valign="top"><a id="a07125432b206279e346c0be056c9cf07" name="a07125432b206279e346c0be056c9cf07"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>PacketComm</b> (uint16_t size=4)</td></tr>
 <tr class="separator:a07125432b206279e346c0be056c9cf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d1d823c1e13b527a3fdaa6caba07082"><td class="memItemLeft" align="right" valign="top"><a id="a9d1d823c1e13b527a3fdaa6caba07082" name="a9d1d823c1e13b527a3fdaa6caba07082"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) CommunicateHeader</td></tr>
-<tr class="separator:a9d1d823c1e13b527a3fdaa6caba07082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a940d2ddc9d49b3af1a257a97b33e2812"><td class="memItemLeft" align="right" valign="top"><a id="a940d2ddc9d49b3af1a257a97b33e2812" name="a940d2ddc9d49b3af1a257a97b33e2812"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) CommunicateResponseHeader</td></tr>
-<tr class="separator:a940d2ddc9d49b3af1a257a97b33e2812"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea70d495bb0b69f3f1ce5f4a34b412cf"><td class="memItemLeft" align="right" valign="top"><a id="aea70d495bb0b69f3f1ce5f4a34b412cf" name="aea70d495bb0b69f3f1ce5f4a34b412cf"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) ResponseHeader</td></tr>
-<tr class="separator:aea70d495bb0b69f3f1ce5f4a34b412cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af882f413cf4f7ff29d122c45bb182562"><td class="memItemLeft" align="right" valign="top"><a id="af882f413cf4f7ff29d122c45bb182562" name="af882f413cf4f7ff29d122c45bb182562"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) TestHeader</td></tr>
-<tr class="separator:af882f413cf4f7ff29d122c45bb182562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eda3427634090f4b6d5cfcb5d4605fa"><td class="memItemLeft" align="right" valign="top"><a id="a4eda3427634090f4b6d5cfcb5d4605fa" name="a4eda3427634090f4b6d5cfcb5d4605fa"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) Header</td></tr>
-<tr class="separator:a4eda3427634090f4b6d5cfcb5d4605fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb0ac8f8ff5d900c80ef23322b9b3277"><td class="memItemLeft" align="right" valign="top"><a id="adb0ac8f8ff5d900c80ef23322b9b3277" name="adb0ac8f8ff5d900c80ef23322b9b3277"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((packed)) FileChunkData</td></tr>
-<tr class="separator:adb0ac8f8ff5d900c80ef23322b9b3277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf11d1ddae8b160010dc59339996cdf8"><td class="memItemLeft" align="right" valign="top"><a id="abf11d1ddae8b160010dc59339996cdf8" name="abf11d1ddae8b160010dc59339996cdf8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CalcCRC</b> ()</td></tr>
 <tr class="separator:abf11d1ddae8b160010dc59339996cdf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,11 +287,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0f0f52ec450dd1c628a8d2d1ae898cf4"><td class="memItemLeft" align="right" valign="top"><a id="a0f0f52ec450dd1c628a8d2d1ae898cf4" name="a0f0f52ec450dd1c628a8d2d1ae898cf4"></a>
 std::map&lt; TypeId, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TypeString</b></td></tr>
 <tr class="separator:a0f0f52ec450dd1c628a8d2d1ae898cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa37a2ef706a02c69b7ad8e52fdc04ed7"><td class="memItemLeft" align="right" valign="top"><a id="aa37a2ef706a02c69b7ad8e52fdc04ed7" name="aa37a2ef706a02c69b7ad8e52fdc04ed7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>header</b></td></tr>
-<tr class="separator:aa37a2ef706a02c69b7ad8e52fdc04ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206e36e73bc6293de59bdf9fd15719da"><td class="memItemLeft" align="right" valign="top"><a id="a206e36e73bc6293de59bdf9fd15719da" name="a206e36e73bc6293de59bdf9fd15719da"></a>
+struct <a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_header.html">Cosmos::Support::PacketComm::Header</a>&#160;</td><td class="memItemRight" valign="bottom"><b>header</b></td></tr>
+<tr class="separator:a206e36e73bc6293de59bdf9fd15719da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4649021677aa50079b0aa58d1f2e8d2e"><td class="memItemLeft" align="right" valign="top"><a id="a4649021677aa50079b0aa58d1f2e8d2e" name="a4649021677aa50079b0aa58d1f2e8d2e"></a>
-CCSDS_Header&#160;</td><td class="memItemRight" valign="bottom"><b>ccsds_header</b></td></tr>
+<a class="el" href="struct_cosmos_1_1_support_1_1_packet_comm_1_1_c_c_s_d_s___header.html">CCSDS_Header</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ccsds_header</b></td></tr>
 <tr class="separator:a4649021677aa50079b0aa58d1f2e8d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a647610469e2f3ba93b18cac5b10d57"><td class="memItemLeft" align="right" valign="top"><a id="a0a647610469e2f3ba93b18cac5b10d57" name="a0a647610469e2f3ba93b18cac5b10d57"></a>
 vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>packetized</b></td></tr>

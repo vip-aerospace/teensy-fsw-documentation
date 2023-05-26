@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('ax25class_8h_source.html',''); initRes
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keyword">struct </span>__attribute__ ((packed)) packet_header</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__header.html">   50</a></span>            <span class="keyword">struct </span>__attribute__ ((packed)) <a class="code hl_struct" href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__header.html">packet_header</a></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            {</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                uint8_t destination_callsign[6];</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                uint8_t destination_stationID;</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('ax25class_8h_source.html',''); initRes
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__content.html">   60</a></span>            <span class="keyword">struct </span><a class="code hl_struct" href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__content.html">packet_content</a></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                packet_header header;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                <a class="code hl_struct" href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__header.html">packet_header</a> header;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                vector &lt;uint8_t&gt; data;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            };</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('ax25class_8h_source.html',''); initRes
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            uint8_t get_control();</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="keywordtype">void</span> set_protocolID(uint8_t protocol);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            uint8_t get_protocolID();</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            packet_header get_header();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <a class="code hl_struct" href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__header.html">packet_header</a> get_header();</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            vector &lt;uint8_t&gt; get_data();</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            vector &lt;uint8_t&gt; get_ax25_packet();</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            vector &lt;uint8_t&gt; get_hdlc_packet();</div>
@@ -213,6 +213,7 @@ $(document).ready(function(){initNavTree('ax25class_8h_source.html',''); initRes
 <div class="ttc" id="aconfig_cosmos_kernel_8h_html"><div class="ttname"><a href="config_cosmos_kernel_8h.html">configCosmosKernel.h</a></div><div class="ttdoc">Headers and definitions common to all COSMOS Kernel.</div></div>
 <div class="ttc" id="acosmos-errno_8h_html"><div class="ttname"><a href="cosmos-errno_8h.html">cosmos-errno.h</a></div><div class="ttdoc">COSMOS Error Codes.</div></div>
 <div class="ttc" id="astruct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__content_html"><div class="ttname"><a href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__content.html">Cosmos::Support::Ax25Handle::packet_content</a></div><div class="ttdef"><b>Definition:</b> ax25class.h:61</div></div>
+<div class="ttc" id="astruct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__header_html"><div class="ttname"><a href="struct_cosmos_1_1_support_1_1_ax25_handle_1_1packet__header.html">Cosmos::Support::Ax25Handle::packet_header</a></div><div class="ttdef"><b>Definition:</b> ax25class.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

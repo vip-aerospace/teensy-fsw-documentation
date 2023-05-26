@@ -64,7 +64,7 @@ var artemis__defs_8h =
     [ "i2c1_mtx", "artemis__defs_8h.html#a4d951a21983b7519a768bdf61f6d77d9", null ],
     [ "main_queue", "artemis__defs_8h.html#ae77a939baa88784acde567432857faac", null ],
     [ "main_queue_mtx", "artemis__defs_8h.html#a12bcca815252a7a5ad041e1ad1ef3968", null ],
-    [ "NodeType", "artemis__defs_8h.html#acac9cbaeea226ed297804c012dc12b16", null ],
+    [ "NodeType", "artemis__defs_8h.html#a6bd128b0ae3273bf0df0bf5e1f971418", null ],
     [ "pdu_queue", "artemis__defs_8h.html#a4214e31cb7c814aa51b786ac5ec80693", null ],
     [ "pdu_queue_mtx", "artemis__defs_8h.html#aff13754baec1704b84fb2401862fe7d2", null ],
     [ "rfm23_queue", "artemis__defs_8h.html#aba61200a48a4acd00dc3dcc14c32ee09", null ],

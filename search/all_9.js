@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['littleendian_0',['LITTLEENDIAN',['../group__mathlib__constants.html#gga1c781d3784e382d213a9c7938b154669a31db56e43932be3c660666099f7667bd',1,'constants.h']]],
-  ['loop_1',['loop',['../main_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'main.cpp']]]
+  ['kill_5fthread_0',['kill_thread',['../artemis__defs_8h.html#a82fa082dd730d0cbb09766de10a9e2a2',1,'kill_thread(uint8_t channel_id):&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a82fa082dd730d0cbb09766de10a9e2a2',1,'kill_thread(uint8_t channel_id):&#160;artemis_defs.cpp']]]
 ];
