@@ -25,12 +25,11 @@
 var NAVTREE =
 [
   [ "Ke Ao Teensy Flight Software", "index.html", [
-    [ "README", "md__c__teensy_fsw_include__r_e_a_d_m_e.html", null ],
-    [ "Development Environment", "md__c__teensy_fsw__r_e_a_d_m_e.html", [
-      [ "Updating", "md__c__teensy_fsw__r_e_a_d_m_e.html#autotoc_md1", null ]
+    [ "Start Here", "index.html", "index" ],
+    [ "Development Enviornment Setup Guide", "md_teensy__fsw_2documentation_2de__setup__guide.html", [
+      [ "Step 1: Install VSCode", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md1", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
-    [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -58,8 +57,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_cosmos_1_1_devices_1_1_radios_1_1_astrodev.html#ab5d1649e84dc3d9efa102478bbe2b280a7e01571820af6a385c5cabd3b338e399",
-"struct_cosmos_1_1_devices_1_1_radios_1_1_astrodev_1_1function__config2.html#a42c40c6111640270508fd777ef7a3997"
+"classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aff63be56711857da2c00d06e1f87c69c",
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a7d3c1e9da70d83b11540652be05039ab"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
