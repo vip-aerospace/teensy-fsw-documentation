@@ -25,12 +25,20 @@
 var NAVTREE =
 [
   [ "Ke Ao Teensy Flight Software", "index.html", [
-    [ "README", "md__c__teensy_fsw_include__r_e_a_d_m_e.html", null ],
-    [ "Development Environment", "md__c__teensy_fsw__r_e_a_d_m_e.html", [
-      [ "Updating", "md__c__teensy_fsw__r_e_a_d_m_e.html#autotoc_md1", null ]
+    [ "Start Here", "index.html", [
+      [ "Introduction", "index.html#Introduction", null ],
+      [ "The Teensy", "index.html#Teensy", null ],
+      [ "A High-Level Understanding of the FSW", "index.html#HighLevel", null ],
+      [ "PlatformIO Build Flags", "index.html#BuildFlags", [
+        [ "Tests", "index.html#Tests", null ],
+        [ "Debug Flags", "index.html#DebugFlags", null ]
+      ] ]
+    ] ],
+    [ "README", "md_teensy_fsw_include_README.html", null ],
+    [ "Development Environment", "md_teensy_fsw_README.html", [
+      [ "Updating", "md_teensy_fsw_README.html#autotoc_md1", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
-    [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -58,8 +66,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_cosmos_1_1_devices_1_1_radios_1_1_astrodev.html#ab5d1649e84dc3d9efa102478bbe2b280a7e01571820af6a385c5cabd3b338e399",
-"struct_cosmos_1_1_devices_1_1_radios_1_1_astrodev_1_1function__config2.html#a42c40c6111640270508fd777ef7a3997"
+"classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab702b15f41a7806e7e0dde705de7bad7",
+"structtemperaturebeacon.html#afa8b95b2484c284a96cca09437396e97"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

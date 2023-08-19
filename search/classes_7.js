@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['imubeacon_0',['imubeacon',['../structimubeacon.html',1,'']]]
+  ['imubeacon_392',['imubeacon',['../structimubeacon.html',1,'']]]
 ];

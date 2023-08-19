@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['devices_0',['Devices',['../class_artemis_1_1_devices.html',1,'Artemis']]]
+  ['devices_382',['Devices',['../classArtemis_1_1Devices.html',1,'Artemis']]]
 ];
