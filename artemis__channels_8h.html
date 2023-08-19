@@ -188,10 +188,10 @@ Functions</h2></td></tr>
 
 <p>The operating loop for the Astrodev (Li-3) radio. </p>
 <p>This is the equivalent of a seperate Arduino sketch for the Astrodev radio and its functions. The first portion is the equivalent to the <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> function and is run only once. The remainder is an infinite loop, equivalent to the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a> function. </p>
-<h1><a class="anchor" id="autotoc_md2"></a>
+<h1><a class="anchor" id="autotoc_md0"></a>
 Setup</h1>
 <p>This portion of the channel is run only once on startup. A serial connection to the Astrodev radio is initialized. If this initialization fails, it is retried every second. See the <a class="el" href="astrodev__channel_8cpp.html#a7a9d386221505319d175787f82700a25">astrodev_init()</a> helper function for details.</p>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md1"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The <a class="el" href="artemis__defs_8h.html#af84bb624ddc22f5e1c52dce692eb72b5">astrodev_queue</a> is checked for a new PacketComm packet. If there is one, then that packet is sent to the Astrodev radio for transmission. The Astrodev radio's receive buffer is also checked for an incoming Astrodev frame. The Astrodev radio is then periodically polled for telemetry data. See the <a class="el" href="astrodev__channel_8cpp.html#a77301255c9f9d4c5f161652d001227d0">astrodev_send()</a> and <a class="el" href="astrodev__channel_8cpp.html#a78d39ad523f766232bc734d4b5654d6b">astrodev_recv()</a> helper functions for details on how frames and packets are handled.</p>
 
@@ -214,13 +214,13 @@ Loop</h1>
 
 <p>The operating loop for the PDU. </p>
 <p>This is the equivalent of a seperate Arduino sketch for the PDU and its functions. The first portion is the equivalent to the <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> function and is run only once. The remainder is an infinite loop, equivalent to the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a> function. </p>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md2"></a>
 Setup</h1>
 <p>This portion of the channel is run only once. A serial connection is initialized, then the PDU is given 5 seconds to warm up.</p>
 <p>A connection test is performed. A ping command packet is sent over the PDU serial connection, and a response is awaited. If the response is a pong data packet, a confirmation message is printed to the Teensy's serial connection.</p>
 <p>The burnwire switch is set, then 10 seconds is given to allow the burnwire switch to burn. The burnwire switch is then switched off.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000040">Todo:</a></b></dt><dd>ASYNC DELAY TO ALLOW WDT RESET </dd></dl>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md3"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The pdu_queue is checked for a new packet. This loop only handles incoming command packets. If there is one, then the desired command is executed. See the code for a detailed explaination.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000041">Todo:</a></b></dt><dd>Update WDT</dd></dl>
@@ -244,10 +244,10 @@ Loop</h1>
 
 <p>The operating loop for the RFM23 radio. </p>
 <p>This is the equivalent of a seperate Arduino sketch for the PDU and its functions. The first portion is the equivalent to the <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> function and is run only once. The remainder is an infinite loop, equivalent to the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a> function. </p>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md4"></a>
 Setup</h1>
 <p>This portion of the channel is run only once. A SPI connection is initialized using the <a class="el" href="artemis__defs_8h.html#a3f559eeee6c726bf8b51b84a2cfa3d07">spi1_mtx</a> mutex.</p>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md5"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The rfm23_queue is checked for a new packet. This loop only handles outgoing data packets. If there is one, then the desired packet is transmitted. The RFM23's receive buffer is also checked for an incoming packet. If there is one, it is copied to the main_queue. Additionally, telemetry packets are sent at regular intervals. See the code for a detailed explaination.</p>
 
@@ -270,10 +270,10 @@ Loop</h1>
 
 <p>The operating loop for the RFM98 radio. </p>
 <p>This is the equivalent of a seperate Arduino sketch for the RFM98 radio and its functions. The first portion is the equivalent to the <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> function and is run only once. The remainder is an infinite loop, equivalent to the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a> function. </p>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 Setup</h1>
 <p>This portion of the channel is run only once. A SPI connection is initialized using the <a class="el" href="artemis__defs_8h.html#a3f559eeee6c726bf8b51b84a2cfa3d07">spi1_mtx</a> mutex.</p>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The rfm98_queue is checked for a new packet. If there is one, then the desired packet is transmitted. The RFM98's receive buffer is also checked for an incoming packet. If there is one, it is copied to the main_queue. See the code for a detailed explaination.</p>
 
@@ -296,10 +296,10 @@ Loop</h1>
 
 <p>The operating loop for communications with the Raspberry Pi. </p>
 <p>This is the equivalent of a seperate Arduino sketch for communicating with the Raspberry Pi. The first portion is the equivalent to the <a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Initialization code.">setup()</a> function and is run only once. The remainder is an infinite loop, equivalent to the <a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Operating code.">loop()</a> function. </p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 Setup</h1>
 <p>This portion of the channel is run only once. An I2C connection is initialized between the Teensy and Raspberry Pi, with the Teensy as slave and Raspberry Pi as master. The helper functions <a class="el" href="rpi__channel_8cpp.html#a16c554efd85d642b49069c9e3214b358" title="Helper function to receive data from the Raspberry Pi.">receiveData()</a> and <a class="el" href="rpi__channel_8cpp.html#a95b1b253ee46df6a93285803cf1f3370" title="Helper function to send data to the Raspberry Pi.">sendData()</a> are registered as helper functions to be invoked when data is transfered between the Teensy and Raspberry Pi. The <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a888fbd62097190b17ae61eb840dc6bd0">Raspberry Pi status pin </a> is also set as an input.</p>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The rpi_queue is checked for a new packet. If there is one, and there is no packet already ready to be sent, then the packet is packaged for transmission to the Raspberry Pi. The loop also checks for the special case where the packet is a command to shut down the Raspberry Pi. See the code for a detailed explaination.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality. </dd></dl>

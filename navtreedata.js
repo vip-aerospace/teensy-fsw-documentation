@@ -26,9 +26,6 @@ var NAVTREE =
 [
   [ "Ke Ao Teensy Flight Software", "index.html", [
     [ "Start Here", "index.html", "index" ],
-    [ "Development Environment", "md_teensy__fsw_2README.html", [
-      [ "Updating", "md_teensy__fsw_2README.html#autotoc_md1", null ]
-    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -58,7 +55,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aff63be56711857da2c00d06e1f87c69c",
-"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a7d3c1e9da70d83b11540652be05039ab"
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a82e21ccf46f1f545d950aa11c9a5065b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
