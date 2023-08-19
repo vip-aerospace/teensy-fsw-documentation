@@ -124,7 +124,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Structure for configuring the RF functions of the <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> radio. </p>
 <p>This defines the structure of <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> RF configuration settings. These settings various aspects of the RF characteristics of the transceiver. This stucture is sent as the payload of a packet from the Teensy to the <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> radio to configure the radio.</p>
 <p>This struct consists of five members and is 8 bytes in size. These members are the power level of the front end (<code>front_end_level</code>), the power level of the amplifier (<code>power_amp_level</code>), the transmit frequency (<code>tx_freq</code>), the receive frequency (<code>rx_freq</code>), and an unknown member (<code>cs</code>).</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>Verify the size of the struct. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Verify the size of the struct. </dd></dl>
 <p>A diagram of the struct is included below.</p>
 <pre class="fragment"> 1 byte            1 byte            2 bytes   2 bytes   2 bytes
 +-----------------+-----------------+---------+---------+--------+
@@ -207,7 +207,7 @@ Public Attributes</h2></td></tr>
  Possible options range from:</p><ul>
 <li>0: No frequency offset</li>
 <li><p class="startli">20000: 20kHz frequency offset</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the recieve <em>operating</em> frequency. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the recieve <em>operating</em> frequency. </p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes. </p>
 </dd></dl>
 </li>
@@ -232,7 +232,7 @@ Public Attributes</h2></td></tr>
  Possible options range from:</p><ul>
 <li>0: No frequency offset</li>
 <li><p class="startli">20000: 20kHz frequency offset</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the transmit <em>operating</em> frequency. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the transmit <em>operating</em> frequency. </p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes. </p>
 </dd></dl>
 </li>

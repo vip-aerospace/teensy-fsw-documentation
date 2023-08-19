@@ -142,7 +142,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Structure for radio Real-Time Clock (RTC) communication. </p>
 <p>This defines the structure of <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> Real-Time Clock (RTC) data. This stucture is sent as the payload of a packet to communicate radio RTC data between the radio and Teensy.</p>
 <p>This struct consists of 11 members and is 12 bytes in size. These members are a date (<code>year</code>, <code>mon</code>, <code>day</code>, <code>dow</code>), a time (<code>hour</code>, <code>min</code>, <code>sec</code>), and an alarm (<code>alarm_dow</code>, <code>alarm_day</code>, <code>alarm_hour</code>, <code>alarm_min</code>).</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>No checksum field. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>No checksum field. </dd></dl>
 <p>A diagram of the struct is included below.</p>
 <pre class="fragment">Bytes 0-3
  2 bytes  1 byte  1 byte     
@@ -210,7 +210,7 @@ Bytes 8-11
 
 <p>The alarm hour. </p>
 <p>A Binary-Coded Decimal (BCD) representation of the hour for the Real-Time Clock (RTC) alarm. For example, <code>0x09</code> corresponds to the 9th hour of the day.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Is this in 24-hour time? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>Is this in 24-hour time? </dd></dl>
 
 </div>
 </div>
@@ -279,7 +279,7 @@ Bytes 8-11
 
 <p>The hour of a time. </p>
 <p>A Binary-Coded Decimal (BCD) representation of the hour. For example, <code>0x11</code> corresponds to the 11th hour.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Is this in 24-hour time? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>Is this in 24-hour time? </dd></dl>
 
 </div>
 </div>
