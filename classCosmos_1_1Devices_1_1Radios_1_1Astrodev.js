@@ -65,17 +65,8 @@ var classCosmos_1_1Devices_1_1Radios_1_1Astrodev =
     [ "SetTCVConfig", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a8214320d7a8983ee90ccae4af5c5ad98", null ],
     [ "TransmitPacketFromRadio", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aebce6404cda25075a982ec249609c5b5", null ],
     [ "VerifyConnection", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a414e868537f1fb86d9818ae98c3694a9", null ],
-    [ "ack_noop", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab04553df5ea89c7d526e7fc80999c057", null ],
-    [ "ack_reset", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a81e39915029a29a166450dc9a11d77f3", null ],
-    [ "ack_setTCVConfig", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aeb40f30aabbf3113e15fd0e229587bde", null ],
-    [ "ack_transmit", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a8deed1cdd14b722c9dbdecc948faabcf", null ],
-    [ "buffer_full", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ae67f17f2def0c41367338b721a71b714", null ],
-    [ "last_command", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a8f616037dc299848750b1ffcf1155005", null ],
-    [ "last_error", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a876c25cb0bc2fa838543b8edd530be42", null ],
-    [ "last_telem", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#acba7f72e2ef4136fb6d70e6b3c8e2c5d", null ],
     [ "RF_BAUD", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab1c1bfeddefa19f66535845b88576a2b", null ],
     [ "RF_INDEX", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a069d6b2b85e5a58cd006f9833969bb67", null ],
-    [ "tcv_configuration", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a326d67cbbf0afc86e6bdcfcd69fed8e9", null ],
     [ "UART_BAUD", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#af27964145396a69cf2d3a1146fdddfa7", null ],
     [ "UART_INDEX", "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab702b15f41a7806e7e0dde705de7bad7", null ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['magbeacon_392',['magbeacon',['../structmagbeacon.html',1,'']]]
+  ['magbeacon_0',['magbeacon',['../structmagbeacon.html',1,'']]]
 ];

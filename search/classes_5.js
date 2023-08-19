@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gpsbeacon_388',['gpsbeacon',['../structgpsbeacon.html',1,'']]]
+  ['gpsbeacon_0',['gpsbeacon',['../structgpsbeacon.html',1,'']]]
 ];
