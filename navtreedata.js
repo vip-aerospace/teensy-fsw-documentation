@@ -34,7 +34,6 @@ var NAVTREE =
         [ "Debug Flags", "index.html#DebugFlags", null ]
       ] ]
     ] ],
-    [ "README", "md_teensy_fsw_include_README.html", null ],
     [ "Development Environment", "md_teensy_fsw_README.html", [
       [ "Updating", "md_teensy_fsw_README.html#autotoc_md1", null ]
     ] ],
@@ -67,7 +66,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab702b15f41a7806e7e0dde705de7bad7",
-"structtemperaturebeacon.html#afa8b95b2484c284a96cca09437396e97"
+"structthread__struct.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
