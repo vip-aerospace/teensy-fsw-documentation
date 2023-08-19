@@ -27,7 +27,8 @@ var NAVTREE =
   [ "Ke Ao Teensy Flight Software", "index.html", [
     [ "Start Here", "index.html", "index" ],
     [ "Development Enviornment Setup Guide", "md_teensy__fsw_2documentation_2de__setup__guide.html", [
-      [ "Step 1: Install VSCode", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md1", null ]
+      [ "Step 1: Install VSCode", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md1", null ],
+      [ "Step 2: Install PlatformIO", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md2", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
@@ -58,7 +59,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aff63be56711857da2c00d06e1f87c69c",
-"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a7d3c1e9da70d83b11540652be05039ab"
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a1f9739cb8fa6848a476560f1decccafa"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
