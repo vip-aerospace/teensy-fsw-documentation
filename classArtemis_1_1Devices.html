@@ -159,7 +159,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The class representing sensors and devices in the satellite. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>There is both an <a class="el" href="classArtemis_1_1Devices.html" title="The class representing sensors and devices in the satellite.">Artemis::Devices</a> namespace and an <a class="el" href="classArtemis_1_1Devices.html" title="The class representing sensors and devices in the satellite.">Artemis::Devices</a> class. Rename or combine these. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>There is both an <a class="el" href="classArtemis_1_1Devices.html" title="The class representing sensors and devices in the satellite.">Artemis::Devices</a> namespace and an <a class="el" href="classArtemis_1_1Devices.html" title="The class representing sensors and devices in the satellite.">Artemis::Devices</a> class. Rename or combine these. </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad37451eb58f3f6cec1db263ce86077bb" name="ad37451eb58f3f6cec1db263ce86077bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad37451eb58f3f6cec1db263ce86077bb">&#9670;&#160;</a></span>read_current()</h2>
@@ -217,7 +217,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo:</a></b></dt><dd>Not fully implemented. Store in beacons / internal structures </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd>Not fully implemented. Store in beacons / internal structures </dd></dl>
 
 </div>
 </div>
@@ -329,7 +329,7 @@ Public Attributes</h2></td></tr>
 
 <p>Sets up I2C connection to current sensors. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if sucessful, -1 if failed.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>go through library and see what we need to configure and callibrate </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>go through library and see what we need to configure and callibrate </dd></dl>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ Public Attributes</h2></td></tr>
 <p>Called to update the GPS. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
 <p>The GPS is checked to see if there are any bytes available to be read. If there are, all the bytes are read in.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
 <p>If the read in bytes form a new and complete NMEA sentence, parse that NMEA sentence and store the values in the <a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">object. </a></p>
 
 </div>
@@ -577,7 +577,7 @@ Public Attributes</h2></td></tr>
 
 <p>The satellite's IMU. </p>
 <p>An instance of the <a href="https://learn.adafruit.com/adafruit-ultimate-gps">Adafruit GPS</a> object.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Name conflicts with beacon typeID. change either this or other name to avoid ambiguity. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Name conflicts with beacon typeID. change either this or other name to avoid ambiguity. </dd></dl>
 
 </div>
 </div>

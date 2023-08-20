@@ -26,14 +26,12 @@ var NAVTREE =
 [
   [ "Ke Ao Teensy Flight Software", "index.html", [
     [ "Start Here", "index.html", "index" ],
-    [ "de_setup_guide", "md_teensy__fsw_2documentation_2de__setup__guide.html", [
-      [ "Development Enviornment Setup Guide", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md0", [
-        [ "Step 1: Install VSCode", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md1", null ],
-        [ "Step 2: Install PlatformIO", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md2", null ],
-        [ "Step 3: Build a test project", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md3", null ],
-        [ "Step 4: Clone the FSW", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md4", null ],
-        [ "Step 5: Run the FSW", "md_teensy__fsw_2documentation_2de__setup__guide.html#autotoc_md5", null ]
-      ] ]
+    [ "Development Enviornment Setup Guide", "development_environment_setup.html", [
+      [ "Step 1: Install VSCode", "development_environment_setup.html#step1", null ],
+      [ "Step 2: Install PlatformIO", "development_environment_setup.html#step2", null ],
+      [ "Step 3: Build a test project", "development_environment_setup.html#step3", null ],
+      [ "Step 4: Clone the FSW", "development_environment_setup.html#step4", null ],
+      [ "Step 5: Run the FSW", "development_environment_setup.html#step5", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
@@ -64,7 +62,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aff63be56711857da2c00d06e1f87c69c",
-"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html"
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html#a26e2feaf7fd97d653be4d56a67aa162d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

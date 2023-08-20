@@ -205,7 +205,7 @@ Public Attributes</h2></td></tr>
 
 <p>Enumeration of <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a> switches. </p>
 <p>This enum represents the switches on the <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a> using a 1-byte value. Using these identifiers, we can determine which switch is being referenced.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>verify the switches and names </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>verify the switches and names </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a67a50226fcb9d31ee0b1d15f9051a500a6adf97f83acf6453d4a6a4b1070f3754" name="a67a50226fcb9d31ee0b1d15f9051a500a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>No particular switch. </p>
 </td></tr>
@@ -353,7 +353,7 @@ Public Attributes</h2></td></tr>
 <p>A <a class="el" href="structArtemis_1_1Teensy_1_1PDU_1_1pdu__packet.html">pdu_packet</a> is created, with header data specifying the switch to be checked.</p>
 <p>The packet is sent to the <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a>, and a response is awaited. If, after 5 seconds, no response is received, the attempt is a failure and a message is printed. After 5 failed attempts, the packet is dropped.</p>
 <p>The response from the <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a> is sent to the Teensy's serial console.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Send to PacketComm packet -&gt; then to ground </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Send to PacketComm packet -&gt; then to ground </dd></dl>
 <p>In the special case of the switch to be checked is in fact all the switches on the <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a>, iterate over all the bytes in the reply packet. If any of the switches are off, represented by any byte in the reply packet's payload being zero, return 0. Only if <em>all</em> switches are on (all bits are one), return 1.</p>
 <p>Otherwise, the fourth byte of the reply packet has the switch's state.</p>
 
@@ -457,7 +457,7 @@ Public Attributes</h2></td></tr>
 <p>A <a class="el" href="structArtemis_1_1Teensy_1_1PDU_1_1pdu__packet.html">pdu_packet</a> is created, with header data specifying the switch to be set and its desired status. Positive values are automatically corrected to 1 (on), and values less than 1 are corrected to 0 (off).</p>
 <p>The packet is sent to the <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a>, and a response is awaited. If, after 5 seconds, no response is received, the attempt is a failure and a message is printed. After 5 failed attempts, the packet is dropped.</p>
 <p>The response from the <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html" title="The PDU class.">PDU</a> is sent to the Teensy's serial console.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Send to PacketComm packet -&gt; then to ground </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Send to PacketComm packet -&gt; then to ground </dd></dl>
 
 </div>
 </div>
