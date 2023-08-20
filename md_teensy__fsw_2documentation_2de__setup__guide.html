@@ -174,7 +174,26 @@ Step 3: Build a test project</h1>
 <p>Connect a Teensy 4.1 to your computer over USB. Click the right arrow icon on the bottom navigation bar to upload the project to your Teensy.</p>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step16.png?raw=true" alt="The upload button on the bottom navigation bar." class="inline"/></p>
 <p>After a successful upload, you can monitor the Serial output by clicking the plug icon on the bottom navigation bar.</p>
-<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step17.png?raw=true" alt="The monitor button on the bottom navigation bar." class="inline"/> </p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step17.png?raw=true" alt="The monitor button on the bottom navigation bar." class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Step 4: Clone the FSW</h1>
+<p>Now that you've uploaded a test program, you are ready to work with the FSW. The easiest way to do so is with <a href="https://desktop.github.com/">GitHub Desktop.</a></p>
+<p>Install it and log in using your GitHub credentials. Go to <a href="https://github.com/vip-aerospace/keao-flight-software">the FSW repo.</a> If you do not have access to this repo, verify that you have been added to <a href="https://github.com/vip-aerospace">the VIP Aerospace Technologies organization</a>. If you are not, ask team leadership to be added to the organization.</p>
+<p>Once you have access to the repo, press the green "Code" button, then press the "Open with GitHub Desktop" button.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step18.png?raw=true" alt="The clone menu on the vip-aerospace/keao-flight-software repo." class="inline"/></p>
+<p>GitHub Desktop will open with the Clone a repository dialog. You can choose where you want to save the repository here. It is usually a good idea to save the repo close to your root directory. Choose a local path and press "Clone".</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step19.png?raw=true" alt="The clone a repository dialog in GitHub Desktop." class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Step 5: Run the FSW</h1>
+<p>With the FSW repo cloned to your local machine, you are now ready to use it. However, the "Open in Visual Studio Code" button will not properly open the FSW. This is because the repo contains two main directories: an old copy of the FSW, and the current working copy.</p>
+<p>To correctly open the FSW, open VSCode, Press File then Open Folder...</p>
+<p>Navigate to the directory where you have the repo cloned (named </p><div class="fragment"><div class="line">-flight-software</div>
+</div><!-- fragment --><p> ). Select the <code>teensy_fsw</code> directory and press "Select Folder".</p>
+<p>VSCode will now load the FSW. Importantly, PlatformIO will also load.</p>
+<p>To build and upload the code to the Teensy, you can use the individual buttons as described earlier in this guide. Alternatively, press the PlatformIO tab on the left navigation menu. The PlatformIO palette will open on the right, with your current enviornment selected.</p>
+<p>Under teensy41 &gt; General, you have multiple options. To build, upload, and monitor the FSW all at once, press the "Upload and Monitor" option.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step20.png?raw=true" alt="The Upload and Monitor option in the PlatformIO palette." class="inline"/></p>
+<p>The FSW will be compiled, uploaded, and sent to the Teensy. A Serial Monitor will be started in the Terminal window at the bottom. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
