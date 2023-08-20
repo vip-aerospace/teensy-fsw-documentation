@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('development_environment_setup.html',''
   <div class="headertitle"><div class="title">Development Enviornment Setup Guide</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is a guide on how to set up your Development Enviornment (DE) to compile, run, and debug the Teensy Flight Software (FSW).</p>
+<div class="textblock"><p>This is a guide on how to set up your Development Environment (DE) to compile, run, and debug the Teensy Flight Software (FSW).</p>
 <h1><a class="anchor" id="step1"></a>
 Step 1: Install VSCode</h1>
 <p>The FSW is written and compiled using <a href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a>. Download and install this editor.</p>
@@ -162,13 +162,13 @@ Step 3: Build a test project</h1>
 <div class="line">   // wait for a second</div>
 <div class="line">  delay(1000);</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Before building the project, ensure the enviornment is set to Teensy 4.1. If the enviornment (as shown in the bottom navigation bar) says "Default", change it.</p>
+</div><!-- fragment --><p>Before building the project, ensure the environment is set to Teensy 4.1. If the environment (as shown in the bottom navigation bar) says "Default", change it.</p>
 <p>Click on Default (agent_artemis).</p>
-<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step12.png?raw=true" alt="The Default Enviornment." class="inline"/></p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step12.png?raw=true" alt="The Default Environment." class="inline"/></p>
 <p>On the top of VSCode, a dropdown should have appeared. Click on env:teensy41</p>
-<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step13.png?raw=true" alt="The Enviornment Selection dropdown." class="inline"/></p>
-<p>Verify your enviornment has changed.</p>
-<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step14.png?raw=true" alt="The teensy41 Enviornment." class="inline"/></p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step13.png?raw=true" alt="The Environment Selection dropdown." class="inline"/></p>
+<p>Verify your environment has changed.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step14.png?raw=true" alt="The teensy41 Environment." class="inline"/></p>
 <p>Click the checkmark on the bottom navigation bar to build.</p>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step15.png?raw=true" alt="The build button on the bottom navigation bar." class="inline"/></p>
 <p>Connect a Teensy 4.1 to your computer over USB. Click the right arrow icon on the bottom navigation bar to upload the project to your Teensy.</p>
@@ -189,7 +189,7 @@ Step 5: Run the FSW</h1>
 <p>To correctly open the FSW, open VSCode, Press File then Open Folder...</p>
 <p>Navigate to the directory where you have the repo cloned (named keao-flight-software). Select the <code>teensy_fsw</code> directory and press "Select Folder".</p>
 <p>VSCode will now load the FSW. Importantly, PlatformIO will also load.</p>
-<p>To build and upload the code to the Teensy, you can use the individual buttons as described earlier in this guide. Alternatively, press the PlatformIO tab on the left navigation menu. The PlatformIO palette will open on the right, with your current enviornment selected.</p>
+<p>To build and upload the code to the Teensy, you can use the individual buttons as described earlier in this guide. Alternatively, press the PlatformIO tab on the left navigation menu. The PlatformIO palette will open on the right, with your current environment selected.</p>
 <p>Under teensy41 &gt; General, you have multiple options. To build, upload, and monitor the FSW all at once, press the "Upload and Monitor" option.</p>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step20.png?raw=true" alt="The Upload and Monitor option in the PlatformIO palette." class="inline"/></p>
 <p>The FSW will be compiled, uploaded, and sent to the Teensy. A Serial Monitor will be started in the Terminal window at the bottom. </p>
