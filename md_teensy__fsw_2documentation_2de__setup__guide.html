@@ -107,10 +107,74 @@ Step 2: Install PlatformIO</h1>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step3.png?raw=true" alt="Searching for the PlatformIO IDE extension made by PlatformIO." class="inline"/></p>
 <p>You should then see the shell install the IDE. If you do not see this, restart VSCode.</p>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step4.png?raw=true" alt="The shell installing PlatformIO IDE." class="inline"/></p>
-<p>After installation is complete, <b>RESTART</b> VSCode. Pressing "Reload Now" is not sufficient.</p>
+<p>After installation is complete, <b>RESTART</b> VSCode. Pressing "Reload 
+Now" is not sufficient.</p>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step5.png?raw=true" alt="PlatformIO IDE installation is complete." class="inline"/></p>
 <p>Verify PlatformIO IDE is installed. You should see a new icon in the left navigation menu.</p>
-<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step6.png?raw=true" alt="PlatformIO IDE icon in the left navigation menu." class="inline"/> </p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step6.png?raw=true" alt="PlatformIO IDE icon in the left navigation menu." class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Step 3: Build a test project</h1>
+<p>You can now verify that the PlatformIO IDE has been installed correctly by creating a test project. Begin by pressing the home button on the bottom navigation bar.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step7.png?raw=true" alt="The home button on the bottom navigation bar." class="inline"/></p>
+<p>Click on "New Project". If this page does not appear, restart VSCode. If the page still doesn't appear, retry the installation process.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step8.png?raw=true" alt="The New Project button on the PIO Home page." class="inline"/></p>
+<p>Fill out the Project Wizard as shown and click Finish. Wait for the IDE to create the project.</p>
+<ul>
+<li>The Name is agent_artemis</li>
+<li>The Board is Teensy 4.1</li>
+<li>The Framework is Arduino</li>
+<li>The Location is set to Use default location</li>
+</ul>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step9.png?raw=true" alt="The Project Wizard dialog." class="inline"/></p>
+<p>If VSCode prompts you to trust the authors, click Yes.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step10.png?raw=true" alt="The trust authors dialog." class="inline"/></p>
+<p>You should now see the project open in your workspace.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step11.png?raw=true" alt="The agent_artemis project open in the VSCode workspace." class="inline"/></p>
+<p>The main code is located in <code><a class="el" href="main_8cpp.html" title="The main operating loop for the Teensy.">src/main.cpp</a></code>. Add the following code to this file: </p><div class="fragment"><div class="line">/**</div>
+<div class="line"> * Blink</div>
+<div class="line"> *</div>
+<div class="line"> * Turns on an LED on for one second,</div>
+<div class="line"> * then off for one second, repeatedly.</div>
+<div class="line"> */</div>
+<div class="line">#include &quot;Arduino.h&quot;</div>
+<div class="line"> </div>
+<div class="line">// Set LED_BUILTIN if it is not defined by Arduino framework</div>
+<div class="line">// #define LED_BUILTIN 13</div>
+<div class="line"> </div>
+<div class="line">void setup()</div>
+<div class="line">{</div>
+<div class="line">  // initialize LED digital pin as an output.</div>
+<div class="line">  pinMode(LED_BUILTIN, OUTPUT);</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">void loop()</div>
+<div class="line">{</div>
+<div class="line">  // turn the LED on (HIGH is the voltage level)</div>
+<div class="line">  digitalWrite(LED_BUILTIN, HIGH);</div>
+<div class="line">  Serial.println(&quot;Hello World&quot;);</div>
+<div class="line"> </div>
+<div class="line">  // wait for a second</div>
+<div class="line">  delay(1000);</div>
+<div class="line"> </div>
+<div class="line">  // turn the LED off by making the voltage LOW</div>
+<div class="line">  digitalWrite(LED_BUILTIN, LOW);</div>
+<div class="line"> </div>
+<div class="line">   // wait for a second</div>
+<div class="line">  delay(1000);</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Before building the project, ensure the enviornment is set to Teensy 4.1. If the enviornment (as shown in the bottom navigation bar) says "Default", change it.</p>
+<p>Click on Default (agent_artemis).</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step12.png?raw=true" alt="The Default Enviornment." class="inline"/></p>
+<p>On the top of VSCode, a dropdown should have appeared. Click on env:teensy41</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step13.png?raw=true" alt="The Enviornment Selection dropdown." class="inline"/></p>
+<p>Verify your enviornment has changed.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step14.png?raw=true" alt="The teensy41 Enviornment." class="inline"/></p>
+<p>Click the checkmark on the bottom navigation bar to build.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step15.png?raw=true" alt="The build button on the bottom navigation bar." class="inline"/></p>
+<p>Connect a Teensy 4.1 to your computer over USB. Click the right arrow icon on the bottom navigation bar to upload the project to your Teensy.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step16.png?raw=true" alt="The upload button on the bottom navigation bar." class="inline"/></p>
+<p>After a successful upload, you can monitor the Serial output by clicking the plug icon on the bottom navigation bar.</p>
+<p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step17.png?raw=true" alt="The monitor button on the bottom navigation bar." class="inline"/> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
