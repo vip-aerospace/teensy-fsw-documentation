@@ -200,7 +200,7 @@ Public Member Functions</h2></td></tr>
 <p>Gets the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a>'s temperature. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t The temperature of the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a>'s chip. </dd></dl>
 <p>Polls the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a>'s built-in temperature sensor.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated. </dd></dl>
 
 </div>
 </div>
@@ -253,8 +253,8 @@ Public Member Functions</h2></td></tr>
 <li>FSK_Rb_512Fd2_5: Original FSK test modulation (0.512kbs)</li>
 </ul>
 <p>See the RadioHead documentation on the ModemConfigChoice enum in the RH_RF22 class (<a href="https://www.airspayce.com/mikem/arduino/RadioHead/classRH__RF22.html">https://www.airspayce.com/mikem/arduino/RadioHead/classRH__RF22.html</a>) for all pre-defined modulation options.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking? </dd></dl>
-<p>Print a success message to the Teensy's serial console, and put the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> into sleep mode. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a>. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking? </dd></dl>
+<p>Print a success message to the Teensy's serial console, and put the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> into sleep mode. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a>. </dd></dl>
 
 </div>
 </div>
@@ -294,7 +294,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t If successful, the size of the received packet. If unsuccessful, returns -1. </dd></dl>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is put into receive state by setting the transmit pin low and the receive pin high.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin low and RX_ANT pin high to receive. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin low and RX_ANT pin high to receive. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a> </dd></dl>
 <p>The SPI interface is locked for the exclusive use by the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> channel. If a packet is received within the specified timeout, it is copied to the PacketComm packet. The packet is then unwrapped into a header and payload. The radio is then returned to idle mode.</p>
 
 </div>
@@ -345,7 +345,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t int32_t Returns 0 if successful, -1 if unsuccessful. </dd></dl>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is put into transmit state by setting the transmit pin high and the receive pin low.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a> </dd></dl>
 <p>The header and payload of the packet are merged into one.</p>
 <p>The SPI interface is locked for the exclusive use by the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> channel. The packet is then sent using the RadioHead library call. The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is then put into sleep mode, and the sent packet is printed to the Teensy's serial console.</p>
 
@@ -375,7 +375,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant? </dd></dl>
 <p>The transmit power is limited to values between +20dBm and +1dBm. It is then written to the internal <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> configuration.</p>
 
 </div>

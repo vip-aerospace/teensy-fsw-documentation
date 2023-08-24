@@ -6,5 +6,9 @@ var index =
     [ "PlatformIO Build Flags", "index.html#BuildFlags", [
       [ "Tests", "index.html#Tests", null ],
       [ "Debug Flags", "index.html#DebugFlags", null ]
+    ] ],
+    [ "Understanding Multithreading", "index.html#Multithreading", [
+      [ "Mutual Exclusions (Mutexes)", "index.html#Mutexes", null ],
+      [ "An Analogy", "index.html#MultithreadingAnalogy", null ]
     ] ]
 ];
