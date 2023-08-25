@@ -23,8 +23,8 @@ var NAVTREEINDEX1 =
 "dir_e5f081f33169210e043d0b2a3f7c2f5c.html":[4,0,0,2,0],
 "dir_ff516368061b224ad964848b76cec971.html":[4,0,0,0,0],
 "files.html":[4,0],
-"functions.html":[3,2,0],
 "functions.html":[3,2,0,0],
+"functions.html":[3,2,0],
 "functions_b.html":[3,2,0,1],
 "functions_c.html":[3,2,0,2],
 "functions_d.html":[3,2,0,3],
@@ -176,11 +176,10 @@ var NAVTREEINDEX1 =
 "structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1response.html#ac471541b98200b13561a1982c3c3ac66":[3,0,1,0,0,0,6,1],
 "structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1response.html#adde9aa5d43a59c3eddcb66a14f47a769":[3,0,1,0,0,0,6,3],
 "structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html":[3,0,1,0,0,0,7],
-"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a096f0d6b4184d59290d14bfe54395d82":[3,0,1,0,0,0,7,1],
-"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a13b0b2a605268a0a395d69534cd60182":[3,0,1,0,0,0,7,4],
-"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a7c101523e13f76d7a7bab238ca45b276":[3,0,1,0,0,0,7,0],
-"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#aa9f045ad0059f526f3a9be78ab8dc235":[3,0,1,0,0,0,7,3],
-"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#ac39e57e394983518d488e8a7a4329887":[3,0,1,0,0,0,7,2],
+"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a096f0d6b4184d59290d14bfe54395d82":[3,0,1,0,0,0,7,0],
+"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a13b0b2a605268a0a395d69534cd60182":[3,0,1,0,0,0,7,3],
+"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#aa9f045ad0059f526f3a9be78ab8dc235":[3,0,1,0,0,0,7,2],
+"structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#ac39e57e394983518d488e8a7a4329887":[3,0,1,0,0,0,7,1],
 "structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html":[3,0,1,0,0,0,8],
 "structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a1ceae7004b0418a9ec760c239d1cdf4d":[3,0,1,0,0,0,8,13],
 "structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a4179341ea35d885c0b4e4336d0fa4f60":[3,0,1,0,0,0,8,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659":[3,0,8,0],
 "structthread__struct.html#af49b5ae735600c96cc13a0efeeff9dce":[3,0,8,1],
 "todo.html":[2],
-"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html":[3,0,1,0,0,0,2,0]
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html":[3,0,1,0,0,0,2,0],
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a507ab60f404954eeadeb3cc85365b6de":[3,0,1,0,0,0,2,0,2]
 };

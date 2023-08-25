@@ -116,38 +116,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa9f045ad0059f526f3a9be78ab8dc235"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#aa9f045ad0059f526f3a9be78ab8dc235">rx_freq</a></td></tr>
 <tr class="memdesc:aa9f045ad0059f526f3a9be78ab8dc235"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recieve frequency offset.  <br /></td></tr>
 <tr class="separator:aa9f045ad0059f526f3a9be78ab8dc235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c101523e13f76d7a7bab238ca45b276"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a7c101523e13f76d7a7bab238ca45b276">cs</a></td></tr>
-<tr class="memdesc:a7c101523e13f76d7a7bab238ca45b276"><td class="mdescLeft">&#160;</td><td class="mdescRight">RF configuration checksum.  <br /></td></tr>
-<tr class="separator:a7c101523e13f76d7a7bab238ca45b276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure for configuring the RF functions of the <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> radio. </p>
 <p>This defines the structure of <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> RF configuration settings. These settings various aspects of the RF characteristics of the transceiver. This stucture is sent as the payload of a packet from the Teensy to the <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> radio to configure the radio.</p>
 <p>This struct consists of five members and is 8 bytes in size. These members are the power level of the front end (<code>front_end_level</code>), the power level of the amplifier (<code>power_amp_level</code>), the transmit frequency (<code>tx_freq</code>), the receive frequency (<code>rx_freq</code>), and an unknown member (<code>cs</code>).</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Verify the size of the struct. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Verify the size of the struct. </dd></dl>
 <p>A diagram of the struct is included below.</p>
-<pre class="fragment"> 1 byte            1 byte            2 bytes   2 bytes   2 bytes
-+-----------------+-----------------+---------+---------+--------+
-| front_end_level | power_amp_level | tx_freq | rx_freq |   cs   |
-+-----------------+-----------------+---------+---------+--------+
+<pre class="fragment"> 1 byte            1 byte            2 bytes   2 bytes
++-----------------+-----------------+---------+---------+
+| front_end_level | power_amp_level | tx_freq | rx_freq |
++-----------------+-----------------+---------+---------+
 </pre> </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7c101523e13f76d7a7bab238ca45b276" name="a7c101523e13f76d7a7bab238ca45b276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c101523e13f76d7a7bab238ca45b276">&#9670;&#160;</a></span>cs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t Cosmos::Devices::Radios::Astrodev::rf_config::cs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>RF configuration checksum. </p>
-<p>This is a checksum appended to the end of every payload. </p>
-
-</div>
-</div>
 <a id="a096f0d6b4184d59290d14bfe54395d82" name="a096f0d6b4184d59290d14bfe54395d82"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a096f0d6b4184d59290d14bfe54395d82">&#9670;&#160;</a></span>front_end_level</h2>
 
@@ -207,7 +187,7 @@ Public Attributes</h2></td></tr>
  Possible options range from:</p><ul>
 <li>0: No frequency offset</li>
 <li><p class="startli">20000: 20kHz frequency offset</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the recieve <em>operating</em> frequency. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the recieve <em>operating</em> frequency. </p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes. </p>
 </dd></dl>
 </li>
@@ -232,7 +212,7 @@ Public Attributes</h2></td></tr>
  Possible options range from:</p><ul>
 <li>0: No frequency offset</li>
 <li><p class="startli">20000: 20kHz frequency offset</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the transmit <em>operating</em> frequency. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd><p class="startdd">This might be confused with the transmit <em>operating</em> frequency. </p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes. </p>
 </dd></dl>
 </li>
