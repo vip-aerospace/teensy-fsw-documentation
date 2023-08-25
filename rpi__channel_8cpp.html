@@ -141,7 +141,7 @@ Functions</h2></td></tr>
 </dl>
 <p>If there are no bytes to be read, do nothing.</p>
 <p>The I2C1 interface is locked for the exclusive use by the Raspberry Pi channel. For each byte in the message, it is copied in from the I2C interface and printed to the Teensy's serial console.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo:</a></b></dt><dd>The message should be packaged into a packet and copied into the main_queue. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>The message should be packaged into a packet and copied into the main_queue. </dd></dl>
 
 </div>
 </div>
@@ -163,7 +163,7 @@ Functions</h2></td></tr>
 <p>Helper function to send data to the Raspberry Pi. </p>
 <p>This function should be written to be as fast as possible as it is an interrupt service method. Most of the processing should be done in the infinite loop in the rpi_channel() function. </p>
 <p>The I2C1 interface is locked for the exclusive use by the Raspberry Pi channel.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000039">Todo:</a></b></dt><dd>The message should be packaged into a packet and copied into the main_queue. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd>The message should be packaged into a packet and copied into the main_queue. </dd></dl>
 <p>If there is no packet that is ready to be transmitted, do nothing.</p>
 <p>For each byte in the packet, it is written to the I2C interface and printed to the Teensy's serial console. The ready flag is then reset to give the Raspberry Pi loop time to wrap the next packet.</p>
 <p>NOTE: Serial.print() is really, really slow. Minimize use of it.</p>
