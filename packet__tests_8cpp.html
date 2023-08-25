@@ -132,7 +132,7 @@ Raspberry Pi indirect tests</h2>
 <h2><a class="anchor" id="autotoc_md11"></a>
 Raspberry Pi direct tests</h2>
 <p>These tests are enabled using the TEST_I2C_PI macro in the <a class="el" href="packet__tests_8h.html" title="Header file for packet tests.">packet_tests.h</a> header file. It creates a packet with a command to the Raspberry Pi to take a picture and adds it to the rpi_queue.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000043">Todo:</a></b></dt><dd>The packet header type is directly written as 0x800, which should be CommandTakePicture. This is unimplemented in the PacketComm protocol. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>The packet header type is directly written as 0x800, which should be CommandTakePicture. This is unimplemented in the PacketComm protocol. </dd></dl>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Astrodev tests</h2>
 <p>These tests are enabled using the <a class="el" href="packet__tests_8h.html#a1fedb7a59159de5a1961f09b3160a2ac">TEST_ASTRODEV</a> macro in the <a class="el" href="packet__tests_8h.html" title="Header file for packet tests.">packet_tests.h</a> header file. It creates a pong packet destined for the ground node and adds it to the main_queue.</p>

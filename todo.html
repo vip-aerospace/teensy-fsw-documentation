@@ -99,31 +99,31 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classArtemis_1_1Devices.html#a646e84ab1e3f13c57a51e1302fda8269">Artemis::Devices::gps</a>  </dt>
 <dd><a class="anchor" id="_todo000002"></a>Name conflicts with beacon typeID. change either this or other name to avoid ambiguity.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a7b66601c463726382041499323e9ba51">Artemis::Devices::Radios::RFM23::get_tsen</a>  ()</dt>
-<dd><a class="anchor" id="_todo000032"></a>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated.  </dd>
+<dd><a class="anchor" id="_todo000031"></a>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1">Artemis::Devices::Radios::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1Radios_1_1RFM23_1_1rfm23__config.html" title="The RFM23 configuration structure.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000027"></a>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking? </p>
-<p class="enddd"><a class="anchor" id="_todo000028"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a>.  </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000026"></a>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking? </p>
+<p class="enddd"><a class="anchor" id="_todo000027"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a>.  </p>
 </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a33699eedf06af7824867355c883846d3">Artemis::Devices::Radios::RFM23::recv</a>  (PacketComm &amp;packet, uint16_t timeout)</dt>
-<dd><a class="anchor" id="_todo000030"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin low and RX_ANT pin high to receive. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
+<dd><a class="anchor" id="_todo000029"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin low and RX_ANT pin high to receive. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a0f37cb0509e0cf8f672b8e7a0d465fcc">Artemis::Devices::Radios::RFM23::send</a>  (PacketComm &amp;packet)</dt>
-<dd><a class="anchor" id="_todo000029"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
+<dd><a class="anchor" id="_todo000028"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#aea95eb45690d7444625aed436091fffc">Artemis::Devices::Radios::RFM23::set_tx_power</a>  (uint8_t power)</dt>
-<dd><a class="anchor" id="_todo000031"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
+<dd><a class="anchor" id="_todo000030"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1Radios_1_1RFM98_1_1rfm98__config.html#a08c9ed60182f8bbfe422224ddefbf44f">Artemis::Devices::Radios::RFM98::rfm98_config::pins</a>  </dt>
-<dd><a class="anchor" id="_todo000033"></a>The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>
+<dd><a class="anchor" id="_todo000032"></a>The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices.html#a01e1ba8f307f3df4364fb9610c33bbc3">Artemis::Devices::read_gps</a>  (uint32_t uptime)</dt>
-<dd><a class="anchor" id="_todo000036"></a>Not fully implemented. Store in beacons / internal structures  </dd>
+<dd><a class="anchor" id="_todo000035"></a>Not fully implemented. Store in beacons / internal structures  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices.html#a887fc3eb3771301d8c2f9b578d0ef9b2">Artemis::Devices::setup_current</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000034"></a>go through library and see what we need to configure and callibrate  </dd>
+<dd><a class="anchor" id="_todo000033"></a>go through library and see what we need to configure and callibrate  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices.html#a12f7f17c8600042480c90568d87df99a">Artemis::Devices::update_gps</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000035"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
+<dd><a class="anchor" id="_todo000034"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae9687387e45dcd89d44f9048d5feb4d0">Artemis::Teensy::Channels::pdu_channel</a>  ()</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000039"></a>Update WDT</p>
-<p class="enddd"><a class="anchor" id="_todo000038"></a>ASYNC DELAY TO ALLOW WDT RESET  </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000038"></a>Update WDT</p>
+<p class="enddd"><a class="anchor" id="_todo000037"></a>ASYNC DELAY TO ALLOW WDT RESET  </p>
 </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae528021d5dead3e3215dc5ef4eed93a7">Artemis::Teensy::Channels::rpi_channel</a>  ()</dt>
-<dd><a class="anchor" id="_todo000040"></a>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality.  </dd>
+<dd><a class="anchor" id="_todo000039"></a>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html#a16d1f688e29c22e081f3113ee0ecd24b">Artemis::Teensy::PDU::get_switch</a>  (PDU_SW sw)</dt>
 <dd><a class="anchor" id="_todo000006"></a>Send to PacketComm packet -&gt; then to ground  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html#a67a50226fcb9d31ee0b1d15f9051a500">Artemis::Teensy::PDU::PDU_SW</a>  </dt>
@@ -133,60 +133,58 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html#a72c9c8aa05cd2acc4361f45fb494accd">Artemis::Teensy::PDU::set_switch</a>  (PDU_SW sw, uint8_t enable)</dt>
 <dd><a class="anchor" id="_todo000005"></a>Send to PacketComm packet -&gt; then to ground  </dd>
 <dt>File <a class="el" href="astrodev__channel_8cpp.html">astrodev_channel.cpp</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000037"></a>Test astrodev channel without astrodev threads </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000036"></a>Test astrodev channel without astrodev threads </p>
 <p class="interdd"></p>
 <p class="enddd">See if we need individual threads for sending/receiving  </p>
 </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1firmware.html#a8b6647d2db684b6cffdd606d05d2f0c7">Cosmos::Devices::Radios::Astrodev::firmware::rev</a>  </dt>
-<dd><a class="anchor" id="_todo000023"></a>How is this expressed as a float?  </dd>
+<dd><a class="anchor" id="_todo000022"></a>How is this expressed as a float?  </dd>
 <dt>Member <a class="el" href="unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a7d3c1e9da70d83b11540652be05039ab">Cosmos::Devices::Radios::Astrodev::frame::frame_payload::payload</a>  [MTU+20]</dt>
-<dd><a class="anchor" id="_todo000026"></a>Why is it MTU+20=274 bytes?  </dd>
+<dd><a class="anchor" id="_todo000025"></a>Why is it MTU+20=274 bytes?  </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1function__config2.html#a90aaf6c649053d64c9c8b0e9f2b8df5e">Cosmos::Devices::Radios::Astrodev::function_config2::zeros</a>  </dt>
-<dd><a class="anchor" id="_todo000016"></a>This is currently 4 bits, but should be 12 bits to fully pad out the struct to 16 bits.  </dd>
+<dd><a class="anchor" id="_todo000015"></a>This is currently 4 bits, but should be 12 bits to fully pad out the struct to 16 bits.  </dd>
 <dt>Member <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a22b8369eceaee05e788730d978ad95be">Cosmos::Devices::Radios::Astrodev::PACKETCOMM_DATA_SIZE</a>  </dt>
-<dd><a class="anchor" id="_todo000011"></a>The checksum from PacketComm or <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a>? <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> payload checksum does not add to MTU length.  </dd>
+<dd><a class="anchor" id="_todo000010"></a>The checksum from PacketComm or <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a>? <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> payload checksum does not add to MTU length.  </dd>
 <dt>Struct <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html">Cosmos::Devices::Radios::Astrodev::realtimeclock</a>  </dt>
-<dd><a class="anchor" id="_todo000015"></a>No checksum field.  </dd>
+<dd><a class="anchor" id="_todo000014"></a>No checksum field.  </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a18950d316e040400d5aa6c520857a39f">Cosmos::Devices::Radios::Astrodev::realtimeclock::alarm_hour</a>  </dt>
-<dd><a class="anchor" id="_todo000025"></a>Is this in 24-hour time?  </dd>
-<dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a6a63ce8b6af1819e454bb5e77f47493e">Cosmos::Devices::Radios::Astrodev::realtimeclock::hour</a>  </dt>
 <dd><a class="anchor" id="_todo000024"></a>Is this in 24-hour time?  </dd>
-<dt>Member <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab483ecfd99f7950f6c6b3926cb807b99">Cosmos::Devices::Radios::Astrodev::ReceiveAstrodevFrame</a>  (frame &amp;message)</dt>
-<dd><a class="anchor" id="_todo000010"></a>This !size check was put in to fake some radio command handling, should double-check that it doesn't break anything. If not an ack-type, then return if no payload  </dd>
+<dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a6a63ce8b6af1819e454bb5e77f47493e">Cosmos::Devices::Radios::Astrodev::realtimeclock::hour</a>  </dt>
+<dd><a class="anchor" id="_todo000023"></a>Is this in 24-hour time?  </dd>
 <dt>Struct <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html">Cosmos::Devices::Radios::Astrodev::rf_config</a>  </dt>
-<dd><a class="anchor" id="_todo000013"></a>Verify the size of the struct.  </dd>
+<dd><a class="anchor" id="_todo000012"></a>Verify the size of the struct.  </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#aa9f045ad0059f526f3a9be78ab8dc235">Cosmos::Devices::Radios::Astrodev::rf_config::rx_freq</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000018"></a>This might be confused with the recieve <em>operating</em> frequency. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000017"></a>This might be confused with the recieve <em>operating</em> frequency. </p>
 <p class="interdd"></p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes.  </p>
 </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#a13b0b2a605268a0a395d69534cd60182">Cosmos::Devices::Radios::Astrodev::rf_config::tx_freq</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000017"></a>This might be confused with the transmit <em>operating</em> frequency. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000016"></a>This might be confused with the transmit <em>operating</em> frequency. </p>
 <p class="interdd"></p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes.  </p>
 </dd>
 <dt>Member <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a8214320d7a8983ee90ccae4af5c5ad98">Cosmos::Devices::Radios::Astrodev::SetTCVConfig</a>  ()</dt>
 <dd><a class="anchor" id="_todo000009"></a>Wait at least 250 ms for settings to be applied, But seems to require about 10x as long  </dd>
 <dt>Struct <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html">Cosmos::Devices::Radios::Astrodev::tcv_config</a>  </dt>
-<dd><a class="anchor" id="_todo000012"></a>does not have checksum field.  </dd>
+<dd><a class="anchor" id="_todo000011"></a>does not have checksum field.  </dd>
 <dt>Struct <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1telemetry.html">Cosmos::Devices::Radios::Astrodev::telemetry</a>  </dt>
-<dd><a class="anchor" id="_todo000014"></a>Verify the field definitions. These are educated guesses. </dd>
+<dd><a class="anchor" id="_todo000013"></a>Verify the field definitions. These are educated guesses. </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1telemetry.html#a0e75dc6d7dfe4c6e47bdb99e13a33082">Cosmos::Devices::Radios::Astrodev::telemetry::msp430_temp</a>  </dt>
-<dd><a class="anchor" id="_todo000019"></a>What are the units of this measurement?  </dd>
+<dd><a class="anchor" id="_todo000018"></a>What are the units of this measurement?  </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1telemetry.html#a1ffc5eade8f55439880e3122a9973f67">Cosmos::Devices::Radios::Astrodev::telemetry::rssi</a>  </dt>
-<dd><a class="anchor" id="_todo000021"></a>What are the units of this measurement?  </dd>
+<dd><a class="anchor" id="_todo000020"></a>What are the units of this measurement?  </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1telemetry.html#a6521d3575d384a9ab22907e9abff5ffb">Cosmos::Devices::Radios::Astrodev::telemetry::rssi_last</a>  </dt>
-<dd><a class="anchor" id="_todo000022"></a>What are the units of this measurement?  </dd>
+<dd><a class="anchor" id="_todo000021"></a>What are the units of this measurement?  </dd>
 <dt>Member <a class="el" href="structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1telemetry.html#a839a1a2f1de23e27bd990fdc013cbaec">Cosmos::Devices::Radios::Astrodev::telemetry::time_count</a>  </dt>
-<dd><a class="anchor" id="_todo000020"></a>In relation to what starting time?  </dd>
+<dd><a class="anchor" id="_todo000019"></a>In relation to what starting time?  </dd>
 <dt>Struct <a class="el" href="structgpsbeacon.html">gpsbeacon</a>  </dt>
 <dd><a class="anchor" id="_todo000003"></a>update when implementing GPS parsing.  </dd>
 <dt>Member <a class="el" href="rpi__channel_8cpp.html#a16c554efd85d642b49069c9e3214b358">receiveData</a>  (int byte_count)</dt>
-<dd><a class="anchor" id="_todo000041"></a>The message should be packaged into a packet and copied into the main_queue.  </dd>
+<dd><a class="anchor" id="_todo000040"></a>The message should be packaged into a packet and copied into the main_queue.  </dd>
 <dt>Member <a class="el" href="packet__tests_8cpp.html#ac2a78e22fb368c479c15d1dbc25fcf6e">send_test_packets</a>  ()</dt>
-<dd><a class="anchor" id="_todo000043"></a>The packet header type is directly written as 0x800, which should be CommandTakePicture. This is unimplemented in the PacketComm protocol.  </dd>
+<dd><a class="anchor" id="_todo000042"></a>The packet header type is directly written as 0x800, which should be CommandTakePicture. This is unimplemented in the PacketComm protocol.  </dd>
 <dt>Member <a class="el" href="rpi__channel_8cpp.html#a95b1b253ee46df6a93285803cf1f3370">sendData</a>  ()</dt>
-<dd><a class="anchor" id="_todo000042"></a>The message should be packaged into a packet and copied into the main_queue.  </dd>
+<dd><a class="anchor" id="_todo000041"></a>The message should be packaged into a packet and copied into the main_queue.  </dd>
 <dt>Member <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97">TEENSY_PINS</a>  </dt>
 <dd><a class="anchor" id="_todo000004"></a>Fill out completely. </dd>
 </dl>
