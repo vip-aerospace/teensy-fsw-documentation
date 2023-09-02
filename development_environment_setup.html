@@ -183,6 +183,9 @@ Step 4: Clone the FSW</h1>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step18.png?raw=true" alt="The clone menu on the vip-aerospace/keao-flight-software repo." class="inline"/></p>
 <p>GitHub Desktop will open with the Clone a repository dialog. You can choose where you want to save the repository here. It is usually a good idea to save the repo close to your root directory. Choose a local path and press "Clone".</p>
 <p><img src="https://github.com/vip-aerospace/teensy-fsw-documentation/blob/main/documentation/step19.png?raw=true" alt="The clone a repository dialog in GitHub Desktop." class="inline"/></p>
+<p>Open the repo's directory in the Command Prompt/Terminal, and enter the following: </p><div class="fragment"><div class="line">$ git submodule update --init --recursive</div>
+</div><!-- fragment --><p> This initializes the micro-cosmos submodule, which the FSW relies on. </p><div class="fragment"><div class="line">$ git submodule update --remote --merge</div>
+</div><!-- fragment --><p> This ensures you have the most recent version of the submodule.</p>
 <h1><a class="anchor" id="step5"></a>
 Step 5: Run the FSW</h1>
 <p>With the FSW repo cloned to your local machine, you are now ready to use it. However, the "Open in Visual Studio Code" button will not properly open the FSW. This is because the repo contains two main directories: an old copy of the FSW, and the current working copy.</p>
