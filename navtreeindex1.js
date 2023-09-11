@@ -1,8 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classArtemis_1_1Devices_1_1RFM98.html#af4ed55dd3128b9fe14b7ca066ec556e4":[4,0,0,0,9,4],
-"classArtemis_1_1Devices_1_1TemperatureSensors.html":[4,0,0,0,10],
-"classArtemis_1_1Devices_1_1TemperatureSensors.html#a19a6ef414936c6d522a6d8637f468f65":[4,0,0,0,10,2],
 "classArtemis_1_1Devices_1_1TemperatureSensors.html#a1d1ca304b40d3720d247ed12b2e0733f":[4,0,0,0,10,3],
 "classArtemis_1_1Devices_1_1TemperatureSensors.html#ad3af3127df8eac491bfe6809c678aa16":[4,0,0,0,10,1],
 "classes.html":[4,1],
@@ -28,8 +25,8 @@ var NAVTREEINDEX1 =
 "dir_e5f081f33169210e043d0b2a3f7c2f5c.html":[5,0,0,2,0],
 "dir_ff516368061b224ad964848b76cec971.html":[5,0,0,0,0],
 "files.html":[5,0],
-"functions.html":[4,2,0],
 "functions.html":[4,2,0,0],
+"functions.html":[4,2,0],
 "functions_b.html":[4,2,0,1],
 "functions_c.html":[4,2,0,2],
 "functions_d.html":[4,2,0,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX1 =
 "structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#abd68abde2001b827f844eea8c8260f12":[4,0,0,0,8,0,0,1],
 "structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#abd86bf7cc05738bd435a0c54658f40ab":[4,0,0,0,8,0,0,4],
 "structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#ad2caae1f32903c6ffd923a5dab1c2b92":[4,0,0,0,8,0,0,5],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html":[4,0,0,0,9,0]
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html":[4,0,0,0,9,0],
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#aaef6aef940d3ea3f91806b85fa521c18":[4,0,0,0,9,0,1],
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#acf19d66393a978a864a6fb149c204dc4":[4,0,0,0,9,0,2],
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#ae33029d0ba5cf14dafa236538df1d84c":[4,0,0,0,9,0,3]
 };

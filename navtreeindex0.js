@@ -193,15 +193,12 @@ var NAVTREEINDEX0 =
 "classArtemis_1_1Devices_1_1CurrentSensors.html#aece84002218dc12ddfe9c63a61dbe0d8":[4,0,0,0,1,3],
 "classArtemis_1_1Devices_1_1GPS.html":[4,0,0,0,2],
 "classArtemis_1_1Devices_1_1GPS.html#a8af6875fe48d0b81bae9cde222bb9eed":[4,0,0,0,2,1],
-"classArtemis_1_1Devices_1_1GPS.html#a8b92ab30c785ed2b4f75de1523ce036f":[4,0,0,0,2,4],
 "classArtemis_1_1Devices_1_1GPS.html#aad683410c7269b9f925675c59669d733":[4,0,0,0,2,3],
 "classArtemis_1_1Devices_1_1GPS.html#ad4a9fdba79b8a19046a3036fb1a8b701":[4,0,0,0,2,2],
 "classArtemis_1_1Devices_1_1IMU.html":[4,0,0,0,4],
 "classArtemis_1_1Devices_1_1IMU.html#a4b5fea3050fcde32dab23430f06d7370":[4,0,0,0,4,1],
-"classArtemis_1_1Devices_1_1IMU.html#a87618448a5e18300b99b9de0adc0dd3c":[4,0,0,0,4,3],
 "classArtemis_1_1Devices_1_1IMU.html#ac7fbc503c5fd881bb21b435093579e5a":[4,0,0,0,4,2],
 "classArtemis_1_1Devices_1_1Magnetometer.html":[4,0,0,0,6],
-"classArtemis_1_1Devices_1_1Magnetometer.html#a3cd97e81f49b9528bd921b4ca1202640":[4,0,0,0,6,3],
 "classArtemis_1_1Devices_1_1Magnetometer.html#a614e983c27df3c8caf6667fdf273e57a":[4,0,0,0,6,2],
 "classArtemis_1_1Devices_1_1Magnetometer.html#ac7ffa09391e709dd7b332b78e3f815bd":[4,0,0,0,6,1],
 "classArtemis_1_1Devices_1_1PDU.html":[4,0,0,0,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX0 =
 "classArtemis_1_1Devices_1_1RFM98.html#a80561be7d16dec3f9bef44a4519e03dc":[4,0,0,0,9,5],
 "classArtemis_1_1Devices_1_1RFM98.html#a89130e6377f8be84b95b766e82fe077f":[4,0,0,0,9,2],
 "classArtemis_1_1Devices_1_1RFM98.html#ac9ed1086710968bd265bdd660425492c":[4,0,0,0,9,3],
-"classArtemis_1_1Devices_1_1RFM98.html#ae98d33042ea42c3d1b856ac7cfed1611":[4,0,0,0,9,1]
+"classArtemis_1_1Devices_1_1RFM98.html#ae98d33042ea42c3d1b856ac7cfed1611":[4,0,0,0,9,1],
+"classArtemis_1_1Devices_1_1RFM98.html#af4ed55dd3128b9fe14b7ca066ec556e4":[4,0,0,0,9,4],
+"classArtemis_1_1Devices_1_1TemperatureSensors.html":[4,0,0,0,10],
+"classArtemis_1_1Devices_1_1TemperatureSensors.html#a19a6ef414936c6d522a6d8637f468f65":[4,0,0,0,10,2]
 };

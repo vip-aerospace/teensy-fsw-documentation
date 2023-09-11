@@ -1,8 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#aaef6aef940d3ea3f91806b85fa521c18":[4,0,0,0,9,0,1],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#acf19d66393a978a864a6fb149c204dc4":[4,0,0,0,9,0,2],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#ae33029d0ba5cf14dafa236538df1d84c":[4,0,0,0,9,0,3],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html":[4,0,0,0,9,0,0],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a1eda1b2740006a6cb4e2ff964d191a43":[4,0,0,0,9,0,0,1],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a5b732903a24b461ede70cc1e5afa72fe":[4,0,0,0,9,0,0,4],
