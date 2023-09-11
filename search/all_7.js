@@ -5,5 +5,5 @@ var searchData=
   ['header_2',['header',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header::header'],['../unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a7b4f73076d51c93a6aa1a9eea35eede5',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header::header']]],
   ['header_5fbytes_3',['header_bytes',['../unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a507ab60f404954eeadeb3cc85365b6de',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header']]],
   ['header_5fsize_5fresponse_4',['header_size_response',['../unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header::header']]],
-  ['hour_5',['hour',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a6a63ce8b6af1819e454bb5e77f47493e',1,'Cosmos::Devices::Radios::Astrodev::realtimeclock']]]
+  ['hour_5',['hour',['../structgpsbeacon.html#a2040cdf433c0b2a8fbdf5f8e82d056ad',1,'gpsbeacon::hour'],['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a6a63ce8b6af1819e454bb5e77f47493e',1,'Cosmos::Devices::Radios::Astrodev::realtimeclock::hour']]]
 ];

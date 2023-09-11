@@ -112,11 +112,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aeab3f1719c2d24ddd7f57dea04b4f318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f39a06178c9dd69f96f089367eeb3cd"><td class="memItemLeft" align="right" valign="top"><a id="a5f39a06178c9dd69f96f089367eeb3cd" name="a5f39a06178c9dd69f96f089367eeb3cd"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>latitude</b> = 0</td></tr>
-<tr class="memdesc:a5f39a06178c9dd69f96f089367eeb3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The latitude reading in degrees and minutes. <br /></td></tr>
+<tr class="memdesc:a5f39a06178c9dd69f96f089367eeb3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The latitude reading in decimal degrees. <br /></td></tr>
 <tr class="separator:a5f39a06178c9dd69f96f089367eeb3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20b5a794ce813c98ef819c360700a767"><td class="memItemLeft" align="right" valign="top"><a id="a20b5a794ce813c98ef819c360700a767" name="a20b5a794ce813c98ef819c360700a767"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>longitude</b> = 0</td></tr>
-<tr class="memdesc:a20b5a794ce813c98ef819c360700a767"><td class="mdescLeft">&#160;</td><td class="mdescRight">The longitude reading in degrees and minutes. <br /></td></tr>
+<tr class="memdesc:a20b5a794ce813c98ef819c360700a767"><td class="mdescLeft">&#160;</td><td class="mdescRight">The longitude reading in decimal degrees. <br /></td></tr>
 <tr class="separator:a20b5a794ce813c98ef819c360700a767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a74a1c73d574dcbaccb7009438e89d7"><td class="memItemLeft" align="right" valign="top"><a id="a4a74a1c73d574dcbaccb7009438e89d7" name="a4a74a1c73d574dcbaccb7009438e89d7"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>speed</b> = 0</td></tr>
@@ -130,20 +130,60 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>angle</b> = 0</td></
 float&#160;</td><td class="memItemRight" valign="bottom"><b>altitude</b> = 0</td></tr>
 <tr class="memdesc:ae71a1034affbb1a486018b4da92fda5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The altitude reading in meters above Mean Sea Level. <br /></td></tr>
 <tr class="separator:ae71a1034affbb1a486018b4da92fda5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a684dca0ce1f9a9c119ad3c7086957ae0"><td class="memItemLeft" align="right" valign="top"><a id="a684dca0ce1f9a9c119ad3c7086957ae0" name="a684dca0ce1f9a9c119ad3c7086957ae0"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>satellites</b> = 0</td></tr>
-<tr class="memdesc:a684dca0ce1f9a9c119ad3c7086957ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of satellites in use. <br /></td></tr>
-<tr class="separator:a684dca0ce1f9a9c119ad3c7086957ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe94e61e1833f9013a6895ec4d14858"><td class="memItemLeft" align="right" valign="top"><a id="adfe94e61e1833f9013a6895ec4d14858" name="adfe94e61e1833f9013a6895ec4d14858"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>satellites</b> = 0</td></tr>
+<tr class="memdesc:adfe94e61e1833f9013a6895ec4d14858"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of satellites in use. <br /></td></tr>
+<tr class="separator:adfe94e61e1833f9013a6895ec4d14858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e40702146391e2211e7bc2b7c43f52"><td class="memItemLeft" align="right" valign="top"><a id="ac8e40702146391e2211e7bc2b7c43f52" name="ac8e40702146391e2211e7bc2b7c43f52"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>fix</b> = false</td></tr>
+<tr class="memdesc:ac8e40702146391e2211e7bc2b7c43f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a GPS fix has been achieved. <br /></td></tr>
+<tr class="separator:ac8e40702146391e2211e7bc2b7c43f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b3283871da07f1fd734eb7e6370d1c"><td class="memItemLeft" align="right" valign="top"><a id="ac8b3283871da07f1fd734eb7e6370d1c" name="ac8b3283871da07f1fd734eb7e6370d1c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fixquality</b> = 0</td></tr>
+<tr class="memdesc:ac8b3283871da07f1fd734eb7e6370d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quality of the GPS fix. <br /></td></tr>
+<tr class="separator:ac8b3283871da07f1fd734eb7e6370d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2488cbfc2af05e413316f9d915bfce32"><td class="memItemLeft" align="right" valign="top"><a id="a2488cbfc2af05e413316f9d915bfce32" name="a2488cbfc2af05e413316f9d915bfce32"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>year</b> = 0</td></tr>
+<tr class="memdesc:a2488cbfc2af05e413316f9d915bfce32"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT year. <br /></td></tr>
+<tr class="separator:a2488cbfc2af05e413316f9d915bfce32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a549584c37fd57a450a41402718ef4b5e"><td class="memItemLeft" align="right" valign="top"><a id="a549584c37fd57a450a41402718ef4b5e" name="a549584c37fd57a450a41402718ef4b5e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>month</b> = 0</td></tr>
+<tr class="memdesc:a549584c37fd57a450a41402718ef4b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT month. <br /></td></tr>
+<tr class="separator:a549584c37fd57a450a41402718ef4b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa6fe5b03763608d7485fae1d05261c"><td class="memItemLeft" align="right" valign="top"><a id="a7aa6fe5b03763608d7485fae1d05261c" name="a7aa6fe5b03763608d7485fae1d05261c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>day</b> = 0</td></tr>
+<tr class="memdesc:a7aa6fe5b03763608d7485fae1d05261c"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT day. <br /></td></tr>
+<tr class="separator:a7aa6fe5b03763608d7485fae1d05261c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2040cdf433c0b2a8fbdf5f8e82d056ad"><td class="memItemLeft" align="right" valign="top"><a id="a2040cdf433c0b2a8fbdf5f8e82d056ad" name="a2040cdf433c0b2a8fbdf5f8e82d056ad"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>hour</b> = 0</td></tr>
+<tr class="memdesc:a2040cdf433c0b2a8fbdf5f8e82d056ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT hour. <br /></td></tr>
+<tr class="separator:a2040cdf433c0b2a8fbdf5f8e82d056ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8859cf3ed45ad9dbf3b3fdd491415115"><td class="memItemLeft" align="right" valign="top"><a id="a8859cf3ed45ad9dbf3b3fdd491415115" name="a8859cf3ed45ad9dbf3b3fdd491415115"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>minute</b> = 0</td></tr>
+<tr class="memdesc:a8859cf3ed45ad9dbf3b3fdd491415115"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT minute. <br /></td></tr>
+<tr class="separator:a8859cf3ed45ad9dbf3b3fdd491415115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e08b49365a2643a89b26ced35dd1450"><td class="memItemLeft" align="right" valign="top"><a id="a5e08b49365a2643a89b26ced35dd1450" name="a5e08b49365a2643a89b26ced35dd1450"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>second</b> = 0</td></tr>
+<tr class="memdesc:a5e08b49365a2643a89b26ced35dd1450"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT second. <br /></td></tr>
+<tr class="separator:a5e08b49365a2643a89b26ced35dd1450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6041b5044e673d04e18a0b257f292c"><td class="memItemLeft" align="right" valign="top"><a id="a4f6041b5044e673d04e18a0b257f292c" name="a4f6041b5044e673d04e18a0b257f292c"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> = 0</td></tr>
+<tr class="memdesc:a4f6041b5044e673d04e18a0b257f292c"><td class="mdescLeft">&#160;</td><td class="mdescRight">GMT millisecond. <br /></td></tr>
+<tr class="separator:a4f6041b5044e673d04e18a0b257f292c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The GPS beacon structure. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>update when implementing GPS parsing. </dd></dl>
 <p>This defines the structure of the GPS beacon.</p>
-<p>The GPS beacon consists of eight members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the latitude (<code>latitude</code>), longitude (<code>longitude</code>), speed (<code>speed</code>), angle (<code>angle</code>), altitude (<code>altitude</code>), and number of satellites in use (<code>satellites</code>).A diagram of the struct is included below.</p>
-<pre class="fragment"> 1 byte   4 bytes  4 bytes      4 bytes       4 bytes   4 bytes   4 bytes      4 bytes
+<p>The GPS beacon consists of sixteen members: identifying information for the beacon (<code>type</code> and <code>deci</code>), position data (<code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>angle</code>, and <code>altitude</code>), GPS qualtiy data (<code>satellites</code>, <code>fix</code>, and <code>fixquality</code>), and date/time data (<code>year</code>, <code>month</code>, <code>day</code>, <code>hour</code>, <code>minute</code>, <code>second</code>, and <code>millisecond</code>).A diagram of the struct is included below.</p>
+<pre class="fragment"> 1 byte   4 bytes  4 bytes      4 bytes       4 bytes   4 bytes   4 bytes      1 byte
 +--------+--------+------------+-------------+---------+---------+------------+--------------+
 |  type  |  deci  |  latitude  |  longitude  |  speed  |  angle  |  altitude  |  satellites  |
 +--------+--------+------------+-------------+---------+---------+------------+--------------+
+ 1 byte   1 byte         1 byte   1 byte    1 byte  1 byte   1 byte     1 byte     2 bytes
++--------+--------------+--------+---------+-------+--------+----------+----------+-------------+
+|  fix   |  fixquality  |  year  |  month  |  day  |  hour  |  minute  |  second  | millisecond |
++--------+--------------+--------+---------+-------+--------+----------+----------+-------------+
 </pre> </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aeab3f1719c2d24ddd7f57dea04b4f318" name="aeab3f1719c2d24ddd7f57dea04b4f318"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeab3f1719c2d24ddd7f57dea04b4f318">&#9670;&#160;</a></span>deci</h2>

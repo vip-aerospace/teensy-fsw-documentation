@@ -6,7 +6,7 @@ var searchData=
   ['nodes_3',['NODES',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aea',1,'artemis_defs.h']]],
   ['nodetype_4',['NodeType',['../artemis__defs_8h.html#a6bd128b0ae3273bf0df0bf5e1f971418',1,'NodeType:&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a6bd128b0ae3273bf0df0bf5e1f971418',1,'NodeType:&#160;artemis_defs.cpp']]],
   ['none_5',['None',['../classArtemis_1_1Teensy_1_1PDU.html#a67a50226fcb9d31ee0b1d15f9051a500a6adf97f83acf6453d4a6a4b1070f3754',1,'Artemis::Teensy::PDU::None'],['../artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a6adf97f83acf6453d4a6a4b1070f3754',1,'None:&#160;artemisbeacons.h']]],
-  ['noop_6',['NoOp',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ac1ec54059a83ea7638f5fffaa5f98f89',1,'Cosmos::Devices::Radios::Astrodev']]],
-  ['noop_7',['NOOP',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a4fbd69e67272d35a5088846598427e76a722d122e81cbbe543bd5520bb8678c0e',1,'Cosmos::Devices::Radios::Astrodev']]],
+  ['noop_6',['NOOP',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a4fbd69e67272d35a5088846598427e76a722d122e81cbbe543bd5520bb8678c0e',1,'Cosmos::Devices::Radios::Astrodev']]],
+  ['noop_7',['NoOp',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ac1ec54059a83ea7638f5fffaa5f98f89',1,'Cosmos::Devices::Radios::Astrodev']]],
   ['nop_8',['NOP',['../classArtemis_1_1Teensy_1_1PDU.html#a5821ba051d6b2b18a8981f24cebed32ba1a004f5abe2b334db21328be1ea6b593',1,'Artemis::Teensy::PDU']]]
 ];

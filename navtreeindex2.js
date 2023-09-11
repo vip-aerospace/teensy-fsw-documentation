@@ -1,5 +1,18 @@
 var NAVTREEINDEX2 =
 {
+"structmagbeacon.html#a73dc34b666ddcaea6484f50720b57779":[3,0,6,3],
+"structmagbeacon.html#ab89e2571142f4065fe2c7831da0031c5":[3,0,6,0],
+"structmagbeacon.html#ab9c6bf52ccbc265718078928d59cf1a8":[3,0,6,4],
+"structtemperaturebeacon.html":[3,0,7],
+"structtemperaturebeacon.html#a390846fccb00f821c2cdbad0013c8ead":[3,0,7,1],
+"structtemperaturebeacon.html#ab1f242eb08ddba0623d675319c041a6a":[3,0,7,2],
+"structtemperaturebeacon.html#afa8b95b2484c284a96cca09437396e97":[3,0,7,0],
+"structthread__struct.html":[3,0,8],
+"structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659":[3,0,8,0],
+"structthread__struct.html#af49b5ae735600c96cc13a0efeeff9dce":[3,0,8,1],
+"todo.html":[2],
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html":[3,0,1,0,0,0,2,0],
+"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a507ab60f404954eeadeb3cc85365b6de":[3,0,1,0,0,0,2,0,2],
 "unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a7b4f73076d51c93a6aa1a9eea35eede5":[3,0,1,0,0,0,2,0,1],
 "unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html":[3,0,1,0,0,0,2,0,0,0],
 "unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html#a26e2feaf7fd97d653be4d56a67aa162d":[3,0,1,0,0,0,2,0,0,0,0],

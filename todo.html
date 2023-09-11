@@ -112,15 +112,15 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><a class="anchor" id="_todo000026"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1Radios_1_1RFM98_1_1rfm98__config.html#a08c9ed60182f8bbfe422224ddefbf44f">Artemis::Devices::Radios::RFM98::rfm98_config::pins</a>  </dt>
 <dd><a class="anchor" id="_todo000028"></a>The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices.html#a01e1ba8f307f3df4364fb9610c33bbc3">Artemis::Devices::read_gps</a>  (uint32_t uptime)</dt>
-<dd><a class="anchor" id="_todo000031"></a>Not fully implemented. Store in beacons / internal structures  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices.html#a887fc3eb3771301d8c2f9b578d0ef9b2">Artemis::Devices::setup_current</a>  (void)</dt>
 <dd><a class="anchor" id="_todo000029"></a>go through library and see what we need to configure and callibrate  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices.html#ab0c1daf5354a81cbca5a0f3a99bd3dc1">Artemis::Devices::setup_gps</a>  (void)</dt>
+<dd><a class="anchor" id="_todo000030"></a>The Adafruit GPS library has a bug. Connecting over serial always returns true.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices.html#a12f7f17c8600042480c90568d87df99a">Artemis::Devices::update_gps</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000030"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
+<dd><a class="anchor" id="_todo000031"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae9687387e45dcd89d44f9048d5feb4d0">Artemis::Teensy::Channels::pdu_channel</a>  ()</dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000033"></a>ASYNC DELAY TO ALLOW WDT RESET </p>
-<p class="enddd"><a class="anchor" id="_todo000034"></a>Update WDT </p>
+<p class="enddd"><a class="anchor" id="_todo000034"></a>Update WDT  </p>
 </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae528021d5dead3e3215dc5ef4eed93a7">Artemis::Teensy::Channels::rpi_channel</a>  ()</dt>
 <dd><a class="anchor" id="_todo000035"></a>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality.  </dd>

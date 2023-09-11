@@ -62,7 +62,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aff63be56711857da2c00d06e1f87c69c",
-"unionCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a7b4f73076d51c93a6aa1a9eea35eede5"
+"structmagbeacon.html#a73dc34b666ddcaea6484f50720b57779"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
