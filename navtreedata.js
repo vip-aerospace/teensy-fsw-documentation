@@ -62,7 +62,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classArtemis_1_1Teensy_1_1PDU.html#ac3c5491c7bfc9a0a2bb31a5b5a368d46",
-"structmagbeacon.html#a73dc34b666ddcaea6484f50720b57779"
+"structArtemis_1_1Teensy_1_1PDU_1_1pdu__packet.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

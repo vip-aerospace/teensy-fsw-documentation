@@ -10,7 +10,7 @@ var searchData=
   ['teensy_5fnode_5fid_7',['TEENSY_NODE_ID',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aeaa309c385bddefd23fe49731286ada9e2a',1,'artemis_defs.h']]],
   ['telemetry_8',['TELEMETRY',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a9d0341a7d1537ca032862881965a3084abb3d2d909c73fe49800949a344775f8b',1,'Artemis::Devices::Radios::Astrodev']]],
   ['telemetry_5fdump_9',['TELEMETRY_DUMP',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a0162dbb2ce73e13fa8b2e669fbeea764a0466b93f8ec6e8a782b3bdbb44a5afa5',1,'Artemis::Devices::Radios::Astrodev']]],
-  ['temperaturebeacon_10',['TemperatureBeacon',['../artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76eaa1acd4f6f1cb200e5be563b047afc132',1,'artemisbeacons.h']]],
+  ['temperaturebeacon_10',['TemperatureBeacon',['../artemisbeacons_8h.html#a717a11ee7285c6c560e127ea324cd91eaa1acd4f6f1cb200e5be563b047afc132',1,'Artemis::DevicesAndSensors']]],
   ['transmit_11',['TRANSMIT',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a9d0341a7d1537ca032862881965a3084a02d786cd0f7318c2533125f8b591abc5',1,'Artemis::Devices::Radios::Astrodev']]],
   ['tx_5fon_12',['TX_ON',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1',1,'artemis_defs.h']]]
 ];

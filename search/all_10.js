@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['satellites_0',['satellites',['../structgpsbeacon.html#adfe94e61e1833f9013a6895ec4d14858',1,'gpsbeacon']]],
+  ['satellites_0',['satellites',['../structArtemis_1_1DevicesAndSensors_1_1gpsbeacon.html#afafe654476c4caf8df511d01b164dbd7',1,'Artemis::DevicesAndSensors::gpsbeacon']]],
   ['scl1_5fi2c_1',['SCL1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2',1,'artemis_defs.h']]],
   ['sda1_5fi2c_2',['SDA1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201',1,'artemis_defs.h']]],
   ['sdn_3',['SDN',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97adb019b57d8a20743774fb0b26ce10a70',1,'artemis_defs.h']]],
   ['sec_4',['sec',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a88dbf4c655c4a771d9b78534f152fadd',1,'Artemis::Devices::Radios::Astrodev::realtimeclock']]],
-  ['second_5',['second',['../structgpsbeacon.html#a5e08b49365a2643a89b26ced35dd1450',1,'gpsbeacon']]],
+  ['second_5',['second',['../structArtemis_1_1DevicesAndSensors_1_1gpsbeacon.html#a75ae0f18277ec398641bae246ca7cab4',1,'Artemis::DevicesAndSensors::gpsbeacon']]],
   ['send_6',['send',['../classArtemis_1_1Teensy_1_1PDU.html#ac3c5491c7bfc9a0a2bb31a5b5a368d46',1,'Artemis::Teensy::PDU::send()'],['../classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a0f37cb0509e0cf8f672b8e7a0d465fcc',1,'Artemis::Devices::Radios::RFM23::send()'],['../classArtemis_1_1Devices_1_1Radios_1_1RFM98.html#a80561be7d16dec3f9bef44a4519e03dc',1,'Artemis::Devices::Radios::RFM98::send()']]],
   ['send_5ftest_5fpackets_7',['send_test_packets',['../packet__tests_8h.html#ac2a78e22fb368c479c15d1dbc25fcf6e',1,'send_test_packets():&#160;packet_tests.cpp'],['../packet__tests_8cpp.html#ac2a78e22fb368c479c15d1dbc25fcf6e',1,'send_test_packets():&#160;packet_tests.cpp']]],
   ['sendastrodevframe_8',['SendAstrodevFrame',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#aacb999e8eb150b78c49fc2e6c31e9df2',1,'Artemis::Devices::Radios::Astrodev']]],
@@ -28,7 +28,7 @@ var searchData=
   ['setup_5ftemperature_25',['setup_temperature',['../classArtemis_1_1Devices.html#a6e58b356d463dc4003faa85a1243d391',1,'Artemis::Devices']]],
   ['sizehi_26',['sizehi',['../unionArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html#ae3a115fa796fff94b25882a4e580bfdb',1,'Artemis::Devices::Radios::Astrodev::frame::frame_header::header::header_size_response']]],
   ['sizelo_27',['sizelo',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a4c16feed699613dc6be1840f8651c4e4',1,'Artemis::Devices::Radios::Astrodev::frame::frame_header::header']]],
-  ['speed_28',['speed',['../structgpsbeacon.html#a4a74a1c73d574dcbaccb7009438e89d7',1,'gpsbeacon']]],
+  ['speed_28',['speed',['../structArtemis_1_1DevicesAndSensors_1_1gpsbeacon.html#addba19bb3ae1ed6b8115f68506f869f6',1,'Artemis::DevicesAndSensors::gpsbeacon']]],
   ['spi0_5fmiso_29',['SPI0_MISO',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1',1,'artemis_defs.h']]],
   ['spi0_5fmosi_30',['SPI0_MOSI',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467',1,'artemis_defs.h']]],
   ['spi0_5fsclk_31',['SPI0_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0',1,'artemis_defs.h']]],
