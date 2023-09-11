@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('artemis__devices_8h_source.html',''); 
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classArtemis_1_1Devices.html">   25</a></span>    <span class="keyword">class </span><a class="code hl_class" href="classArtemis_1_1Devices.html">Devices</a></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classArtemis_1_1Devices.html#aa67440d9fdf0e0e77b76f86540bddf35">   33</a></span>        Adafruit_LIS3MDL *<a class="code hl_variable" href="classArtemis_1_1Devices.html#aa67440d9fdf0e0e77b76f86540bddf35">magnetometer</a> = <span class="keyword">new</span> Adafruit_LIS3MDL();</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classArtemis_1_1Devices.html#a1d6b3415c54dd311e1181ecab7183322">   39</a></span>        Adafruit_LSM6DSOX *<a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a2ba0b99abec8c19b66d7d036b19999ae">imu</a> = <span class="keyword">new</span> Adafruit_LSM6DSOX();</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classArtemis_1_1Devices.html#a646e84ab1e3f13c57a51e1302fda8269">   47</a></span>        Adafruit_GPS *<a class="code hl_enumvalue" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">gps</a> = <span class="keyword">new</span> Adafruit_GPS(&amp;Serial7);</div>
@@ -148,10 +148,17 @@ $(document).ready(function(){initNavTree('artemis__devices_8h_source.html',''); 
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        int32_t setup_gps(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        int32_t update_gps(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        int32_t read_gps(uint32_t uptime);</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    };</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>}</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">#endif </span><span class="comment">//_ARTEMIS_DEVICES_H</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keywordtype">bool</span> magnetometerSetup;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keywordtype">bool</span> imuSetup;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <span class="keywordtype">bool</span> currentSetup;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordtype">bool</span> temperatureSetup;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keywordtype">bool</span> gpsSetup;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    };</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>}</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#endif </span><span class="comment">//_ARTEMIS_DEVICES_H</span></div>
 <div class="ttc" id="aartemis__defs_8h_html"><div class="ttname"><a href="artemis__defs_8h.html">artemis_defs.h</a></div><div class="ttdoc">The Artemis definitions header file.</div></div>
 <div class="ttc" id="aartemisbeacons_8h_html"><div class="ttname"><a href="artemisbeacons_8h.html">artemisbeacons.h</a></div><div class="ttdoc">Definitions of Artemis Beacons.</div></div>
 <div class="ttc" id="aartemisbeacons_8h_html_a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe"><div class="ttname"><a href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">TypeId::gps</a></div><div class="ttdeci">@ gps</div><div class="ttdoc">GPS beacon.</div></div>

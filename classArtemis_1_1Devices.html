@@ -185,6 +185,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
+<p>It is possible to poll the remaining current sensors if one has not been set up.</p>
 <p>A single packet is used in this function. It is copied as needed. Two current beacons are created, to hold all the current measurements.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type.</p>
 <p>The current sensors are iterated over. Each sensor is polled for its bus voltage and current. The first few sensors, defined by <a class="el" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>, are stored in the first current beacon's array, with the remainder stored in the second current beacon's array.</p>
@@ -216,7 +217,8 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if successful, -1 if GPS has not been set up yet. </dd></dl>
+<p>The GPS data is only transmitted if it has been set up.</p>
 <p>A packet and GPS beacon are created. The beacon is given an identification value.</p>
 <p>Each temperature sensor is iterated over. It is read via its analog pin, with that raw voltage reading converted to Celcius. It is then stored in the temperature beacon's array.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
@@ -247,6 +249,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
+<p>The IMU is only polled if it has been set up.</p>
 <p>A packet and IMU beacon are created. The beacon is given an identification value.</p>
 <p>The accelerometer and gyroscope are polled for their most recent measurements. These measurements are then saved in the IMU beacon.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
@@ -277,6 +280,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 on successful read, -1 if failed. </dd></dl>
+<p>The magnetometer is only polled if it has been set up.</p>
 <p>A packet and magnetometer beacon are created. The beacon is given an identification value.</p>
 <p>The magnetometer is polled for its most recent measurement. This measurement is then saved in the magnetometer beacon.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
@@ -306,7 +310,8 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if successful, -1 if temperature sensors have not been set up first. </dd></dl>
+<p>The temperature sensors are only polled if they have been set up.</p>
 <p>A packet and temperature beacon are created. The beacon is given an identification value.</p>
 <p>Each temperature sensor is iterated over. It is read via its analog pin, with that raw voltage reading converted to Celcius. It is then stored in the temperature beacon's array.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
@@ -526,7 +531,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called to update the GPS. </p>
-<dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if able to poll the GPS, -1 if GPS has not been set up yet. Note this does not guarantee that new data has been received, just that we are able to check the GPS for available bytes. </dd></dl>
+<p>The GPS is only checked if it has been set up.</p>
 <p>The GPS is checked to see if there are any bytes available to be read. If there are, all the bytes are read in.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
 <p>If the read in bytes form a new and complete NMEA sentence, parse that NMEA sentence and store the values in the <a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">object. </a></p>

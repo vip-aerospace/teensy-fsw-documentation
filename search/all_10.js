@@ -53,6 +53,6 @@ var searchData=
   ['sw_5fstate_50',['sw_state',['../structArtemis_1_1Teensy_1_1PDU_1_1pdu__telem.html#ac8c877a2c45aac100d2dc08579795340',1,'Artemis::Teensy::PDU::pdu_telem::sw_state'],['../structArtemis_1_1Teensy_1_1PDU_1_1pdu__packet.html#ac4c7eb06acb7eb6d785093f34abb0967',1,'Artemis::Teensy::PDU::pdu_packet::sw_state']]],
   ['sync0_51',['sync0',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#aa0ade9435bec851660044ba25b9d9b15',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header::header']]],
   ['sync0_52',['SYNC0',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ade0b88dbeedf7d07651f3d1a0136d57f',1,'Cosmos::Devices::Radios::Astrodev']]],
-  ['sync1_53',['SYNC1',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a22fd7645ddc60fb9c6dc29cdc894e11b',1,'Cosmos::Devices::Radios::Astrodev']]],
-  ['sync1_54',['sync1',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a8f8dd29824016d136c451cbbc13638ee',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header::header']]]
+  ['sync1_53',['sync1',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a8f8dd29824016d136c451cbbc13638ee',1,'Cosmos::Devices::Radios::Astrodev::frame::frame_header::header']]],
+  ['sync1_54',['SYNC1',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a22fd7645ddc60fb9c6dc29cdc894e11b',1,'Cosmos::Devices::Radios::Astrodev']]]
 ];
