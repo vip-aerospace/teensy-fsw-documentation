@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['beacontype_0',['BeaconType',['../artemisbeacons_8h.html#a717a11ee7285c6c560e127ea324cd91e',1,'Artemis::DevicesAndSensors']]]
+  ['beacontype_0',['BeaconType',['../namespaceArtemis_1_1Devices.html#acefa807c92c3f7feaf9364660066898e',1,'Artemis::Devices']]]
 ];

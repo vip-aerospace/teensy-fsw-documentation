@@ -11,10 +11,10 @@ var searchData=
   ['gps_8',['GPS',['../classArtemis_1_1Devices_1_1GPS.html',1,'Artemis::Devices']]],
   ['gps_9',['gps',['../classArtemis_1_1Devices_1_1GPS.html#a8b92ab30c785ed2b4f75de1523ce036f',1,'Artemis::Devices::GPS']]],
   ['gps_5frstn_10',['GPS_RSTN',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a33d3be6736ade16a839ba54234c47b44',1,'artemis_defs.h']]],
-  ['gpsbeacon_11',['gpsbeacon',['../structArtemis_1_1DevicesAndSensors_1_1gpsbeacon.html',1,'Artemis::DevicesAndSensors']]],
-  ['gpsbeacon_12',['GPSBeacon',['../artemisbeacons_8h.html#a717a11ee7285c6c560e127ea324cd91ea11b8b8485101830bbd4a024b21357ab6',1,'Artemis::DevicesAndSensors']]],
+  ['gpsbeacon_11',['gpsbeacon',['../structArtemis_1_1Devices_1_1gpsbeacon.html',1,'Artemis::Devices']]],
+  ['gpsbeacon_12',['GPSBeacon',['../namespaceArtemis_1_1Devices.html#acefa807c92c3f7feaf9364660066898ea11b8b8485101830bbd4a024b21357ab6',1,'Artemis::Devices']]],
   ['ground_5fnode_5fid_13',['GROUND_NODE_ID',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aeaa677afb95254b09e1d608c8ce56b50618',1,'artemis_defs.h']]],
-  ['gyrox_14',['gyrox',['../structArtemis_1_1DevicesAndSensors_1_1imubeacon.html#ad431b7ef9603f89de937448efb44b6f6',1,'Artemis::DevicesAndSensors::imubeacon']]],
-  ['gyroy_15',['gyroy',['../structArtemis_1_1DevicesAndSensors_1_1imubeacon.html#a07cedc89c8e52bd6b7d322f98821a09c',1,'Artemis::DevicesAndSensors::imubeacon']]],
-  ['gyroz_16',['gyroz',['../structArtemis_1_1DevicesAndSensors_1_1imubeacon.html#a7f4232017956f9e9d4cc4414041a06ea',1,'Artemis::DevicesAndSensors::imubeacon']]]
+  ['gyrox_14',['gyrox',['../structArtemis_1_1Devices_1_1imubeacon.html#a7070fd0eb26f1cd495a41162d690b306',1,'Artemis::Devices::imubeacon']]],
+  ['gyroy_15',['gyroy',['../structArtemis_1_1Devices_1_1imubeacon.html#a8b5919c8849c5b6b6ebaca8213e6a588',1,'Artemis::Devices::imubeacon']]],
+  ['gyroz_16',['gyroz',['../structArtemis_1_1Devices_1_1imubeacon.html#ad797d2665bdccf74a0a490dad7a02b84',1,'Artemis::Devices::imubeacon']]]
 ];

@@ -7,9 +7,9 @@ var searchData=
   ['i2c2_5fsda_4',['I2C2_SDA',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a521174b5879c70f749b318ee320ae237',1,'artemis_defs.h']]],
   ['imu_5',['IMU',['../classArtemis_1_1Devices_1_1IMU.html',1,'Artemis::Devices']]],
   ['imu_6',['imu',['../classArtemis_1_1Devices_1_1IMU.html#a87618448a5e18300b99b9de0adc0dd3c',1,'Artemis::Devices::IMU']]],
-  ['imubeacon_7',['imubeacon',['../structArtemis_1_1DevicesAndSensors_1_1imubeacon.html',1,'Artemis::DevicesAndSensors']]],
-  ['imubeacon_8',['IMUBeacon',['../artemisbeacons_8h.html#a717a11ee7285c6c560e127ea324cd91ea02de209d383a633f043af7d9ab0c1bb0',1,'Artemis::DevicesAndSensors']]],
-  ['imutemp_9',['imutemp',['../structArtemis_1_1DevicesAndSensors_1_1imubeacon.html#a59b12066630407dadd82cd9fab23c552',1,'Artemis::DevicesAndSensors::imubeacon']]],
+  ['imubeacon_7',['imubeacon',['../structArtemis_1_1Devices_1_1imubeacon.html',1,'Artemis::Devices']]],
+  ['imubeacon_8',['IMUBeacon',['../namespaceArtemis_1_1Devices.html#acefa807c92c3f7feaf9364660066898ea02de209d383a633f043af7d9ab0c1bb0',1,'Artemis::Devices']]],
+  ['imutemp_9',['imutemp',['../structArtemis_1_1Devices_1_1imubeacon.html#a0cf0fc6abac8fd174d7e0a4913bc6d02',1,'Artemis::Devices::imubeacon']]],
   ['init_10',['init',['../classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1',1,'Artemis::Devices::Radios::RFM23::init()'],['../classArtemis_1_1Devices_1_1Radios_1_1RFM98.html#a89130e6377f8be84b95b766e82fe077f',1,'Artemis::Devices::Radios::RFM98::init()']]],
   ['initializeserial_11',['InitializeSerial',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a9fe5875b18b83438965f855805699654',1,'Artemis::Devices::Radios::Astrodev']]],
   ['interface_5fbaud_5frate_12',['interface_baud_rate',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a50c1e88038228cb9fe63008e2d5765d1',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]]

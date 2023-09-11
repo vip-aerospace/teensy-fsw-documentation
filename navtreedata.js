@@ -35,7 +35,11 @@ var NAVTREE =
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", null ]
+      [ "Namespace List", "namespaces.html", null ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -65,7 +69,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classArtemis_1_1Teensy_1_1PDU.html#a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6",
-"structArtemis_1_1Devices_1_1Radios_1_1RFM98_1_1rfm98__config_1_1pins.html#a486d2ef3d1ffbae037cc6613cb7f1d37"
+"structArtemis_1_1Devices_1_1magbeacon.html#aa3f538b95bd71a44ffae9980c450622e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
