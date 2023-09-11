@@ -30,7 +30,7 @@ var searchData=
   ['artemis_5fdevices_2eh_27',['artemis_devices.h',['../artemis__devices_8h.html',1,'']]],
   ['artemis_5ftemp_5fsensor_5fcount_28',['ARTEMIS_TEMP_SENSOR_COUNT',['../artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4',1,'artemis_defs.h']]],
   ['artemisbeacons_2eh_29',['artemisbeacons.h',['../artemisbeacons_8h.html',1,'']]],
-  ['astrodev_30',['Astrodev',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html',1,'Artemis::Devices::Radios::Astrodev'],['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a4d4f73ca69b8814f287823076aae31eb',1,'Artemis::Devices::Radios::Astrodev::Astrodev()'],['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a003366d883f8cb3c72106eefd9fb2826',1,'Artemis::Devices::Radios::Astrodev::Astrodev(HardwareSerial *hw_serial)']]],
+  ['astrodev_30',['Astrodev',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html',1,'Artemis::Devices::Radios::Astrodev'],['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a003366d883f8cb3c72106eefd9fb2826',1,'Artemis::Devices::Radios::Astrodev::Astrodev(HardwareSerial *hw_serial)'],['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a4d4f73ca69b8814f287823076aae31eb',1,'Artemis::Devices::Radios::Astrodev::Astrodev()']]],
   ['astrodev_2ecpp_31',['astrodev.cpp',['../astrodev_8cpp.html',1,'']]],
   ['astrodev_2eh_32',['astrodev.h',['../astrodev_8h.html',1,'']]],
   ['astrodev_5fbaud_33',['ASTRODEV_BAUD',['../astrodev__channel_8cpp.html#a6f18de62b6be40ffaf8b3d5613e78f85',1,'astrodev_channel.cpp']]],
@@ -43,12 +43,13 @@ var searchData=
   ['astrodev_5fmodulation_5fbpsk_40',['ASTRODEV_MODULATION_BPSK',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#aaac97382a09944d92bfeb26ca88f4beeaf4dd9fc516122acddb382ec5d594a40e',1,'Artemis::Devices::Radios::Astrodev']]],
   ['astrodev_5fmodulation_5fgfsk_41',['ASTRODEV_MODULATION_GFSK',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#aaac97382a09944d92bfeb26ca88f4beeaf376a299260fc4afe9ef7814bad32c12',1,'Artemis::Devices::Radios::Astrodev']]],
   ['astrodev_5fmodulation_5fnone_42',['ASTRODEV_MODULATION_NONE',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#aaac97382a09944d92bfeb26ca88f4beeab14b03225f61467a02360b03104ee53b',1,'Artemis::Devices::Radios::Astrodev']]],
-  ['astrodev_5fqueue_43',['astrodev_queue',['../artemis__defs_8h.html#af84bb624ddc22f5e1c52dce692eb72b5',1,'astrodev_queue:&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#af84bb624ddc22f5e1c52dce692eb72b5',1,'astrodev_queue:&#160;artemis_defs.cpp']]],
+  ['astrodev_5fqueue_43',['astrodev_queue',['../artemis__defs_8cpp.html#af84bb624ddc22f5e1c52dce692eb72b5',1,'astrodev_queue:&#160;artemis_defs.cpp'],['../artemis__defs_8h.html#af84bb624ddc22f5e1c52dce692eb72b5',1,'astrodev_queue:&#160;artemis_defs.cpp']]],
   ['astrodev_5fqueue_5fmtx_44',['astrodev_queue_mtx',['../artemis__defs_8h.html#a837759409143ac277ec184e7096ffea2',1,'astrodev_queue_mtx:&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a837759409143ac277ec184e7096ffea2',1,'astrodev_queue_mtx:&#160;artemis_defs.cpp']]],
   ['astrodev_5frecv_45',['astrodev_recv',['../astrodev__channel_8cpp.html#a78d39ad523f766232bc734d4b5654d6b',1,'astrodev_channel.cpp']]],
   ['astrodev_5fsend_46',['astrodev_send',['../astrodev__channel_8cpp.html#a77301255c9f9d4c5f161652d001227d0',1,'astrodev_channel.cpp']]],
   ['ax25_5fdestination_47',['ax25_destination',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#ab9087d9e1926ffebe3acd1ee0a53dee0',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]],
   ['ax25_5fpostamble_5flength_48',['ax25_postamble_length',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#aba78404e17cc3afdbb41894f11527192',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]],
   ['ax25_5fpreamble_5flength_49',['ax25_preamble_length',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a594dcf0bf40e8f33d6579fee63ac5387',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]],
-  ['ax25_5fsource_50',['ax25_source',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a61be9353e88763be353c022067eb20ce',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]]
+  ['ax25_5fsource_50',['ax25_source',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a61be9353e88763be353c022067eb20ce',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]],
+  ['devices_51',['Devices',['../namespaceArtemis_1_1Devices.html',1,'Artemis']]]
 ];

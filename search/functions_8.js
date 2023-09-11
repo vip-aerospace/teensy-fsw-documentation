@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['read_5fcurrent_0',['read_current',['../classArtemis_1_1Devices.html#ad37451eb58f3f6cec1db263ce86077bb',1,'Artemis::Devices']]],
-  ['read_5fgps_1',['read_gps',['../classArtemis_1_1Devices.html#a01e1ba8f307f3df4364fb9610c33bbc3',1,'Artemis::Devices']]],
-  ['read_5fimu_2',['read_imu',['../classArtemis_1_1Devices.html#acb276846201b2ebfbe0d102f1c0374e0',1,'Artemis::Devices']]],
-  ['read_5fmag_3',['read_mag',['../classArtemis_1_1Devices.html#a8a8d56b28548cb26e3247c34d32b9614',1,'Artemis::Devices']]],
-  ['read_5ftemperature_4',['read_temperature',['../classArtemis_1_1Devices.html#ac14e26026104c4f5271c1e0bacd0fed5',1,'Artemis::Devices']]],
+  ['read_5fcurrent_0',['read_current',['../classArtemis_1_1Devices_1_1CurrentSensors.html#ae6d26874e37e51f70f8c90596c22edb5',1,'Artemis::Devices::CurrentSensors']]],
+  ['read_5fgps_1',['read_gps',['../classArtemis_1_1Devices_1_1GPS.html#a3ab6a1b77d678c987977f20b12e01210',1,'Artemis::Devices::GPS']]],
+  ['read_5fimu_2',['read_imu',['../classArtemis_1_1Devices_1_1IMU.html#adee8504d6c37b396dbc897fb6971307d',1,'Artemis::Devices::IMU']]],
+  ['read_5fmag_3',['read_mag',['../classArtemis_1_1Devices_1_1Magnetometer.html#aaad999682b95beed319971e83ba0a1a4',1,'Artemis::Devices::Magnetometer']]],
+  ['read_5ftemperature_4',['read_temperature',['../classArtemis_1_1Devices_1_1TemperatureSensors.html#aee5a1ca1e3b69d6294c17e1318bbecb2',1,'Artemis::Devices::TemperatureSensors']]],
   ['receiveastrodevframe_5',['ReceiveAstrodevFrame',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#ac323f8649abaf16f81a8422d0516a2e6',1,'Artemis::Devices::Radios::Astrodev']]],
   ['receivedata_6',['receiveData',['../rpi__channel_8cpp.html#a16c554efd85d642b49069c9e3214b358',1,'rpi_channel.cpp']]],
   ['recv_7',['recv',['../classArtemis_1_1Teensy_1_1PDU.html#a40ac52d057028365dc48776c4b475170',1,'Artemis::Teensy::PDU::recv()'],['../classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a33699eedf06af7824867355c883846d3',1,'Artemis::Devices::Radios::RFM23::recv()'],['../classArtemis_1_1Devices_1_1Radios_1_1RFM98.html#ac9ed1086710968bd265bdd660425492c',1,'Artemis::Devices::Radios::RFM98::recv()']]],

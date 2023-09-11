@@ -94,8 +94,14 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Class <a class="el" href="classArtemis_1_1Devices.html">Artemis::Devices</a>  </dt>
-<dd><a class="anchor" id="_todo000001"></a>There is both an <a class="el" href="classArtemis_1_1Devices.html" title="The class representing sensors and devices in the satellite.">Artemis::Devices</a> namespace and an <a class="el" href="classArtemis_1_1Devices.html" title="The class representing sensors and devices in the satellite.">Artemis::Devices</a> class. Rename or combine these.  </dd>
+<dt>Namespace <a class="el" href="namespaceArtemis_1_1Devices.html">Artemis::Devices</a>  </dt>
+<dd><a class="anchor" id="_todo000001"></a>There is both an <a class="el" href="namespaceArtemis_1_1Devices.html" title="The namespace representing sensors and devices in the satellite.">Artemis::Devices</a> namespace and an <a class="el" href="namespaceArtemis_1_1Devices.html" title="The namespace representing sensors and devices in the satellite.">Artemis::Devices</a> class. Rename or combine these.  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1CurrentSensors.html#ab2afbbf731c5ee77d9245282852f7667">Artemis::Devices::CurrentSensors::setup_current</a>  (void)</dt>
+<dd><a class="anchor" id="_todo000027"></a>go through library and see what we need to configure and callibrate  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1GPS.html#a0ab2d9b6a8d5751e69d8cfc62f4605d0">Artemis::Devices::GPS::setup_gps</a>  (void)</dt>
+<dd><a class="anchor" id="_todo000028"></a>The Adafruit <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> library has a bug. Connecting over serial always returns true.  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1GPS.html#a81cc24115a8664650735a887c965cb0a">Artemis::Devices::GPS::update_gps</a>  (void)</dt>
+<dd><a class="anchor" id="_todo000029"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1firmware.html#a87b082ccc5736080b7bdfde4fd8824bc">Artemis::Devices::Radios::Astrodev::firmware::rev</a>  </dt>
 <dd><a class="anchor" id="_todo000018"></a>How is this expressed as a float?  </dd>
 <dt>Member <a class="el" href="unionArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#aa6cfe4dae20504d28d35965181b0b116">Artemis::Devices::Radios::Astrodev::frame::frame_payload::payload</a>  [MTU+20]</dt>
@@ -131,8 +137,8 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a7b66601c463726382041499323e9ba51">Artemis::Devices::Radios::RFM23::get_tsen</a>  ()</dt>
 <dd><a class="anchor" id="_todo000025"></a>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1">Artemis::Devices::Radios::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1Radios_1_1RFM23_1_1rfm23__config.html" title="The RFM23 configuration structure.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000021"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a>. </p>
-<p class="enddd"><a class="anchor" id="_todo000020"></a>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking?  </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000020"></a>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking? </p>
+<p class="enddd"><a class="anchor" id="_todo000021"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a>.  </p>
 </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a33699eedf06af7824867355c883846d3">Artemis::Devices::Radios::RFM23::recv</a>  (PacketComm &amp;packet, uint16_t timeout)</dt>
 <dd><a class="anchor" id="_todo000023"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin low and RX_ANT pin high to receive. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
@@ -142,12 +148,6 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><a class="anchor" id="_todo000024"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1Radios_1_1RFM98_1_1rfm98__config.html#a08c9ed60182f8bbfe422224ddefbf44f">Artemis::Devices::Radios::RFM98::rfm98_config::pins</a>  </dt>
 <dd><a class="anchor" id="_todo000026"></a>The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM23.html" title="The RFM23 class.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1Radios_1_1RFM98.html" title="The RFM98 class.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices.html#a887fc3eb3771301d8c2f9b578d0ef9b2">Artemis::Devices::setup_current</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000027"></a>go through library and see what we need to configure and callibrate  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices.html#ab0c1daf5354a81cbca5a0f3a99bd3dc1">Artemis::Devices::setup_gps</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000028"></a>The Adafruit GPS library has a bug. Connecting over serial always returns true.  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices.html#a12f7f17c8600042480c90568d87df99a">Artemis::Devices::update_gps</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000029"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae9687387e45dcd89d44f9048d5feb4d0">Artemis::Teensy::Channels::pdu_channel</a>  ()</dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000031"></a>ASYNC DELAY TO ALLOW WDT RESET </p>
 <p class="enddd"><a class="anchor" id="_todo000032"></a>Update WDT  </p>

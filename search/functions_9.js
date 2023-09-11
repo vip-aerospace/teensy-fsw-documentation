@@ -11,9 +11,9 @@ var searchData=
   ['setserial_8',['setSerial',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#ad1e39c50762045a48f3703c29d12c0b5',1,'Artemis::Devices::Radios::Astrodev']]],
   ['settcvconfig_9',['SetTCVConfig',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a5d52499f09d74793417a7840a202377d',1,'Artemis::Devices::Radios::Astrodev']]],
   ['setup_10',['setup',['../main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d',1,'main.cpp']]],
-  ['setup_5fcurrent_11',['setup_current',['../classArtemis_1_1Devices.html#a887fc3eb3771301d8c2f9b578d0ef9b2',1,'Artemis::Devices']]],
-  ['setup_5fgps_12',['setup_gps',['../classArtemis_1_1Devices.html#ab0c1daf5354a81cbca5a0f3a99bd3dc1',1,'Artemis::Devices']]],
-  ['setup_5fimu_13',['setup_imu',['../classArtemis_1_1Devices.html#ae32e2b6b79a711a447a4f64f51b70de1',1,'Artemis::Devices']]],
-  ['setup_5fmagnetometer_14',['setup_magnetometer',['../classArtemis_1_1Devices.html#a2f535000159f58b1b6d07e6221bc2b6d',1,'Artemis::Devices']]],
-  ['setup_5ftemperature_15',['setup_temperature',['../classArtemis_1_1Devices.html#a6e58b356d463dc4003faa85a1243d391',1,'Artemis::Devices']]]
+  ['setup_5fcurrent_11',['setup_current',['../classArtemis_1_1Devices_1_1CurrentSensors.html#ab2afbbf731c5ee77d9245282852f7667',1,'Artemis::Devices::CurrentSensors']]],
+  ['setup_5fgps_12',['setup_gps',['../classArtemis_1_1Devices_1_1GPS.html#a0ab2d9b6a8d5751e69d8cfc62f4605d0',1,'Artemis::Devices::GPS']]],
+  ['setup_5fimu_13',['setup_imu',['../classArtemis_1_1Devices_1_1IMU.html#a1d6f2394d46f3058a2ebb84a44bdff83',1,'Artemis::Devices::IMU']]],
+  ['setup_5fmagnetometer_14',['setup_magnetometer',['../classArtemis_1_1Devices_1_1Magnetometer.html#abf1bdd860b2817d66f9fa28a13d90c16',1,'Artemis::Devices::Magnetometer']]],
+  ['setup_5ftemperature_15',['setup_temperature',['../classArtemis_1_1Devices_1_1TemperatureSensors.html#a86d343c14afc11f2804188af101fb64a',1,'Artemis::Devices::TemperatureSensors']]]
 ];

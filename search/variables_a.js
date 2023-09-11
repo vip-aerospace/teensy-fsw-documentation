@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['magnetometer_0',['magnetometer',['../classArtemis_1_1Devices.html#aa67440d9fdf0e0e77b76f86540bddf35',1,'Artemis::Devices']]],
+  ['magnetometer_0',['magnetometer',['../classArtemis_1_1Devices_1_1Magnetometer.html#a3cd97e81f49b9528bd921b4ca1202640',1,'Artemis::Devices::Magnetometer']]],
   ['magx_1',['magx',['../structArtemis_1_1DevicesAndSensors_1_1magbeacon.html#a03c28ee78166709b157f87c511a1400d',1,'Artemis::DevicesAndSensors::magbeacon']]],
   ['magy_2',['magy',['../structArtemis_1_1DevicesAndSensors_1_1magbeacon.html#a4902886e6867444f937b8c26e7f394ed',1,'Artemis::DevicesAndSensors::magbeacon']]],
   ['magz_3',['magz',['../structArtemis_1_1DevicesAndSensors_1_1magbeacon.html#ab55e966c1530be3dc9bb81d907495afa',1,'Artemis::DevicesAndSensors::magbeacon']]],

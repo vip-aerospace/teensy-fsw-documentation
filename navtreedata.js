@@ -34,6 +34,9 @@ var NAVTREE =
       [ "Step 5: Run the FSW", "development_environment_setup.html#step5", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -61,8 +64,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classArtemis_1_1Teensy_1_1PDU.html#ac3c5491c7bfc9a0a2bb31a5b5a368d46",
-"structArtemis_1_1Teensy_1_1PDU_1_1pdu__packet.html"
+"classArtemis_1_1Teensy_1_1PDU.html#a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6",
+"structArtemis_1_1Devices_1_1Radios_1_1RFM98_1_1rfm98__config_1_1pins.html#a486d2ef3d1ffbae037cc6613cb7f1d37"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

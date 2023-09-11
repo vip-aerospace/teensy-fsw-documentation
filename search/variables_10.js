@@ -2,7 +2,7 @@ var searchData=
 [
   ['tcv_0',['tcv',['../unionArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a5e06f4d6e8db2155f025c21692a30116',1,'Artemis::Devices::Radios::Astrodev::frame::frame_payload']]],
   ['telem_1',['telem',['../unionArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__payload.html#a74970d283f762667a991318cc887422c',1,'Artemis::Devices::Radios::Astrodev::frame::frame_payload']]],
-  ['temp_5fsensors_2',['temp_sensors',['../classArtemis_1_1Devices.html#aa506caf5a58d33d863f91a638fe23952',1,'Artemis::Devices']]],
+  ['temp_5fsensors_2',['temp_sensors',['../classArtemis_1_1Devices_1_1TemperatureSensors.html#a1d1ca304b40d3720d247ed12b2e0733f',1,'Artemis::Devices::TemperatureSensors']]],
   ['temperaturec_3',['temperatureC',['../structArtemis_1_1DevicesAndSensors_1_1temperaturebeacon.html#a7205dbf9a0ce2b291cc231316f8aa281',1,'Artemis::DevicesAndSensors::temperaturebeacon']]],
   ['test_5fmode_5frx_5fcw_4',['test_mode_rx_cw',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1function__config2.html#a3eb31c2357b8e3e4b87fd291d7c7867c',1,'Artemis::Devices::Radios::Astrodev::function_config2']]],
   ['test_5fmode_5ftbd_5',['test_mode_tbd',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1function__config2.html#a3e3239dc4029ed1d2c0327adc61280a9',1,'Artemis::Devices::Radios::Astrodev::function_config2']]],
