@@ -107,7 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aad683410c7269b9f925675c59669d733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to update the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a>.  <br /></td></tr>
 <tr class="separator:aad683410c7269b9f925675c59669d733"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8af6875fe48d0b81bae9cde222bb9eed"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1GPS.html#a8af6875fe48d0b81bae9cde222bb9eed">read</a> (uint32_t uptime)</td></tr>
-<tr class="memdesc:a8af6875fe48d0b81bae9cde222bb9eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> sensor and generates a packet on both RFM23 and Astrodev queues.  <br /></td></tr>
+<tr class="memdesc:a8af6875fe48d0b81bae9cde222bb9eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> sensor and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues.  <br /></td></tr>
 <tr class="separator:a8af6875fe48d0b81bae9cde222bb9eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -133,7 +133,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> sensor and generates a packet on both RFM23 and Astrodev queues. </p>
+<p>Reads <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> sensor and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uptime</td><td>The time, in milliseconds, that the Teensy has been powered on. </td></tr>
@@ -144,7 +144,7 @@ Public Attributes</h2></td></tr>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> data is only transmitted if it has been set up.</p>
 <p>A packet and <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> beacon are created. The beacon is given an identification value.</p>
 <p>Each temperature sensor is iterated over. It is read via its analog pin, with that raw voltage reading converted to Celcius. It is then stored in the temperature beacon's array.</p>
-<p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
+<p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues for transmission.</p>
 
 </div>
 </div>

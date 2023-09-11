@@ -2,7 +2,7 @@ var searchData=
 [
   ['get_5frtc_0',['GET_RTC',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a9d0341a7d1537ca032862881965a3084a2bf81bc487d8e6206dce83edbf878595',1,'Artemis::Devices::Radios::Astrodev']]],
   ['get_5fswitch_1',['get_switch',['../classArtemis_1_1Teensy_1_1PDU.html#a16d1f688e29c22e081f3113ee0ecd24b',1,'Artemis::Teensy::PDU']]],
-  ['get_5ftsen_2',['get_tsen',['../classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#a7b66601c463726382041499323e9ba51',1,'Artemis::Devices::Radios::RFM23']]],
+  ['get_5ftsen_2',['get_tsen',['../classArtemis_1_1Devices_1_1RFM23.html#a7b66601c463726382041499323e9ba51',1,'Artemis::Devices::RFM23']]],
   ['gettcvconfig_3',['GETTCVCONFIG',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a9d0341a7d1537ca032862881965a3084a2418201aa29fb16dfed49535bd9e4cf4',1,'Artemis::Devices::Radios::Astrodev']]],
   ['gettcvconfig_4',['GetTCVConfig',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a82a49011817b34048f9c432daf4de767',1,'Artemis::Devices::Radios::Astrodev']]],
   ['gettelemetry_5',['GetTelemetry',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a0464943987f80980ecbcb5efb8dd0054',1,'Artemis::Devices::Radios::Astrodev']]],

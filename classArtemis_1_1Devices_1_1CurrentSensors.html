@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aece84002218dc12ddfe9c63a61dbe0d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up I2C connection to current sensors.  <br /></td></tr>
 <tr class="separator:aece84002218dc12ddfe9c63a61dbe0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df8c03e3d54b2cde6fa39d8bf04092c"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1CurrentSensors.html#a0df8c03e3d54b2cde6fa39d8bf04092c">read</a> (uint32_t uptime)</td></tr>
-<tr class="memdesc:a0df8c03e3d54b2cde6fa39d8bf04092c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads current sensors and generates two packets on both RFM23 and Astrodev queues.  <br /></td></tr>
+<tr class="memdesc:a0df8c03e3d54b2cde6fa39d8bf04092c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads current sensors and generates two packets on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues.  <br /></td></tr>
 <tr class="separator:a0df8c03e3d54b2cde6fa39d8bf04092c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -130,7 +130,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads current sensors and generates two packets on both RFM23 and Astrodev queues. </p>
+<p>Reads current sensors and generates two packets on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uptime</td><td>The time, in milliseconds, that the Teensy has been powered on. </td></tr>
@@ -142,8 +142,8 @@ Public Attributes</h2></td></tr>
 <p>A single packet is used in this function. It is copied as needed. Two current beacons are created, to hold all the current measurements.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type.</p>
 <p>The current sensors are iterated over. Each sensor is polled for its bus voltage and current. The first few sensors, defined by <a class="el" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>, are stored in the first current beacon's array, with the remainder stored in the second current beacon's array.</p>
-<p>The first beacon is given an identifier value, then copied into the into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
-<p>The second beacon is given an identifier value, then copied into the into the payload of the packet. The packet is then copied into the RFM23 and Astrodev queues for transmission.</p>
+<p>The first beacon is given an identifier value, then copied into the into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues for transmission.</p>
+<p>The second beacon is given an identifier value, then copied into the into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues for transmission.</p>
 
 </div>
 </div>

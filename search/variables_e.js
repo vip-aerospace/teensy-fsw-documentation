@@ -22,5 +22,5 @@ var searchData=
   ['rx_5ffreq_19',['rx_freq',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1rf__config.html#ae4680d08c352f0aa9c8dadf4dd3a5b05',1,'Artemis::Devices::Radios::Astrodev::rf_config']]],
   ['rx_5ffrequency_20',['rx_frequency',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a77845a4b2608a12d65a44a4b4e71d8a2',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]],
   ['rx_5fmodulation_21',['rx_modulation',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a6cfd3c33dcaf0465a1016d2b0c4dc5aa',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]],
-  ['rx_5fon_22',['rx_on',['../structArtemis_1_1Devices_1_1Radios_1_1RFM23_1_1rfm23__config_1_1pins.html#a3394070101ee50828b0d887927707ade',1,'Artemis::Devices::Radios::RFM23::rfm23_config::pins']]]
+  ['rx_5fon_22',['rx_on',['../structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#a58497999966f6b1ea7854a638f4f4a28',1,'Artemis::Devices::RFM23::rfm23_config::pins']]]
 ];
