@@ -9,7 +9,7 @@ var searchData=
   ['burn_6',['BURN',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a6ce5f855f667c4a7b51360d8c37e2e66',1,'Artemis::Devices::PDU']]],
   ['burn1_7',['BURN1',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a2e04f32bc2d6f5adac7da1e2a471d13d',1,'Artemis::Devices::PDU']]],
   ['burn2_8',['BURN2',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676ae6276293493a82ac55835c92a5436a95',1,'Artemis::Devices::PDU']]],
-  ['busvoltage_9',['busvoltage',['../structArtemis_1_1Devices_1_1currentbeacon1.html#a05cdac7e243476974503826252ee4955',1,'Artemis::Devices::currentbeacon1::busvoltage'],['../structArtemis_1_1Devices_1_1currentbeacon2.html#a1d2fe03730997eadcb062e7c867cfedf',1,'Artemis::Devices::currentbeacon2::busvoltage']]],
+  ['busvoltage_9',['busvoltage',['../structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon1.html#afc35efb103cbf44eb78b337b51b47551',1,'Artemis::Devices::CurrentSensors::currentbeacon1::busvoltage'],['../structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon2.html#aae89a138f3958a456e8586afa0add240',1,'Artemis::Devices::CurrentSensors::currentbeacon2::busvoltage']]],
   ['bytes_5frx_10',['bytes_rx',['../structArtemis_1_1Devices_1_1Astrodev_1_1telemetry.html#a6324ccfb604a4a58a5b74c7aeb9b49d2',1,'Artemis::Devices::Astrodev::telemetry']]],
   ['bytes_5ftx_11',['bytes_tx',['../structArtemis_1_1Devices_1_1Astrodev_1_1telemetry.html#af77150cd05c6259eceb756ed5964262c',1,'Artemis::Devices::Astrodev::telemetry']]]
 ];

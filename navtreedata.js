@@ -69,7 +69,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classArtemis_1_1Devices_1_1RFM98.html#af4ed55dd3128b9fe14b7ca066ec556e4",
-"structArtemis_1_1Devices_1_1imubeacon.html#ab43e1b04c9bda68938abc4e99787f0f0"
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#aaef6aef940d3ea3f91806b85fa521c18"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
