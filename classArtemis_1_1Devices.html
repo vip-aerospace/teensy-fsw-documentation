@@ -336,7 +336,7 @@ Public Attributes</h2></td></tr>
 
 <p>Sets up I2C connection to current sensors. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if sucessful, -1 if failed.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>go through library and see what we need to configure and callibrate </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>go through library and see what we need to configure and callibrate </dd></dl>
 
 </div>
 </div>
@@ -358,7 +358,7 @@ Public Attributes</h2></td></tr>
 
 <p>Sets up serial connection to GPS sensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 on successful initialization, -1 if failed. </dd></dl>
-<p>The serial connection to the GPS module is initialized. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>The Adafruit GPS library has a bug. Connecting over serial always returns true. </dd></dl>
+<p>The serial connection to the GPS module is initialized. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>The Adafruit GPS library has a bug. Connecting over serial always returns true. </dd></dl>
 <p>The output format of the GPS is set. Possible options are:</p><ul>
 <li>PMTK_SET_NMEA_OUTPUT_GLLONLY: Latitude, longitude, UTC time of position fix and status.</li>
 <li>PMTK_SET_NMEA_OUTPUT_RMCONLY: Time, date, position, course, speed data.</li>
@@ -534,7 +534,7 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if able to poll the GPS, -1 if GPS has not been set up yet. Note this does not guarantee that new data has been received, just that we are able to check the GPS for available bytes. </dd></dl>
 <p>The GPS is only checked if it has been set up.</p>
 <p>The GPS is checked to see if there are any bytes available to be read. If there are, all the bytes are read in.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
 <p>If the read in bytes form a new and complete NMEA sentence, parse that NMEA sentence and store the values in the <a class="el" href="">object. </a></p>
 
 </div>

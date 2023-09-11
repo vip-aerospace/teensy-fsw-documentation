@@ -61,7 +61,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aff63be56711857da2c00d06e1f87c69c",
+"classArtemis_1_1Teensy_1_1PDU.html#ac3c5491c7bfc9a0a2bb31a5b5a368d46",
 "structmagbeacon.html#a73dc34b666ddcaea6484f50720b57779"
 ];
 

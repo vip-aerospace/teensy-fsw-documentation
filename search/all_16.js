@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zeros_0',['zeros',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1function__config2.html#a90aaf6c649053d64c9c8b0e9f2b8df5e',1,'Cosmos::Devices::Radios::Astrodev::function_config2']]]
+  ['zeros_0',['zeros',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1function__config2.html#a74575543f95d40fdec8259dcf2052a50',1,'Artemis::Devices::Radios::Astrodev::function_config2']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['calccs_0',['CalcCS',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a4f8f21379d7825a3cd6cf806e7ecb47a',1,'Cosmos::Devices::Radios::Astrodev']]]
+  ['calccs_0',['CalcCS',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a6eeb8fe915ba05aa28367c87964c1718',1,'Artemis::Devices::Radios::Astrodev']]]
 ];

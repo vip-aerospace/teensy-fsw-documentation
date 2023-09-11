@@ -173,7 +173,6 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> =
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The GPS beacon structure. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>update when implementing GPS parsing. </dd></dl>
 <p>This defines the structure of the GPS beacon.</p>
 <p>The GPS beacon consists of sixteen members: identifying information for the beacon (<code>type</code> and <code>deci</code>), position data (<code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>angle</code>, and <code>altitude</code>), GPS qualtiy data (<code>satellites</code>, <code>fix</code>, and <code>fixquality</code>), and date/time data (<code>year</code>, <code>month</code>, <code>day</code>, <code>hour</code>, <code>minute</code>, <code>second</code>, and <code>millisecond</code>).A diagram of the struct is included below.</p>
 <pre class="fragment"> 1 byte   4 bytes  4 bytes      4 bytes       4 bytes   4 bytes   4 bytes      1 byte

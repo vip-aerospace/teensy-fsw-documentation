@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['modulation_0',['Modulation',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a20a6b6b73c1a4084c91d797ce5272fbf',1,'Cosmos::Devices::Radios::Astrodev']]]
+  ['modulation_0',['Modulation',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#aaac97382a09944d92bfeb26ca88f4bee',1,'Artemis::Devices::Radios::Astrodev']]]
 ];

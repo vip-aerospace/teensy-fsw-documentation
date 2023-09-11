@@ -10,6 +10,6 @@ var searchData=
   ['imubeacon_7',['IMUBeacon',['../artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76ea02de209d383a633f043af7d9ab0c1bb0',1,'artemisbeacons.h']]],
   ['imutemp_8',['imutemp',['../structimubeacon.html#a1cac4399f3ffb5130604a02f7031b81c',1,'imubeacon']]],
   ['init_9',['init',['../classArtemis_1_1Devices_1_1Radios_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1',1,'Artemis::Devices::Radios::RFM23::init()'],['../classArtemis_1_1Devices_1_1Radios_1_1RFM98.html#a89130e6377f8be84b95b766e82fe077f',1,'Artemis::Devices::Radios::RFM98::init()']]],
-  ['initializeserial_10',['InitializeSerial',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#aa053916d69c7121ae09fc302e23cdd32',1,'Cosmos::Devices::Radios::Astrodev']]],
-  ['interface_5fbaud_5frate_11',['interface_baud_rate',['../structCosmos_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a4eabb61f1af23b112c9b75b267af060c',1,'Cosmos::Devices::Radios::Astrodev::tcv_config']]]
+  ['initializeserial_10',['InitializeSerial',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a9fe5875b18b83438965f855805699654',1,'Artemis::Devices::Radios::Astrodev']]],
+  ['interface_5fbaud_5frate_11',['interface_baud_rate',['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1tcv__config.html#a50c1e88038228cb9fe63008e2d5765d1',1,'Artemis::Devices::Radios::Astrodev::tcv_config']]]
 ];

@@ -220,11 +220,11 @@ Setup</h1>
 <p>This portion of the channel is run only once. A serial connection is initialized, then the PDU is given 5 seconds to warm up.</p>
 <p>A connection test is performed. A ping command packet is sent over the PDU serial connection, and a response is awaited. If the response is a pong data packet, a confirmation message is printed to the Teensy's serial connection.</p>
 <p>The burnwire switch is set, then 10 seconds is given to allow the burnwire switch to burn. The burnwire switch is then switched off.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>ASYNC DELAY TO ALLOW WDT RESET </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>ASYNC DELAY TO ALLOW WDT RESET </dd></dl>
 <h1><a class="anchor" id="autotoc_md3"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The pdu_queue is checked for a new packet. This loop only handles incoming command packets. If there is one, then the desired command is executed. See the code for a detailed explaination.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Update WDT </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>Update WDT </dd></dl>
 
 </div>
 </div>
@@ -303,7 +303,7 @@ Setup</h1>
 <h1><a class="anchor" id="autotoc_md9"></a>
 Loop</h1>
 <p>This portion of the channel is run in an infinite loop. The rpi_queue is checked for a new packet. If there is one, then the packet is packaged for transmission to the Raspberry Pi. The loop also checks for the special case where the packet is a command to shut down the Raspberry Pi. See the code for a detailed explaination.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality. </dd></dl>
 
 </div>
 </div>
