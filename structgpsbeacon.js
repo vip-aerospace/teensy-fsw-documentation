@@ -15,6 +15,6 @@ var structgpsbeacon =
     [ "satellites", "structgpsbeacon.html#adfe94e61e1833f9013a6895ec4d14858", null ],
     [ "second", "structgpsbeacon.html#a5e08b49365a2643a89b26ced35dd1450", null ],
     [ "speed", "structgpsbeacon.html#a4a74a1c73d574dcbaccb7009438e89d7", null ],
-    [ "type", "structgpsbeacon.html#ad6f7d41053d7fa4adbba85e1419f5b80", null ],
+    [ "type", "structgpsbeacon.html#a23e99fcb190ae46913e50117e1ecab60", null ],
     [ "year", "structgpsbeacon.html#a2488cbfc2af05e413316f9d915bfce32", null ]
 ];

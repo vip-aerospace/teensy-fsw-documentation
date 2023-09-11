@@ -10,7 +10,7 @@ var searchData=
   ['teensy_5fnode_5fid_7',['TEENSY_NODE_ID',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aeaa309c385bddefd23fe49731286ada9e2a',1,'artemis_defs.h']]],
   ['telemetry_8',['TELEMETRY',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a4fbd69e67272d35a5088846598427e76abb3d2d909c73fe49800949a344775f8b',1,'Cosmos::Devices::Radios::Astrodev']]],
   ['telemetry_5fdump_9',['TELEMETRY_DUMP',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab5d1649e84dc3d9efa102478bbe2b280a0466b93f8ec6e8a782b3bdbb44a5afa5',1,'Cosmos::Devices::Radios::Astrodev']]],
-  ['temperature_10',['temperature',['../artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170aeef438f7e448aa48c1f8db568d27b591',1,'artemisbeacons.h']]],
+  ['temperaturebeacon_10',['TemperatureBeacon',['../artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76eaa1acd4f6f1cb200e5be563b047afc132',1,'artemisbeacons.h']]],
   ['transmit_11',['TRANSMIT',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a4fbd69e67272d35a5088846598427e76a02d786cd0f7318c2533125f8b591abc5',1,'Cosmos::Devices::Radios::Astrodev']]],
   ['tx_5fon_12',['TX_ON',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1',1,'artemis_defs.h']]]
 ];

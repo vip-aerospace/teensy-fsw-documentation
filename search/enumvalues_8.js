@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mag_0',['mag',['../artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a741f63d12d767bb3fd2b0251ed839499',1,'artemisbeacons.h']]]
+  ['magnetometerbeacon_0',['MagnetometerBeacon',['../artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76eaac0f4918bf91f2ebe5cb8d691d728b60',1,'artemisbeacons.h']]]
 ];

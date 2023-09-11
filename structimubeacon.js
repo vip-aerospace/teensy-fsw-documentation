@@ -8,5 +8,5 @@ var structimubeacon =
     [ "gyroy", "structimubeacon.html#a9520b0d4716c3e402b0ab262bd4b954e", null ],
     [ "gyroz", "structimubeacon.html#af31daf39bcd43917eef01386928d8e9c", null ],
     [ "imutemp", "structimubeacon.html#a1cac4399f3ffb5130604a02f7031b81c", null ],
-    [ "type", "structimubeacon.html#a8fc934c82c4414a5dfc0624bc884ae41", null ]
+    [ "type", "structimubeacon.html#af20ec178892fb5c08fd9c2759625e790", null ]
 ];

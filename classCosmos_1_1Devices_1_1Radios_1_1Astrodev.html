@@ -854,7 +854,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 <p>This packet's header data is filled in. The packet is designated as a <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#a4fbd69e67272d35a5088846598427e76ae5a3838459d2f3ccae4cbeabeaaa199f">SETTCVCONFIG</a> command, with the current internal transceiver configuration struct as the payload. The size of the payload is the size of that struct.</p>
 <p>The packet is transmitted to the radio. If unsuccessful, return the error code.</p>
 <p>After a short delay, receive the response from the radio. If unsucccessful, return the error code.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Wait at least 250 ms for settings to be applied, But seems to require about 10x as long </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Wait at least 250 ms for settings to be applied, But seems to require about 10x as long </dd></dl>
 
 </div>
 </div>
@@ -960,7 +960,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 <p>The maximum size of a PacketComm payload. </p>
 <p>This calculates the maximum size of a PacketComm payload after taking into account the size of a PacketComm header and the checksum.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>The checksum from PacketComm or <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a>? <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> payload checksum does not add to MTU length. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>The checksum from PacketComm or <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a>? <a class="el" href="classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> payload checksum does not add to MTU length. </dd></dl>
 
 </div>
 </div>

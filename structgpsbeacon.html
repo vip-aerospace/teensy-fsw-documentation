@@ -104,9 +104,9 @@ $(document).ready(function(){initNavTree('structgpsbeacon.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad6f7d41053d7fa4adbba85e1419f5b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgpsbeacon.html#ad6f7d41053d7fa4adbba85e1419f5b80">type</a> = <a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">TypeId::gps</a></td></tr>
-<tr class="memdesc:ad6f7d41053d7fa4adbba85e1419f5b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the beacon.  <br /></td></tr>
-<tr class="separator:ad6f7d41053d7fa4adbba85e1419f5b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23e99fcb190ae46913e50117e1ecab60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76e">BeaconType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgpsbeacon.html#a23e99fcb190ae46913e50117e1ecab60">type</a> = <a class="el" href="artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76ea11b8b8485101830bbd4a024b21357ab6">BeaconType::GPSBeacon</a></td></tr>
+<tr class="memdesc:a23e99fcb190ae46913e50117e1ecab60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the beacon.  <br /></td></tr>
+<tr class="separator:a23e99fcb190ae46913e50117e1ecab60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab3f1719c2d24ddd7f57dea04b4f318"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgpsbeacon.html#aeab3f1719c2d24ddd7f57dea04b4f318">deci</a> = 0</td></tr>
 <tr class="memdesc:aeab3f1719c2d24ddd7f57dea04b4f318"><td class="mdescLeft">&#160;</td><td class="mdescRight">A decimal identifier for the beacon.  <br /></td></tr>
 <tr class="separator:aeab3f1719c2d24ddd7f57dea04b4f318"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,7 +173,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> =
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The GPS beacon structure. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>update when implementing GPS parsing. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>update when implementing GPS parsing. </dd></dl>
 <p>This defines the structure of the GPS beacon.</p>
 <p>The GPS beacon consists of sixteen members: identifying information for the beacon (<code>type</code> and <code>deci</code>), position data (<code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>angle</code>, and <code>altitude</code>), GPS qualtiy data (<code>satellites</code>, <code>fix</code>, and <code>fixquality</code>), and date/time data (<code>year</code>, <code>month</code>, <code>day</code>, <code>hour</code>, <code>minute</code>, <code>second</code>, and <code>millisecond</code>).A diagram of the struct is included below.</p>
 <pre class="fragment"> 1 byte   4 bytes  4 bytes      4 bytes       4 bytes   4 bytes   4 bytes      1 byte
@@ -202,20 +202,20 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> =
 
 </div>
 </div>
-<a id="ad6f7d41053d7fa4adbba85e1419f5b80" name="ad6f7d41053d7fa4adbba85e1419f5b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6f7d41053d7fa4adbba85e1419f5b80">&#9670;&#160;</a></span>type</h2>
+<a id="a23e99fcb190ae46913e50117e1ecab60" name="a23e99fcb190ae46913e50117e1ecab60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23e99fcb190ae46913e50117e1ecab60">&#9670;&#160;</a></span>type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> gpsbeacon::type = <a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170a11648e4e66e7ed6a86cb7f1d0cf604fe">TypeId::gps</a></td>
+          <td class="memname"><a class="el" href="artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76e">BeaconType</a> gpsbeacon::type = <a class="el" href="artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76ea11b8b8485101830bbd4a024b21357ab6">BeaconType::GPSBeacon</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The type of the beacon. </p>
-<p>The <a class="el" href="artemisbeacons_8h.html#a46663bb9d8e4ea93afd7738962462170">TypeId</a> of the beacon, which is set to gps. </p>
+<p>The <a class="el" href="artemisbeacons_8h.html#aebe7b0cba41d22f18918722fbee7e76e">BeaconType</a> of the beacon, which is set to GPSBeacon. </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['oacommand_0',['OACommand',['../classCosmos_1_1Devices_1_1Radios_1_1Astrodev.html#ab5d1649e84dc3d9efa102478bbe2b280',1,'Cosmos::Devices::Radios::Astrodev']]]
+  ['nodes_0',['NODES',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aea',1,'artemis_defs.h']]]
 ];

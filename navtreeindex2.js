@@ -1,11 +1,11 @@
 var NAVTREEINDEX2 =
 {
 "structmagbeacon.html#a73dc34b666ddcaea6484f50720b57779":[3,0,6,3],
+"structmagbeacon.html#a82b695c2699338454fa8c6070490ea71":[3,0,6,4],
 "structmagbeacon.html#ab89e2571142f4065fe2c7831da0031c5":[3,0,6,0],
-"structmagbeacon.html#ab9c6bf52ccbc265718078928d59cf1a8":[3,0,6,4],
 "structtemperaturebeacon.html":[3,0,7],
 "structtemperaturebeacon.html#a390846fccb00f821c2cdbad0013c8ead":[3,0,7,1],
-"structtemperaturebeacon.html#ab1f242eb08ddba0623d675319c041a6a":[3,0,7,2],
+"structtemperaturebeacon.html#ab9fdf52f5ab7b25b6e87fb8fa0b39a88":[3,0,7,2],
 "structtemperaturebeacon.html#afa8b95b2484c284a96cca09437396e97":[3,0,7,0],
 "structthread__struct.html":[3,0,8],
 "structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659":[3,0,8,0],
