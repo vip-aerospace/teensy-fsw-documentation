@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['satellites_0',['satellites',['../structArtemis_1_1Devices_1_1gpsbeacon.html#a9023ea955f4a030455deda1ccf6e1de9',1,'Artemis::Devices::gpsbeacon::satellites'],['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#a615d87801c5e065338cc60cae405fbb6',1,'Artemis::Devices::GPS::gpsbeacon::satellites']]],
+  ['satellites_0',['satellites',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#a615d87801c5e065338cc60cae405fbb6',1,'Artemis::Devices::GPS::gpsbeacon']]],
   ['sec_1',['sec',['../structArtemis_1_1Devices_1_1Astrodev_1_1realtimeclock.html#a7ebe9b45ce6bc2bfe66846665ed2f265',1,'Artemis::Devices::Astrodev::realtimeclock']]],
-  ['second_2',['second',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#aa3f5944dc6012b524100bfb36541c059',1,'Artemis::Devices::GPS::gpsbeacon::second'],['../structArtemis_1_1Devices_1_1gpsbeacon.html#a8e253261af6ea8054782d064a71e1a86',1,'Artemis::Devices::gpsbeacon::second']]],
+  ['second_2',['second',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#aa3f5944dc6012b524100bfb36541c059',1,'Artemis::Devices::GPS::gpsbeacon']]],
   ['sizehi_3',['sizehi',['../unionArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html#a8029d4f7c2f6fede792cb0b685fb4400',1,'Artemis::Devices::Astrodev::frame::frame_header::header::header_size_response']]],
   ['sizelo_4',['sizelo',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a9b6edd098d39db920dc223060268b282',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
-  ['speed_5',['speed',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#a7cca8f1bd2e4dce0e33f65fa1a32e59e',1,'Artemis::Devices::GPS::gpsbeacon::speed'],['../structArtemis_1_1Devices_1_1gpsbeacon.html#ae0ff054dcbf23cd7fbd7b2a868fe320d',1,'Artemis::Devices::gpsbeacon::speed']]],
+  ['speed_5',['speed',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#a7cca8f1bd2e4dce0e33f65fa1a32e59e',1,'Artemis::Devices::GPS::gpsbeacon']]],
   ['spi1_5fmtx_6',['spi1_mtx',['../artemis__defs_8cpp.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx:&#160;artemis_defs.cpp'],['../artemis__defs_8h.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx:&#160;artemis_defs.cpp']]],
   ['spi_5fmiso_7',['spi_miso',['../structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a9834c915f9e38d9e2554191a53201de8',1,'Artemis::Devices::RFM98::rfm98_config::pins::spi_miso'],['../structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#a6c421bfe044dbdf23cc6c08a111ab532',1,'Artemis::Devices::RFM23::rfm23_config::pins::spi_miso']]],
   ['spi_5fmosi_8',['spi_mosi',['../structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#abd86bf7cc05738bd435a0c54658f40ab',1,'Artemis::Devices::RFM23::rfm23_config::pins::spi_mosi'],['../structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a5b732903a24b461ede70cc1e5afa72fe',1,'Artemis::Devices::RFM98::rfm98_config::pins::spi_mosi']]],

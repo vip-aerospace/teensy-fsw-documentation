@@ -1,7 +1,5 @@
 var artemisbeacons_8h =
 [
-    [ "Artemis::Devices::imubeacon", "structArtemis_1_1Devices_1_1imubeacon.html", "structArtemis_1_1Devices_1_1imubeacon" ],
-    [ "Artemis::Devices::gpsbeacon", "structArtemis_1_1Devices_1_1gpsbeacon.html", "structArtemis_1_1Devices_1_1gpsbeacon" ],
     [ "BeaconType", "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898e", [
       [ "NoBeacon", "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898ea2cbfe063b47d6bf88549b5c06856df80", null ],
       [ "TemperatureBeacon", "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898eaa1acd4f6f1cb200e5be563b047afc132", null ],

@@ -181,7 +181,7 @@ Adafruit_GPS *&#160;</td><td class="memItemRight" valign="bottom"><b>gps</b> = n
 
 <p>Sets up serial connection to <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> sensor. </p>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 on successful initialization, -1 if failed. </dd></dl>
-<p>The serial connection to the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> module is initialized. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>The Adafruit <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> library has a bug. Connecting over serial always returns true. </dd></dl>
+<p>The serial connection to the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> module is initialized. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>The Adafruit <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> library has a bug. Connecting over serial always returns true. </dd></dl>
 <p>The output format of the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> is set. Possible options are:</p><ul>
 <li>PMTK_SET_NMEA_OUTPUT_GLLONLY: Latitude, longitude, UTC time of position fix and status.</li>
 <li>PMTK_SET_NMEA_OUTPUT_RMCONLY: Time, date, position, course, speed data.</li>
@@ -233,7 +233,7 @@ Adafruit_GPS *&#160;</td><td class="memItemRight" valign="bottom"><b>gps</b> = n
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 if able to poll the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a>, -1 if <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> has not been set up yet. Note this does not guarantee that new data has been received, just that we are able to check the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> for available bytes. </dd></dl>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> is only checked if it has been set up.</p>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> is checked to see if there are any bytes available to be read. If there are, all the bytes are read in.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Doxygen doesn't like the empty while(){}. Correct this. </dd></dl>
 <p>If the read in bytes form a new and complete NMEA sentence, parse that NMEA sentence and store the values in the <a class="el" href="#a8b92ab30c785ed2b4f75de1523ce036f">object. </a></p>
 
 </div>
