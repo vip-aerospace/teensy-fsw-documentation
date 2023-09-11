@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a614e983c27df3c8caf6667fdf273e57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up I2C connection to magnetometer.  <br /></td></tr>
 <tr class="separator:a614e983c27df3c8caf6667fdf273e57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7ffa09391e709dd7b332b78e3f815bd"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Magnetometer.html#ac7ffa09391e709dd7b332b78e3f815bd">read</a> (uint32_t uptime)</td></tr>
-<tr class="memdesc:ac7ffa09391e709dd7b332b78e3f815bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads magnetometer and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues.  <br /></td></tr>
+<tr class="memdesc:ac7ffa09391e709dd7b332b78e3f815bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads magnetometer and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> queues.  <br /></td></tr>
 <tr class="separator:ac7ffa09391e709dd7b332b78e3f815bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -130,7 +130,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads magnetometer and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues. </p>
+<p>Reads magnetometer and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> queues. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uptime</td><td>The time, in milliseconds, that the Teensy has been powered on. </td></tr>
@@ -141,7 +141,7 @@ Public Attributes</h2></td></tr>
 <p>The magnetometer is only polled if it has been set up.</p>
 <p>A packet and magnetometer beacon are created. The beacon is given an identification value.</p>
 <p>The magnetometer is polled for its most recent measurement. This measurement is then saved in the magnetometer beacon.</p>
-<p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues for transmission.</p>
+<p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> queues for transmission.</p>
 
 </div>
 </div>

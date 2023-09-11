@@ -6,7 +6,7 @@ var searchData=
   ['uart4_5ftxd_3',['UART4_TXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a5af9c656005ae9ff4623b4c5f9519d41',1,'artemis_defs.h']]],
   ['uart5_5frxd_4',['UART5_RXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae18fbabff8dd035a0bf4a40e0a9f7081',1,'artemis_defs.h']]],
   ['uart5_5ftxd_5',['UART5_TXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939',1,'artemis_defs.h']]],
-  ['uart_5fbaud_6',['UART_BAUD',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#ac45baa7453ef4a23c69f976e3cd9778d',1,'Artemis::Devices::Radios::Astrodev']]],
-  ['uart_5findex_7',['UART_INDEX',['../classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html#a24fc488afb0f75ab2f93d4b9ed13957a',1,'Artemis::Devices::Radios::Astrodev']]],
+  ['uart_5fbaud_6',['UART_BAUD',['../classArtemis_1_1Devices_1_1Astrodev.html#afd190d1064d05afedff056a8f517062d',1,'Artemis::Devices::Astrodev']]],
+  ['uart_5findex_7',['UART_INDEX',['../classArtemis_1_1Devices_1_1Astrodev.html#aa1ad714e7c90a4396843e80fbed27cca',1,'Artemis::Devices::Astrodev']]],
   ['update_8',['update',['../classArtemis_1_1Devices_1_1GPS.html#aad683410c7269b9f925675c59669d733',1,'Artemis::Devices::GPS']]]
 ];

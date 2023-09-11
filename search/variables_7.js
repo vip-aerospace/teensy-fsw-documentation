@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['header_0',['header',['../unionArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#aa75ef3d451ba0c27c328fa1f37aa154b',1,'Artemis::Devices::Radios::Astrodev::frame::frame_header']]],
-  ['header_5fbytes_1',['header_bytes',['../unionArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1frame_1_1frame__header.html#a3264643f1f4d18fec196f2b6f60fe7ff',1,'Artemis::Devices::Radios::Astrodev::frame::frame_header']]],
-  ['hour_2',['hour',['../structArtemis_1_1Devices_1_1gpsbeacon.html#a59e7da7b5e8ad32a759628a0c0313022',1,'Artemis::Devices::gpsbeacon::hour'],['../structArtemis_1_1Devices_1_1Radios_1_1Astrodev_1_1realtimeclock.html#a64cccb8bba1744d531554a8aa9f15dab',1,'Artemis::Devices::Radios::Astrodev::realtimeclock::hour']]]
+  ['header_0',['header',['../unionArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header.html#aaf724986a1f2724320d9eefddbd40683',1,'Artemis::Devices::Astrodev::frame::frame_header']]],
+  ['header_5fbytes_1',['header_bytes',['../unionArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header.html#a6d442e5bc488810ec12d49a177e9ea71',1,'Artemis::Devices::Astrodev::frame::frame_header']]],
+  ['hour_2',['hour',['../structArtemis_1_1Devices_1_1gpsbeacon.html#a59e7da7b5e8ad32a759628a0c0313022',1,'Artemis::Devices::gpsbeacon::hour'],['../structArtemis_1_1Devices_1_1Astrodev_1_1realtimeclock.html#a526d4870727e47d1da22792ab3a166f2',1,'Artemis::Devices::Astrodev::realtimeclock::hour']]]
 ];

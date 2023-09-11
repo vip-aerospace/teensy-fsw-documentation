@@ -2,10 +2,7 @@ var annotated_dup =
 [
     [ "Artemis", null, [
       [ "Devices", "namespaceArtemis_1_1Devices.html", [
-        [ "Radios", null, [
-          [ "Astrodev", "classArtemis_1_1Devices_1_1Radios_1_1Astrodev.html", "classArtemis_1_1Devices_1_1Radios_1_1Astrodev" ],
-          [ "RFM98", "classArtemis_1_1Devices_1_1Radios_1_1RFM98.html", "classArtemis_1_1Devices_1_1Radios_1_1RFM98" ]
-        ] ],
+        [ "Astrodev", "classArtemis_1_1Devices_1_1Astrodev.html", "classArtemis_1_1Devices_1_1Astrodev" ],
         [ "currentbeacon1", "structArtemis_1_1Devices_1_1currentbeacon1.html", "structArtemis_1_1Devices_1_1currentbeacon1" ],
         [ "currentbeacon2", "structArtemis_1_1Devices_1_1currentbeacon2.html", "structArtemis_1_1Devices_1_1currentbeacon2" ],
         [ "CurrentSensors", "classArtemis_1_1Devices_1_1CurrentSensors.html", "classArtemis_1_1Devices_1_1CurrentSensors" ],
@@ -16,6 +13,7 @@ var annotated_dup =
         [ "magbeacon", "structArtemis_1_1Devices_1_1magbeacon.html", "structArtemis_1_1Devices_1_1magbeacon" ],
         [ "Magnetometer", "classArtemis_1_1Devices_1_1Magnetometer.html", "classArtemis_1_1Devices_1_1Magnetometer" ],
         [ "RFM23", "classArtemis_1_1Devices_1_1RFM23.html", "classArtemis_1_1Devices_1_1RFM23" ],
+        [ "RFM98", "classArtemis_1_1Devices_1_1RFM98.html", "classArtemis_1_1Devices_1_1RFM98" ],
         [ "temperaturebeacon", "structArtemis_1_1Devices_1_1temperaturebeacon.html", "structArtemis_1_1Devices_1_1temperaturebeacon" ],
         [ "TemperatureSensors", "classArtemis_1_1Devices_1_1TemperatureSensors.html", "classArtemis_1_1Devices_1_1TemperatureSensors" ]
       ] ],

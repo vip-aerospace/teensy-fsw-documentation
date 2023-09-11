@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a19a6ef414936c6d522a6d8637f468f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up analog connection to temperature sensors.  <br /></td></tr>
 <tr class="separator:a19a6ef414936c6d522a6d8637f468f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3af3127df8eac491bfe6809c678aa16"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1TemperatureSensors.html#ad3af3127df8eac491bfe6809c678aa16">read</a> (uint32_t uptime)</td></tr>
-<tr class="memdesc:ad3af3127df8eac491bfe6809c678aa16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads temperature sensors and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues.  <br /></td></tr>
+<tr class="memdesc:ad3af3127df8eac491bfe6809c678aa16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads temperature sensors and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> queues.  <br /></td></tr>
 <tr class="separator:ad3af3127df8eac491bfe6809c678aa16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -130,7 +130,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads temperature sensors and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues. </p>
+<p>Reads temperature sensors and generates a packet on both <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> queues. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uptime</td><td>The time, in milliseconds, that the Teensy has been powered on. </td></tr>
@@ -141,7 +141,7 @@ Public Attributes</h2></td></tr>
 <p>The temperature sensors are only polled if they have been set up.</p>
 <p>A packet and temperature beacon are created. The beacon is given an identification value.</p>
 <p>Each temperature sensor is iterated over. It is read via its analog pin, with that raw voltage reading converted to Celcius. It is then stored in the temperature beacon's array.</p>
-<p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and Astrodev queues for transmission.</p>
+<p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> queues for transmission.</p>
 
 </div>
 </div>
