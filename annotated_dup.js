@@ -12,13 +12,11 @@ var annotated_dup =
         [ "imubeacon", "structArtemis_1_1Devices_1_1imubeacon.html", "structArtemis_1_1Devices_1_1imubeacon" ],
         [ "magbeacon", "structArtemis_1_1Devices_1_1magbeacon.html", "structArtemis_1_1Devices_1_1magbeacon" ],
         [ "Magnetometer", "classArtemis_1_1Devices_1_1Magnetometer.html", "classArtemis_1_1Devices_1_1Magnetometer" ],
+        [ "PDU", "classArtemis_1_1Devices_1_1PDU.html", "classArtemis_1_1Devices_1_1PDU" ],
         [ "RFM23", "classArtemis_1_1Devices_1_1RFM23.html", "classArtemis_1_1Devices_1_1RFM23" ],
         [ "RFM98", "classArtemis_1_1Devices_1_1RFM98.html", "classArtemis_1_1Devices_1_1RFM98" ],
         [ "temperaturebeacon", "structArtemis_1_1Devices_1_1temperaturebeacon.html", "structArtemis_1_1Devices_1_1temperaturebeacon" ],
         [ "TemperatureSensors", "classArtemis_1_1Devices_1_1TemperatureSensors.html", "classArtemis_1_1Devices_1_1TemperatureSensors" ]
-      ] ],
-      [ "Teensy", null, [
-        [ "PDU", "classArtemis_1_1Teensy_1_1PDU.html", "classArtemis_1_1Teensy_1_1PDU" ]
       ] ]
     ] ],
     [ "thread_struct", "structthread__struct.html", "structthread__struct" ]

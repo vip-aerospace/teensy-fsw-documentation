@@ -68,8 +68,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classArtemis_1_1Teensy_1_1PDU.html#a67a50226fcb9d31ee0b1d15f9051a500aec932e7f75f43f8da0736d82ee9a8bc6",
-"structArtemis_1_1Devices_1_1magbeacon.html#aa3f538b95bd71a44ffae9980c450622e"
+"classArtemis_1_1Devices_1_1RFM98.html#af4ed55dd3128b9fe14b7ca066ec556e4",
+"structArtemis_1_1Devices_1_1imubeacon.html#ab43e1b04c9bda68938abc4e99787f0f0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -134,6 +134,14 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><a class="anchor" id="_todo000028"></a>The Adafruit <a class="el" href="classArtemis_1_1Devices_1_1GPS.html">GPS</a> library has a bug. Connecting over serial always returns true.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1GPS.html#aad683410c7269b9f925675c59669d733">Artemis::Devices::GPS::update</a>  (void)</dt>
 <dd><a class="anchor" id="_todo000029"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a19022d613c171c5ef6d869646571e01f">Artemis::Devices::PDU::get_switch</a>  (PDU_SW sw)</dt>
+<dd><a class="anchor" id="_todo000004"></a>Send to PacketComm packet -&gt; then to ground  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676">Artemis::Devices::PDU::PDU_SW</a>  </dt>
+<dd><a class="anchor" id="_todo000005"></a>verify the switches and names  </dd>
+<dt>Member <a class="el" href="structArtemis_1_1Devices_1_1PDU_1_1pdu__telem.html#adfce2b65e871eec9013474618cccaeb9">Artemis::Devices::PDU::pdu_telem::sw_state</a>  [12]</dt>
+<dd><a class="anchor" id="_todo000006"></a>update array size to be a macro constant  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#aeb4df2add19e14500a7e1ce3d9f2ffc4">Artemis::Devices::PDU::set_switch</a>  (PDU_SW sw, uint8_t enable)</dt>
+<dd><a class="anchor" id="_todo000003"></a>Send to PacketComm packet -&gt; then to ground  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a7b66601c463726382041499323e9ba51">Artemis::Devices::RFM23::get_tsen</a>  ()</dt>
 <dd><a class="anchor" id="_todo000025"></a>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1">Artemis::Devices::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config.html" title="The RFM23 configuration structure.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
@@ -154,14 +162,6 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae528021d5dead3e3215dc5ef4eed93a7">Artemis::Teensy::Channels::rpi_channel</a>  ()</dt>
 <dd><a class="anchor" id="_todo000033"></a>This code only handles sending packets <em>to</em> the Raspberry Pi. It does not handle receiving packets <em>from</em> the Raspberry Pi and adding them to the main_queue. Implement this functionality.  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html#a16d1f688e29c22e081f3113ee0ecd24b">Artemis::Teensy::PDU::get_switch</a>  (PDU_SW sw)</dt>
-<dd><a class="anchor" id="_todo000004"></a>Send to PacketComm packet -&gt; then to ground  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html#a67a50226fcb9d31ee0b1d15f9051a500">Artemis::Teensy::PDU::PDU_SW</a>  </dt>
-<dd><a class="anchor" id="_todo000005"></a>verify the switches and names  </dd>
-<dt>Member <a class="el" href="structArtemis_1_1Teensy_1_1PDU_1_1pdu__telem.html#ac8c877a2c45aac100d2dc08579795340">Artemis::Teensy::PDU::pdu_telem::sw_state</a>  [12]</dt>
-<dd><a class="anchor" id="_todo000006"></a>update array size to be a macro constant  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Teensy_1_1PDU.html#a72c9c8aa05cd2acc4361f45fb494accd">Artemis::Teensy::PDU::set_switch</a>  (PDU_SW sw, uint8_t enable)</dt>
-<dd><a class="anchor" id="_todo000003"></a>Send to PacketComm packet -&gt; then to ground  </dd>
 <dt>File <a class="el" href="astrodev__channel_8cpp.html">astrodev_channel.cpp</a>  </dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000030"></a>Test astrodev channel without astrodev threads </p>
 <p class="interdd"></p>
