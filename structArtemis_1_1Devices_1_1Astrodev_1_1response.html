@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('structArtemis_1_1Devices_1_1Astrodev_1
 </div><!--header-->
 <div class="contents">
 
-<p>The structure for a response from the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> radio.  
+<p>The structure for a response from the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  
  <a href="structArtemis_1_1Devices_1_1Astrodev_1_1response.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="astrodev_8h_source.html">astrodev.h</a>&gt;</code></p>
@@ -126,7 +126,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>external_event_high</
 <tr class="separator:a20a836be76c0adb0c134a583cb51458d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The structure for a response from the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> radio. </p>
+<div class="textblock"><p>The structure for a response from the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio. </p>
 <p>This defines the structure of a response to a command from the Teensy. The response from the radio replaces the high byte of the payload size field. See <a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> for more information.</p>
 <p>The reply consists of five members: an acknowledgement from the radio (<code>ack</code>), the status of the buffer (<code>buffer_full</code>), the status of the GPIO pins (<code>gpio_a_high</code> and <code>gpio_b_high</code>), and the status of an external event trigger (<code>external_event_high</code>). A diagram of the struct is included below.</p>
 <pre class="fragment"> 4 bits  1 bit         1 bit         1 bit         1 bit 

@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1function__config2.html#a8049afe8ba6b3577d93fc53c95dd88e6">Artemis::Devices::Astrodev::function_config2::zeros</a>  </dt>
 <dd><a class="anchor" id="_todo000010"></a>This is currently 4 bits, but should be 12 bits to fully pad out the struct to 16 bits.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a641e51d050bfd88798d3b8e2ff0283b6">Artemis::Devices::Astrodev::PACKETCOMM_DATA_SIZE</a>  </dt>
-<dd><a class="anchor" id="_todo000007"></a>The checksum from PacketComm or <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a>? <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The Astrodev (Li-3) class.">Astrodev</a> payload checksum does not add to MTU length.  </dd>
+<dd><a class="anchor" id="_todo000007"></a>The checksum from PacketComm or <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a>? <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> payload checksum does not add to MTU length.  </dd>
 <dt>Struct <a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1rf__config.html">Artemis::Devices::Astrodev::rf_config</a>  </dt>
 <dd><a class="anchor" id="_todo000008"></a>Verify the size of the struct.  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1rf__config.html#a2d01befa4bc628727114582c7969cb0f">Artemis::Devices::Astrodev::rf_config::rx_freq</a>  </dt>
@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1CurrentSensors.html#aece84002218dc12ddfe9c63a61dbe0d8">Artemis::Devices::CurrentSensors::setup</a>  (void)</dt>
 <dd><a class="anchor" id="_todo000026"></a>go through library and see what we need to configure and callibrate  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1GPS.html#ad4a9fdba79b8a19046a3036fb1a8b701">Artemis::Devices::GPS::setup</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000027"></a>The Adafruit <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s GPS.">GPS</a> library has a bug. Connecting over serial always returns true.  </dd>
+<dd><a class="anchor" id="_todo000027"></a>The Adafruit <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> library has a bug. Connecting over serial always returns true.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1GPS.html#aad683410c7269b9f925675c59669d733">Artemis::Devices::GPS::update</a>  (void)</dt>
 <dd><a class="anchor" id="_todo000028"></a>Doxygen doesn't like the empty while(){}. Correct this.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a19022d613c171c5ef6d869646571e01f">Artemis::Devices::PDU::get_switch</a>  (PDU_SW sw)</dt>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a7b66601c463726382041499323e9ba51">Artemis::Devices::RFM23::get_tsen</a>  ()</dt>
 <dd><a class="anchor" id="_todo000024"></a>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1">Artemis::Devices::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config.html" title="The RFM23 configuration structure.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000020"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1RFM98.html" title="The RFM98 class.">RFM98</a>. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000020"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1RFM98.html" title="The satellite&#39;s RFM98 radio.">RFM98</a>. </p>
 <p class="enddd"><a class="anchor" id="_todo000019"></a>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking?  </p>
 </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a33699eedf06af7824867355c883846d3">Artemis::Devices::RFM23::recv</a>  (PacketComm &amp;packet, uint16_t timeout)</dt>
@@ -151,9 +151,9 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a0f37cb0509e0cf8f672b8e7a0d465fcc">Artemis::Devices::RFM23::send</a>  (PacketComm &amp;packet)</dt>
 <dd><a class="anchor" id="_todo000021"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#aea95eb45690d7444625aed436091fffc">Artemis::Devices::RFM23::set_tx_power</a>  (uint8_t power)</dt>
-<dd><a class="anchor" id="_todo000023"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
+<dd><a class="anchor" id="_todo000023"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#acf19d66393a978a864a6fb149c204dc4">Artemis::Devices::RFM98::rfm98_config::pins</a>  </dt>
-<dd><a class="anchor" id="_todo000025"></a>The <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The RFM23 class.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1RFM98.html" title="The RFM98 class.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>
+<dd><a class="anchor" id="_todo000025"></a>The <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1RFM98.html" title="The satellite&#39;s RFM98 radio.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>
 <dt>Member <a class="el" href="artemis__channels_8h.html#ae9687387e45dcd89d44f9048d5feb4d0">Artemis::Teensy::Channels::pdu_channel</a>  ()</dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000030"></a>ASYNC DELAY TO ALLOW WDT RESET </p>
 <p class="enddd"><a class="anchor" id="_todo000031"></a>Update WDT  </p>
