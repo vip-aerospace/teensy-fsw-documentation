@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calccs_0',['CalcCS',['../classArtemis_1_1Devices_1_1Astrodev.html#a6eeb8fe915ba05aa28367c87964c1718',1,'Artemis::Devices::Astrodev']]],
+  ['calccs_0',['CalcCS',['../classArtemis_1_1Devices_1_1Astrodev.html#a1ff24cb13e576a93718947413daad02c',1,'Artemis::Devices::Astrodev']]],
   ['channel_5fid_1',['Channel_ID',['../artemis__channels_8h.html#a0ff45da0067c1db5dfad1985b537ff9b',1,'Artemis::Channels']]],
   ['channel_5fid_2',['channel_id',['../structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659',1,'thread_struct']]],
   ['code_5fupload_3',['CODE_UPLOAD',['../classArtemis_1_1Devices_1_1Astrodev.html#a9b9e01cf351367568694db7a2ec59ee1abaca0a30e6ec853d96b4851992ee2032',1,'Artemis::Devices::Astrodev']]],

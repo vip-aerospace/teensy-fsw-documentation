@@ -30,7 +30,7 @@ var searchData=
   ['artemis_5fdevices_2eh_27',['artemis_devices.h',['../artemis__devices_8h.html',1,'']]],
   ['artemis_5ftemp_5fsensor_5fcount_28',['ARTEMIS_TEMP_SENSOR_COUNT',['../artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4',1,'artemis_defs.h']]],
   ['artemisbeacons_2eh_29',['artemisbeacons.h',['../artemisbeacons_8h.html',1,'']]],
-  ['astrodev_30',['Astrodev',['../classArtemis_1_1Devices_1_1Astrodev.html',1,'Artemis::Devices::Astrodev'],['../classArtemis_1_1Devices_1_1Astrodev.html#a003366d883f8cb3c72106eefd9fb2826',1,'Artemis::Devices::Astrodev::Astrodev(HardwareSerial *hw_serial)'],['../classArtemis_1_1Devices_1_1Astrodev.html#a4d4f73ca69b8814f287823076aae31eb',1,'Artemis::Devices::Astrodev::Astrodev()']]],
+  ['astrodev_30',['Astrodev',['../classArtemis_1_1Devices_1_1Astrodev.html',1,'Artemis::Devices::Astrodev'],['../classArtemis_1_1Devices_1_1Astrodev.html#a37bde108e394dde1798eebe99731c1fb',1,'Artemis::Devices::Astrodev::Astrodev(HardwareSerial *hw_serial)'],['../classArtemis_1_1Devices_1_1Astrodev.html#ab7588d307fa511b554196ae21758e5e6',1,'Artemis::Devices::Astrodev::Astrodev()']]],
   ['astrodev_2ecpp_31',['astrodev.cpp',['../astrodev_8cpp.html',1,'']]],
   ['astrodev_2eh_32',['astrodev.h',['../astrodev_8h.html',1,'']]],
   ['astrodev_5fbaud_33',['ASTRODEV_BAUD',['../astrodev__channel_8cpp.html#a6f18de62b6be40ffaf8b3d5613e78f85',1,'astrodev_channel.cpp']]],

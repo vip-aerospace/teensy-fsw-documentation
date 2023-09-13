@@ -196,54 +196,54 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d4f73ca69b8814f287823076aae31eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a4d4f73ca69b8814f287823076aae31eb">Astrodev</a> ()</td></tr>
-<tr class="memdesc:a4d4f73ca69b8814f287823076aae31eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a>:: <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> object.  <br /></td></tr>
-<tr class="separator:a4d4f73ca69b8814f287823076aae31eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a003366d883f8cb3c72106eefd9fb2826"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a003366d883f8cb3c72106eefd9fb2826">Astrodev</a> (HardwareSerial *hw_serial)</td></tr>
-<tr class="memdesc:a003366d883f8cb3c72106eefd9fb2826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a>:: <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> object.  <br /></td></tr>
-<tr class="separator:a003366d883f8cb3c72106eefd9fb2826"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe5875b18b83438965f855805699654"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a9fe5875b18b83438965f855805699654">InitializeSerial</a> (HardwareSerial *hw_serial, uint32_t baud_rate=38400)</td></tr>
-<tr class="memdesc:a9fe5875b18b83438965f855805699654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization of the serial connection to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a9fe5875b18b83438965f855805699654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c56ec7721b631a50b85a1710b5aa496"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a7c56ec7721b631a50b85a1710b5aa496">VerifyConnection</a> ()</td></tr>
-<tr class="memdesc:a7c56ec7721b631a50b85a1710b5aa496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify serial connection to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a7c56ec7721b631a50b85a1710b5aa496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacb999e8eb150b78c49fc2e6c31e9df2"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#aacb999e8eb150b78c49fc2e6c31e9df2">SendAstrodevFrame</a> (<a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> &amp;message)</td></tr>
-<tr class="memdesc:aacb999e8eb150b78c49fc2e6c31e9df2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> frame to the radio.  <br /></td></tr>
-<tr class="separator:aacb999e8eb150b78c49fc2e6c31e9df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a673803ef6a659a9d7cb046fbf94e05b1"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a673803ef6a659a9d7cb046fbf94e05b1">SendHeaderOnlyFrame</a> (<a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331">Command</a> command)</td></tr>
-<tr class="memdesc:a673803ef6a659a9d7cb046fbf94e05b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to construct and send header-only command frames to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a673803ef6a659a9d7cb046fbf94e05b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a043ada0652cd9f968dd08095359e8d52"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a043ada0652cd9f968dd08095359e8d52">NoOp</a> ()</td></tr>
-<tr class="memdesc:a043ada0652cd9f968dd08095359e8d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a no-operation (no-op) command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a043ada0652cd9f968dd08095359e8d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc884fc77f023473a589dcd53c8cb38"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a6fc884fc77f023473a589dcd53c8cb38">Reset</a> ()</td></tr>
-<tr class="memdesc:a6fc884fc77f023473a589dcd53c8cb38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a soft reset command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a6fc884fc77f023473a589dcd53c8cb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82a49011817b34048f9c432daf4de767"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a82a49011817b34048f9c432daf4de767">GetTCVConfig</a> ()</td></tr>
-<tr class="memdesc:a82a49011817b34048f9c432daf4de767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a get transceiver configuration command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a82a49011817b34048f9c432daf4de767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0464943987f80980ecbcb5efb8dd0054"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a0464943987f80980ecbcb5efb8dd0054">GetTelemetry</a> ()</td></tr>
-<tr class="memdesc:a0464943987f80980ecbcb5efb8dd0054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a get telemetry command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
-<tr class="separator:a0464943987f80980ecbcb5efb8dd0054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f769ef7524c1360be0736fb99a6582b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a0f769ef7524c1360be0736fb99a6582b">TransmitPacketFromRadio</a> (Cosmos::Support::PacketComm &amp;packet)</td></tr>
-<tr class="memdesc:a0f769ef7524c1360be0736fb99a6582b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio to transmit a PacketComm packet.  <br /></td></tr>
-<tr class="separator:a0f769ef7524c1360be0736fb99a6582b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d52499f09d74793417a7840a202377d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a5d52499f09d74793417a7840a202377d">SetTCVConfig</a> ()</td></tr>
-<tr class="memdesc:a5d52499f09d74793417a7840a202377d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set transceiver configuration settings on the radio.  <br /></td></tr>
-<tr class="separator:a5d52499f09d74793417a7840a202377d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0532fd8714b391cfe5fb545dbe437a1e"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a0532fd8714b391cfe5fb545dbe437a1e">SetRFConfig</a> (<a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1rf__config.html">rf_config</a> config)</td></tr>
-<tr class="memdesc:a0532fd8714b391cfe5fb545dbe437a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the RF configuration settings on the radio.  <br /></td></tr>
-<tr class="separator:a0532fd8714b391cfe5fb545dbe437a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac323f8649abaf16f81a8422d0516a2e6"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#ac323f8649abaf16f81a8422d0516a2e6">ReceiveAstrodevFrame</a> (<a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> &amp;message)</td></tr>
-<tr class="memdesc:ac323f8649abaf16f81a8422d0516a2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> frame from the radio.  <br /></td></tr>
-<tr class="separator:ac323f8649abaf16f81a8422d0516a2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eeb8fe915ba05aa28367c87964c1718"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a6eeb8fe915ba05aa28367c87964c1718">CalcCS</a> (uint8_t *data, uint16_t size)</td></tr>
-<tr class="memdesc:a6eeb8fe915ba05aa28367c87964c1718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate a checksum.  <br /></td></tr>
-<tr class="separator:a6eeb8fe915ba05aa28367c87964c1718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e39c50762045a48f3703c29d12c0b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#ad1e39c50762045a48f3703c29d12c0b5">setSerial</a> (HardwareSerial *new_serial)</td></tr>
-<tr class="memdesc:ad1e39c50762045a48f3703c29d12c0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the serial connection used to communicate with the radio.  <br /></td></tr>
-<tr class="separator:ad1e39c50762045a48f3703c29d12c0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7588d307fa511b554196ae21758e5e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#ab7588d307fa511b554196ae21758e5e6">Astrodev</a> ()</td></tr>
+<tr class="memdesc:ab7588d307fa511b554196ae21758e5e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a>:: <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> object.  <br /></td></tr>
+<tr class="separator:ab7588d307fa511b554196ae21758e5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37bde108e394dde1798eebe99731c1fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a37bde108e394dde1798eebe99731c1fb">Astrodev</a> (HardwareSerial *hw_serial)</td></tr>
+<tr class="memdesc:a37bde108e394dde1798eebe99731c1fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a>:: <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> object.  <br /></td></tr>
+<tr class="separator:a37bde108e394dde1798eebe99731c1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f92ccb217a0ddd3f1117915cf2ac7a"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a59f92ccb217a0ddd3f1117915cf2ac7a">InitializeSerial</a> (HardwareSerial *hw_serial, uint32_t baud_rate=38400)</td></tr>
+<tr class="memdesc:a59f92ccb217a0ddd3f1117915cf2ac7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization of the serial connection to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:a59f92ccb217a0ddd3f1117915cf2ac7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad778bf9b4e2733c92b76dd2856e0e7eb"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#ad778bf9b4e2733c92b76dd2856e0e7eb">VerifyConnection</a> ()</td></tr>
+<tr class="memdesc:ad778bf9b4e2733c92b76dd2856e0e7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify serial connection to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:ad778bf9b4e2733c92b76dd2856e0e7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fcdd650eda0d941dacc2c0feb964c2f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a4fcdd650eda0d941dacc2c0feb964c2f">SendAstrodevFrame</a> (<a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> &amp;message)</td></tr>
+<tr class="memdesc:a4fcdd650eda0d941dacc2c0feb964c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> frame to the radio.  <br /></td></tr>
+<tr class="separator:a4fcdd650eda0d941dacc2c0feb964c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2f396470e66ffe429ebd3ffc6eebd4"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a7c2f396470e66ffe429ebd3ffc6eebd4">SendHeaderOnlyFrame</a> (<a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331">Command</a> command)</td></tr>
+<tr class="memdesc:a7c2f396470e66ffe429ebd3ffc6eebd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to construct and send header-only command frames to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:a7c2f396470e66ffe429ebd3ffc6eebd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40289019dcad7466313f53861eb215c7"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a40289019dcad7466313f53861eb215c7">NoOp</a> ()</td></tr>
+<tr class="memdesc:a40289019dcad7466313f53861eb215c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a no-operation (no-op) command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:a40289019dcad7466313f53861eb215c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb6737856054b56f4ccefcdcfdbca0d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#aeeb6737856054b56f4ccefcdcfdbca0d">Reset</a> ()</td></tr>
+<tr class="memdesc:aeeb6737856054b56f4ccefcdcfdbca0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a soft reset command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:aeeb6737856054b56f4ccefcdcfdbca0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089654a1d820dd0e12269064b1b945f8"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a089654a1d820dd0e12269064b1b945f8">GetTCVConfig</a> ()</td></tr>
+<tr class="memdesc:a089654a1d820dd0e12269064b1b945f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a get transceiver configuration command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:a089654a1d820dd0e12269064b1b945f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de26b52f98d31337bda664e631fef12"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a9de26b52f98d31337bda664e631fef12">GetTelemetry</a> ()</td></tr>
+<tr class="memdesc:a9de26b52f98d31337bda664e631fef12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a get telemetry command to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio.  <br /></td></tr>
+<tr class="separator:a9de26b52f98d31337bda664e631fef12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b628460c53dffdfaa7e0cf4a660c47d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a1b628460c53dffdfaa7e0cf4a660c47d">TransmitPacketFromRadio</a> (Cosmos::Support::PacketComm &amp;packet)</td></tr>
+<tr class="memdesc:a1b628460c53dffdfaa7e0cf4a660c47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio to transmit a PacketComm packet.  <br /></td></tr>
+<tr class="separator:a1b628460c53dffdfaa7e0cf4a660c47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259e773d26dd4f361efa19ab94a0119a"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a259e773d26dd4f361efa19ab94a0119a">SetTCVConfig</a> ()</td></tr>
+<tr class="memdesc:a259e773d26dd4f361efa19ab94a0119a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set transceiver configuration settings on the radio.  <br /></td></tr>
+<tr class="separator:a259e773d26dd4f361efa19ab94a0119a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4d99cc45567c2d780f899ebb69463f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#ade4d99cc45567c2d780f899ebb69463f">SetRFConfig</a> (<a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1rf__config.html">rf_config</a> config)</td></tr>
+<tr class="memdesc:ade4d99cc45567c2d780f899ebb69463f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the RF configuration settings on the radio.  <br /></td></tr>
+<tr class="separator:ade4d99cc45567c2d780f899ebb69463f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8042c09bd622cc206d250e0d0d6c3514"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a8042c09bd622cc206d250e0d0d6c3514">ReceiveAstrodevFrame</a> (<a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> &amp;message)</td></tr>
+<tr class="memdesc:a8042c09bd622cc206d250e0d0d6c3514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> frame from the radio.  <br /></td></tr>
+<tr class="separator:a8042c09bd622cc206d250e0d0d6c3514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff24cb13e576a93718947413daad02c"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a1ff24cb13e576a93718947413daad02c">CalcCS</a> (uint8_t *data, uint16_t size)</td></tr>
+<tr class="memdesc:a1ff24cb13e576a93718947413daad02c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate a checksum.  <br /></td></tr>
+<tr class="separator:a1ff24cb13e576a93718947413daad02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63371d51b64f336ca68ad84a57413be7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a63371d51b64f336ca68ad84a57413be7">setSerial</a> (HardwareSerial *new_serial)</td></tr>
+<tr class="memdesc:a63371d51b64f336ca68ad84a57413be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the serial connection used to communicate with the radio.  <br /></td></tr>
+<tr class="separator:a63371d51b64f336ca68ad84a57413be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -461,14 +461,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4d4f73ca69b8814f287823076aae31eb" name="a4d4f73ca69b8814f287823076aae31eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d4f73ca69b8814f287823076aae31eb">&#9670;&#160;</a></span>Astrodev() <span class="overload">[1/2]</span></h2>
+<a id="ab7588d307fa511b554196ae21758e5e6" name="ab7588d307fa511b554196ae21758e5e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7588d307fa511b554196ae21758e5e6">&#9670;&#160;</a></span>Astrodev() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Artemis::Devices::Radios::Astrodev::Astrodev </td>
+          <td class="memname">Artemis::Devices::Astrodev::Astrodev </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -481,14 +481,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a003366d883f8cb3c72106eefd9fb2826" name="a003366d883f8cb3c72106eefd9fb2826"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a003366d883f8cb3c72106eefd9fb2826">&#9670;&#160;</a></span>Astrodev() <span class="overload">[2/2]</span></h2>
+<a id="a37bde108e394dde1798eebe99731c1fb" name="a37bde108e394dde1798eebe99731c1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37bde108e394dde1798eebe99731c1fb">&#9670;&#160;</a></span>Astrodev() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Artemis::Devices::Radios::Astrodev::Astrodev </td>
+          <td class="memname">Artemis::Devices::Astrodev::Astrodev </td>
           <td>(</td>
           <td class="paramtype">HardwareSerial *&#160;</td>
           <td class="paramname"><em>hw_serial</em></td><td>)</td>
@@ -509,14 +509,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6eeb8fe915ba05aa28367c87964c1718" name="a6eeb8fe915ba05aa28367c87964c1718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eeb8fe915ba05aa28367c87964c1718">&#9670;&#160;</a></span>CalcCS()</h2>
+<a id="a1ff24cb13e576a93718947413daad02c" name="a1ff24cb13e576a93718947413daad02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ff24cb13e576a93718947413daad02c">&#9670;&#160;</a></span>CalcCS()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t Artemis::Devices::Radios::Astrodev::CalcCS </td>
+          <td class="memname">uint16_t Artemis::Devices::Astrodev::CalcCS </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
@@ -550,14 +550,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a82a49011817b34048f9c432daf4de767" name="a82a49011817b34048f9c432daf4de767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82a49011817b34048f9c432daf4de767">&#9670;&#160;</a></span>GetTCVConfig()</h2>
+<a id="a089654a1d820dd0e12269064b1b945f8" name="a089654a1d820dd0e12269064b1b945f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a089654a1d820dd0e12269064b1b945f8">&#9670;&#160;</a></span>GetTCVConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::GetTCVConfig </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::GetTCVConfig </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -571,14 +571,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a0464943987f80980ecbcb5efb8dd0054" name="a0464943987f80980ecbcb5efb8dd0054"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0464943987f80980ecbcb5efb8dd0054">&#9670;&#160;</a></span>GetTelemetry()</h2>
+<a id="a9de26b52f98d31337bda664e631fef12" name="a9de26b52f98d31337bda664e631fef12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de26b52f98d31337bda664e631fef12">&#9670;&#160;</a></span>GetTelemetry()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::GetTelemetry </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::GetTelemetry </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -592,14 +592,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a9fe5875b18b83438965f855805699654" name="a9fe5875b18b83438965f855805699654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fe5875b18b83438965f855805699654">&#9670;&#160;</a></span>InitializeSerial()</h2>
+<a id="a59f92ccb217a0ddd3f1117915cf2ac7a" name="a59f92ccb217a0ddd3f1117915cf2ac7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59f92ccb217a0ddd3f1117915cf2ac7a">&#9670;&#160;</a></span>InitializeSerial()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::InitializeSerial </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::InitializeSerial </td>
           <td>(</td>
           <td class="paramtype">HardwareSerial *&#160;</td>
           <td class="paramname"><em>hw_serial</em>, </td>
@@ -631,14 +631,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a043ada0652cd9f968dd08095359e8d52" name="a043ada0652cd9f968dd08095359e8d52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a043ada0652cd9f968dd08095359e8d52">&#9670;&#160;</a></span>NoOp()</h2>
+<a id="a40289019dcad7466313f53861eb215c7" name="a40289019dcad7466313f53861eb215c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40289019dcad7466313f53861eb215c7">&#9670;&#160;</a></span>NoOp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::NoOp </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::NoOp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -653,14 +653,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="ac323f8649abaf16f81a8422d0516a2e6" name="ac323f8649abaf16f81a8422d0516a2e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac323f8649abaf16f81a8422d0516a2e6">&#9670;&#160;</a></span>ReceiveAstrodevFrame()</h2>
+<a id="a8042c09bd622cc206d250e0d0d6c3514" name="a8042c09bd622cc206d250e0d0d6c3514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8042c09bd622cc206d250e0d0d6c3514">&#9670;&#160;</a></span>ReceiveAstrodevFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::ReceiveAstrodevFrame </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::ReceiveAstrodevFrame </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> &amp;&#160;</td>
           <td class="paramname"><em>incoming_frame</em></td><td>)</td>
@@ -691,14 +691,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a6fc884fc77f023473a589dcd53c8cb38" name="a6fc884fc77f023473a589dcd53c8cb38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fc884fc77f023473a589dcd53c8cb38">&#9670;&#160;</a></span>Reset()</h2>
+<a id="aeeb6737856054b56f4ccefcdcfdbca0d" name="aeeb6737856054b56f4ccefcdcfdbca0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb6737856054b56f4ccefcdcfdbca0d">&#9670;&#160;</a></span>Reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::Reset </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::Reset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -712,14 +712,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="aacb999e8eb150b78c49fc2e6c31e9df2" name="aacb999e8eb150b78c49fc2e6c31e9df2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacb999e8eb150b78c49fc2e6c31e9df2">&#9670;&#160;</a></span>SendAstrodevFrame()</h2>
+<a id="a4fcdd650eda0d941dacc2c0feb964c2f" name="a4fcdd650eda0d941dacc2c0feb964c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcdd650eda0d941dacc2c0feb964c2f">&#9670;&#160;</a></span>SendAstrodevFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::SendAstrodevFrame </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::SendAstrodevFrame </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> &amp;&#160;</td>
           <td class="paramname"><em>outgoing_frame</em></td><td>)</td>
@@ -746,14 +746,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a673803ef6a659a9d7cb046fbf94e05b1" name="a673803ef6a659a9d7cb046fbf94e05b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a673803ef6a659a9d7cb046fbf94e05b1">&#9670;&#160;</a></span>SendHeaderOnlyFrame()</h2>
+<a id="a7c2f396470e66ffe429ebd3ffc6eebd4" name="a7c2f396470e66ffe429ebd3ffc6eebd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c2f396470e66ffe429ebd3ffc6eebd4">&#9670;&#160;</a></span>SendHeaderOnlyFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::SendHeaderOnlyFrame </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::SendHeaderOnlyFrame </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331">Command</a>&#160;</td>
           <td class="paramname"><em>command</em></td><td>)</td>
@@ -776,14 +776,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a0532fd8714b391cfe5fb545dbe437a1e" name="a0532fd8714b391cfe5fb545dbe437a1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0532fd8714b391cfe5fb545dbe437a1e">&#9670;&#160;</a></span>SetRFConfig()</h2>
+<a id="ade4d99cc45567c2d780f899ebb69463f" name="ade4d99cc45567c2d780f899ebb69463f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4d99cc45567c2d780f899ebb69463f">&#9670;&#160;</a></span>SetRFConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::SetRFConfig </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::SetRFConfig </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1rf__config.html">rf_config</a>&#160;</td>
           <td class="paramname"><em>config</em></td><td>)</td>
@@ -806,14 +806,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="ad1e39c50762045a48f3703c29d12c0b5" name="ad1e39c50762045a48f3703c29d12c0b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1e39c50762045a48f3703c29d12c0b5">&#9670;&#160;</a></span>setSerial()</h2>
+<a id="a63371d51b64f336ca68ad84a57413be7" name="a63371d51b64f336ca68ad84a57413be7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63371d51b64f336ca68ad84a57413be7">&#9670;&#160;</a></span>setSerial()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Artemis::Devices::Radios::Astrodev::setSerial </td>
+          <td class="memname">void Artemis::Devices::Astrodev::setSerial </td>
           <td>(</td>
           <td class="paramtype">HardwareSerial *&#160;</td>
           <td class="paramname"><em>new_serial</em></td><td>)</td>
@@ -833,14 +833,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a5d52499f09d74793417a7840a202377d" name="a5d52499f09d74793417a7840a202377d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d52499f09d74793417a7840a202377d">&#9670;&#160;</a></span>SetTCVConfig()</h2>
+<a id="a259e773d26dd4f361efa19ab94a0119a" name="a259e773d26dd4f361efa19ab94a0119a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a259e773d26dd4f361efa19ab94a0119a">&#9670;&#160;</a></span>SetTCVConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::SetTCVConfig </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::SetTCVConfig </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -858,14 +858,14 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 
 </div>
 </div>
-<a id="a0f769ef7524c1360be0736fb99a6582b" name="a0f769ef7524c1360be0736fb99a6582b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f769ef7524c1360be0736fb99a6582b">&#9670;&#160;</a></span>TransmitPacketFromRadio()</h2>
+<a id="a1b628460c53dffdfaa7e0cf4a660c47d" name="a1b628460c53dffdfaa7e0cf4a660c47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b628460c53dffdfaa7e0cf4a660c47d">&#9670;&#160;</a></span>TransmitPacketFromRadio()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::TransmitPacketFromRadio </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::TransmitPacketFromRadio </td>
           <td>(</td>
           <td class="paramtype">Cosmos::Support::PacketComm &amp;&#160;</td>
           <td class="paramname"><em>transmission_packet</em></td><td>)</td>
@@ -885,19 +885,19 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 <p>The header and payload of the packet are merged into one.</p>
 <p>The internal transmission <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> frame is used to hold the PacketComm packet. This frame's header data is written to with the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331a02d786cd0f7318c2533125f8b591abc5">TRANSMIT</a> command, indicating data to be transmitted by the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio's transceiver, and the size of the payload, which is the PacketComm packet. If the packet's size is greater than the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#ac11e1a00dd403b9aefb8d351f7611fec">MTU</a>, then return an error value.</p>
 <p>The PacketComm packet is copied to the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> frame as its payload.</p>
-<p>The <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> transmission frame, containing the PacketComm packet as its payload, is sent to the radio using the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#aacb999e8eb150b78c49fc2e6c31e9df2">SendAstrodevFrame()</a> function. This commands the radio to transmit the PacketComm packet using its transceiver.</p>
+<p>The <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> transmission frame, containing the PacketComm packet as its payload, is sent to the radio using the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a4fcdd650eda0d941dacc2c0feb964c2f">SendAstrodevFrame()</a> function. This commands the radio to transmit the PacketComm packet using its transceiver.</p>
 <p>A short delay is given for the radio to execute the transmission.</p>
 
 </div>
 </div>
-<a id="a7c56ec7721b631a50b85a1710b5aa496" name="a7c56ec7721b631a50b85a1710b5aa496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c56ec7721b631a50b85a1710b5aa496">&#9670;&#160;</a></span>VerifyConnection()</h2>
+<a id="ad778bf9b4e2733c92b76dd2856e0e7eb" name="ad778bf9b4e2733c92b76dd2856e0e7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad778bf9b4e2733c92b76dd2856e0e7eb">&#9670;&#160;</a></span>VerifyConnection()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t Artemis::Devices::Radios::Astrodev::VerifyConnection </td>
+          <td class="memname">int32_t Artemis::Devices::Astrodev::VerifyConnection </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

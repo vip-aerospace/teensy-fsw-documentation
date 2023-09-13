@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <p class="interdd"></p>
 <p class="enddd">This is a 2-byte value, but the reference struct is 4 bytes.  </p>
 </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a5d52499f09d74793417a7840a202377d">Artemis::Devices::Astrodev::SetTCVConfig</a>  ()</dt>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a259e773d26dd4f361efa19ab94a0119a">Artemis::Devices::Astrodev::SetTCVConfig</a>  ()</dt>
 <dd><a class="anchor" id="_todo000006"></a>Wait at least 250 ms for settings to be applied, But seems to require about 10x as long  </dd>
 <dt>Struct <a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1telemetry.html">Artemis::Devices::Astrodev::telemetry</a>  </dt>
 <dd><a class="anchor" id="_todo000009"></a>Verify the field definitions. These are educated guesses. </dd>
@@ -146,17 +146,17 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><a class="anchor" id="_todo000005"></a>update array size to be a macro constant  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#aeb4df2add19e14500a7e1ce3d9f2ffc4">Artemis::Devices::PDU::set_switch</a>  (PDU_SW sw, uint8_t enable)</dt>
 <dd><a class="anchor" id="_todo000002"></a>Send to PacketComm packet -&gt; then to ground  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a7b66601c463726382041499323e9ba51">Artemis::Devices::RFM23::get_tsen</a>  ()</dt>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a95667d870fa06f55899eb73048077743">Artemis::Devices::RFM23::get_tsen</a>  ()</dt>
 <dd><a class="anchor" id="_todo000024"></a>What is returned? Is it in Celcius? The temperature sensor can be configured and calibrated.  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1">Artemis::Devices::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config.html" title="The RFM23 configuration structure.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a9e9578730f7125522ef1f38b437632fc">Artemis::Devices::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config.html" title="The RFM23 configuration structure.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000020"></a>clean up this code to match <a class="el" href="classArtemis_1_1Devices_1_1RFM98.html" title="The satellite&#39;s RFM98 radio.">RFM98</a>. </p>
 <p class="enddd"><a class="anchor" id="_todo000019"></a>set this as part of the config? Does the setModemConfig() call need more time, and need timeout checking?  </p>
 </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a33699eedf06af7824867355c883846d3">Artemis::Devices::RFM23::recv</a>  (PacketComm &amp;packet, uint16_t timeout)</dt>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#aba7c2567bd47861fca0319cb70c0b8f3">Artemis::Devices::RFM23::recv</a>  (PacketComm &amp;packet, uint16_t timeout)</dt>
 <dd><a class="anchor" id="_todo000022"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin low and RX_ANT pin high to receive. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a0f37cb0509e0cf8f672b8e7a0d465fcc">Artemis::Devices::RFM23::send</a>  (PacketComm &amp;packet)</dt>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#ae2164120a1f62daca2bc088104d676f0">Artemis::Devices::RFM23::send</a>  (PacketComm &amp;packet)</dt>
 <dd><a class="anchor" id="_todo000021"></a>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a>  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#aea95eb45690d7444625aed436091fffc">Artemis::Devices::RFM23::set_tx_power</a>  (uint8_t power)</dt>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a1c279839ff7c770572df78598265528c">Artemis::Devices::RFM23::set_tx_power</a>  (uint8_t power)</dt>
 <dd><a class="anchor" id="_todo000023"></a>Transmit power for the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> is not set directly as an integer, but rather as RadioHead macros (direct hex values). This function is not referenced or used anywhere. Delete as redundant?  </dd>
 <dt>Member <a class="el" href="structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#acf19d66393a978a864a6fb149c204dc4">Artemis::Devices::RFM98::rfm98_config::pins</a>  </dt>
 <dd><a class="anchor" id="_todo000025"></a>The <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> has a tx_on pin as well. The <a class="el" href="classArtemis_1_1Devices_1_1RFM98.html" title="The satellite&#39;s RFM98 radio.">RFM98</a> should also have one, I think. It is used for intermittent transmission at high output power levels. Look into this.  </dd>

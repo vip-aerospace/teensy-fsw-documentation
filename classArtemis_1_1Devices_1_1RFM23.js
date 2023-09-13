@@ -1,11 +1,11 @@
 var classArtemis_1_1Devices_1_1RFM23 =
 [
     [ "rfm23_config", "structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config.html", "structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config" ],
-    [ "RFM23", "classArtemis_1_1Devices_1_1RFM23.html#a9cfbf6306642f4058c2348ae0d6eb725", null ],
-    [ "get_tsen", "classArtemis_1_1Devices_1_1RFM23.html#a7b66601c463726382041499323e9ba51", null ],
-    [ "init", "classArtemis_1_1Devices_1_1RFM23.html#afea5bd2f5d7e2720d9e8dc10066f0ab1", null ],
-    [ "recv", "classArtemis_1_1Devices_1_1RFM23.html#a33699eedf06af7824867355c883846d3", null ],
-    [ "reset", "classArtemis_1_1Devices_1_1RFM23.html#a57f019264ed22d82fd350ec945cba6c0", null ],
-    [ "send", "classArtemis_1_1Devices_1_1RFM23.html#a0f37cb0509e0cf8f672b8e7a0d465fcc", null ],
-    [ "set_tx_power", "classArtemis_1_1Devices_1_1RFM23.html#aea95eb45690d7444625aed436091fffc", null ]
+    [ "RFM23", "classArtemis_1_1Devices_1_1RFM23.html#a5d8849e23ff334da0fe4622432e0e2a5", null ],
+    [ "get_tsen", "classArtemis_1_1Devices_1_1RFM23.html#a95667d870fa06f55899eb73048077743", null ],
+    [ "init", "classArtemis_1_1Devices_1_1RFM23.html#a9e9578730f7125522ef1f38b437632fc", null ],
+    [ "recv", "classArtemis_1_1Devices_1_1RFM23.html#aba7c2567bd47861fca0319cb70c0b8f3", null ],
+    [ "reset", "classArtemis_1_1Devices_1_1RFM23.html#a518b7f311e1f7353b11bd6a608f1456c", null ],
+    [ "send", "classArtemis_1_1Devices_1_1RFM23.html#ae2164120a1f62daca2bc088104d676f0", null ],
+    [ "set_tx_power", "classArtemis_1_1Devices_1_1RFM23.html#a1c279839ff7c770572df78598265528c", null ]
 ];
