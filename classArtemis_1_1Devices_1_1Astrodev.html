@@ -678,7 +678,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> command type from the packet header if successful, negative value if unsuccessful. </dd></dl>
 <p>The internal incoming queue mutex is locked.</p>
-<p>The synchronization characters are awaited. The serial interface is read from, one character at a time, twice. The first syncronization character is optional, but if both synchronization characters are not read, return with an error value. This error is also returned if nothing is received within a one-second timeout period. The synchronization characters are then placed in the frame's header.</p>
+<p>The synchronization characters are awaited. The serial interface is read from, one character at a time, twice. The first synchronization character is optional, but if both synchronization characters are not read, return with an error value. This error is also returned if nothing is received within a one-second timeout period. The synchronization characters are then placed in the frame's header.</p>
 <p>The remaining six bytes of the header are read in from the serial interface and stored in the frame's header. In the event that the serial interface does not yet have six bytes available, read all the bytes available, then read the remaining bytes to form a full header. If no more bytes are available, return with an error value.</p>
 <p>Calculate the header checksum and compare it to the received header's checksum. If they do not match, return with an error value.</p>
 <p>The ack and sizelo bytes in the frame header are checked to determine what type of frame is incoming from the radio. The internal buffer full status flag is set to the value received in the top four bits of the <code>ack</code> byte in the reply from the radio.</p>
@@ -854,7 +854,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 <p>This packet's header data is filled in. The packet is designated as a <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331ae5a3838459d2f3ccae4cbeabeaaa199f">SETTCVCONFIG</a> command, with the current internal transceiver configuration struct as the payload. The size of the payload is the size of that struct.</p>
 <p>The packet is transmitted to the radio. If unsuccessful, return the error code.</p>
 <p>After a short delay, receive the response from the radio. If unsucccessful, return the error code.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Wait at least 250 ms for settings to be applied, But seems to require about 10x as long </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Wait at least 250 ms for settings to be applied, but seems to require about 10x as long </dd></dl>
 
 </div>
 </div>
