@@ -24,52 +24,12 @@
 */
 var NAVTREE =
 [
-  [ "Ke Ao Teensy Flight Software", "index.html", [
-    [ "Start Here", "index.html", "index" ],
-    [ "Development Enviornment Setup Guide", "development_environment_setup.html", [
-      [ "Step 1: Install VSCode", "development_environment_setup.html#step1", null ],
-      [ "Step 2: Install PlatformIO", "development_environment_setup.html#step2", null ],
-      [ "Step 3: Build a test project", "development_environment_setup.html#step3", null ],
-      [ "Step 4: Clone the FSW", "development_environment_setup.html#step4", null ],
-      [ "Step 5: Run the FSW", "development_environment_setup.html#step5", null ]
-    ] ],
-    [ "Todo List", "todo.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", null ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Enumerations", "functions_enum.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
-  ] ]
+  [ "Ke Ao Teensy Flight Software", "index.html", ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"classArtemis_1_1Devices_1_1TemperatureSensors.html#a1d1ca304b40d3720d247ed12b2e0733f",
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
