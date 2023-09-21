@@ -24,12 +24,67 @@
 */
 var NAVTREE =
 [
-  [ "Ke Ao Teensy Flight Software", "index.html", ]
+  [ "Ke Ao Teensy Flight Software", "index.html", [
+    [ "Start Here", "index.html", "index" ],
+    [ "Development Enviornment Setup Guide", "development_environment_setup.html", [
+      [ "Step 1: Install VSCode", "development_environment_setup.html#step1", null ],
+      [ "Step 2: Install PlatformIO", "development_environment_setup.html#step2", null ],
+      [ "Step 3: Build a test project", "development_environment_setup.html#step3", null ],
+      [ "Step 4: Clone the FSW", "development_environment_setup.html#step4", null ],
+      [ "Step 5: Run the FSW", "development_environment_setup.html#step5", null ]
+    ] ],
+    [ "pag_example", "pag_example.html", null ],
+    [ "README", "md_include_2README.html", null ],
+    [ "README", "md_README.html", [
+      [ "Ke Ao Cubesat Flight Software (Teensy 4.1)", "md_README.html#autotoc_md0", null ],
+      [ "Development Environment", "md_README.html#autotoc_md1", null ],
+      [ "Updating", "md_README.html#autotoc_md2", null ]
+    ] ],
+    [ "Bug List", "bug.html", null ],
+    [ "Todo List", "todo.html", null ],
+    [ "Modules", "modules.html", "modules" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"afterdoc_8h_source.html",
+"classArtemis_1_1Devices_1_1RFM23.html#a1c279839ff7c770572df78598265528c",
+"packet__tests_8cpp.html#ac2a78e22fb368c479c15d1dbc25fcf6e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
