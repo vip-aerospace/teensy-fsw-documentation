@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['calccs_0',['CalcCS',['../classArtemis_1_1Devices_1_1Astrodev.html#a1ff24cb13e576a93718947413daad02c',1,'Artemis::Devices::Astrodev']]],
-  ['close_1',['close',['../structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0',1,'structcmd.h']]]
+  ['get_5fswitch_0',['get_switch',['../classArtemis_1_1Devices_1_1PDU.html#a19022d613c171c5ef6d869646571e01f',1,'Artemis::Devices::PDU']]],
+  ['get_5ftsen_1',['get_tsen',['../classArtemis_1_1Devices_1_1RFM23.html#a95667d870fa06f55899eb73048077743',1,'Artemis::Devices::RFM23']]],
+  ['gettcvconfig_2',['GetTCVConfig',['../classArtemis_1_1Devices_1_1Astrodev.html#a089654a1d820dd0e12269064b1b945f8',1,'Artemis::Devices::Astrodev']]],
+  ['gettelemetry_3',['GetTelemetry',['../classArtemis_1_1Devices_1_1Astrodev.html#a9de26b52f98d31337bda664e631fef12',1,'Artemis::Devices::Astrodev']]]
 ];

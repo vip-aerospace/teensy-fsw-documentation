@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['development_20enviornment_20setup_20guide_0',['Development Enviornment Setup Guide',['../development_environment_setup.html',1,'']]]
+  ['readme_0',['README',['../md_include_2README.html',1,'(Global Namespace)'],['../md_README.html',1,'(Global Namespace)']]]
 ];

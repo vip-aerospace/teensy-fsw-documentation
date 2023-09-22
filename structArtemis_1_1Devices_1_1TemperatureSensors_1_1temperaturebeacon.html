@@ -108,7 +108,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a88d93be56ed050385f80aa2983eb79e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the beacon.  <br /></td></tr>
 <tr class="separator:a88d93be56ed050385f80aa2983eb79e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb12eaeef17253f770d4ba05707347a0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html#acb12eaeef17253f770d4ba05707347a0">deci</a> = 0</td></tr>
-<tr class="memdesc:acb12eaeef17253f770d4ba05707347a0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classA.html">A</a> decimal identifier for the beacon.  <br /></td></tr>
+<tr class="memdesc:acb12eaeef17253f770d4ba05707347a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A decimal identifier for the beacon.  <br /></td></tr>
 <tr class="separator:acb12eaeef17253f770d4ba05707347a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137eec6242bf552cfe86e94c6060aa3e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html#a137eec6242bf552cfe86e94c6060aa3e">temperatureC</a> [<a class="el" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>]</td></tr>
 <tr class="memdesc:a137eec6242bf552cfe86e94c6060aa3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temperature data.  <br /></td></tr>
@@ -117,7 +117,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The temperature beacon structure. </p>
 <p>This defines the structure of the temperature beacon.</p>
-<p>The temperature beacon consists of three members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), and the temperature data (<code>temperatureC</code>[]). <a class="el" href="classA.html">A</a> diagram of the struct is included below.</p>
+<p>The temperature beacon consists of three members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), and the temperature data (<code>temperatureC</code>[]). A diagram of the struct is included below.</p>
 <pre class="fragment">    1 byte    4 bytes      4*X bytes 
 +--------+----------+-----------------+
 |  type  |   deci   |  temperatureC[] |
@@ -136,7 +136,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classA.html">A</a> decimal identifier for the beacon. </p>
+<p>A decimal identifier for the beacon. </p>
 <p>This value is the current uptime of the Teensy in milliseconds. By default, it is zero. </p>
 
 </div>

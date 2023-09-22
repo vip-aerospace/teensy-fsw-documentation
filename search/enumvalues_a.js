@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['nak_0',['NAK',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331a3860aef5aa76641c6959d1a5de94b216',1,'Artemis::Devices::Astrodev']]],
-  ['nirq_1',['NIRQ',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd',1,'artemis_defs.h']]],
-  ['nobeacon_2',['NoBeacon',['../namespaceArtemis_1_1Devices.html#acefa807c92c3f7feaf9364660066898ea2cbfe063b47d6bf88549b5c06856df80',1,'Artemis::Devices']]],
-  ['none_3',['None',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a6adf97f83acf6453d4a6a4b1070f3754',1,'Artemis::Devices::PDU']]],
-  ['noop_4',['NOOP',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331a722d122e81cbbe543bd5520bb8678c0e',1,'Artemis::Devices::Astrodev']]],
-  ['nop_5',['NOP',['../classArtemis_1_1Devices_1_1PDU.html#a84d4d27e60ecdbfb39e0efee97e46811a1a004f5abe2b334db21328be1ea6b593',1,'Artemis::Devices::PDU']]]
+  ['pdu_5fchannel_0',['PDU_CHANNEL',['../artemis__channels_8h.html#a0ff45da0067c1db5dfad1985b537ff9bafe39dc988e0a328ba743cc47e826eab1',1,'Artemis::Channels']]],
+  ['pi_5fstatus_1',['PI_STATUS',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a888fbd62097190b17ae61eb840dc6bd0',1,'artemis_defs.h']]],
+  ['pin_5ftoggle_2',['PIN_TOGGLE',['../classArtemis_1_1Devices_1_1Astrodev.html#a9b9e01cf351367568694db7a2ec59ee1a8c89463ca10631f70fe13d695ee5f81f',1,'Artemis::Devices::Astrodev']]],
+  ['ping_5freturn_3',['PING_RETURN',['../classArtemis_1_1Devices_1_1Astrodev.html#a9b9e01cf351367568694db7a2ec59ee1a7e01571820af6a385c5cabd3b338e399',1,'Artemis::Devices::Astrodev']]],
+  ['pleiades_5fnode_5fid_4',['PLEIADES_NODE_ID',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aeaaaac117acf1735a1959f51c0e3cad6ef8',1,'artemis_defs.h']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['example_0',['example',['../classExample__Test.html#a22a62b12c65fd5e43b6eadaabb21ebb0',1,'Example_Test::example()'],['../classInclude__Test.html#aa286655e8f7f6a8ad203ef5fd8548b81',1,'Include_Test::example()'],['../classTag.html#acc641ffae34e2c4c03a6edf0a513be28',1,'Tag::example()']]]
+  ['kill_5fthread_0',['kill_thread',['../artemis__defs_8h.html#a82fa082dd730d0cbb09766de10a9e2a2',1,'kill_thread(uint8_t channel_id):&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a82fa082dd730d0cbb09766de10a9e2a2',1,'kill_thread(uint8_t channel_id):&#160;artemis_defs.cpp']]]
 ];

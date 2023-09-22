@@ -114,11 +114,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>buffer_full</b>: 1</t
 <tr class="separator:af5f980ca7af260602444e16e18e651f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d2d76ebdfe92b760acb605d54dd5bba"><td class="memItemLeft" align="right" valign="top"><a id="a2d2d76ebdfe92b760acb605d54dd5bba" name="a2d2d76ebdfe92b760acb605d54dd5bba"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_a_high</b>: 1</td></tr>
-<tr class="memdesc:a2d2d76ebdfe92b760acb605d54dd5bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the GPIO <a class="el" href="classA.html">A</a> pin is on. <br /></td></tr>
+<tr class="memdesc:a2d2d76ebdfe92b760acb605d54dd5bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the GPIO A pin is on. <br /></td></tr>
 <tr class="separator:a2d2d76ebdfe92b760acb605d54dd5bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac44424efdd78e7d99ac7774749bf1e01"><td class="memItemLeft" align="right" valign="top"><a id="ac44424efdd78e7d99ac7774749bf1e01" name="ac44424efdd78e7d99ac7774749bf1e01"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_b_high</b>: 1</td></tr>
-<tr class="memdesc:ac44424efdd78e7d99ac7774749bf1e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the GPIO <a class="el" href="classB.html">B</a> pin is on. <br /></td></tr>
+<tr class="memdesc:ac44424efdd78e7d99ac7774749bf1e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the GPIO B pin is on. <br /></td></tr>
 <tr class="separator:ac44424efdd78e7d99ac7774749bf1e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20a836be76c0adb0c134a583cb51458d"><td class="memItemLeft" align="right" valign="top"><a id="a20a836be76c0adb0c134a583cb51458d" name="a20a836be76c0adb0c134a583cb51458d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>external_event_high</b>: 1</td></tr>
@@ -128,7 +128,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>external_event_high</
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The structure for a response from the <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> radio. </p>
 <p>This defines the structure of a response to a command from the Teensy. The response from the radio replaces the high byte of the payload size field. See <a class="el" href="structArtemis_1_1Devices_1_1Astrodev_1_1frame.html">frame</a> for more information.</p>
-<p>The reply consists of five members: an acknowledgement from the radio (<code>ack</code>), the status of the buffer (<code>buffer_full</code>), the status of the GPIO pins (<code>gpio_a_high</code> and <code>gpio_b_high</code>), and the status of an external event trigger (<code>external_event_high</code>).<a class="el" href="classA.html">A</a> diagram of the struct is included below.</p>
+<p>The reply consists of five members: an acknowledgement from the radio (<code>ack</code>), the status of the buffer (<code>buffer_full</code>), the status of the GPIO pins (<code>gpio_a_high</code> and <code>gpio_b_high</code>), and the status of an external event trigger (<code>external_event_high</code>).A diagram of the struct is included below.</p>
 <pre class="fragment">   4 bits  1 bit         1 bit         1 bit         1 bit
    +-------+-------------+-------------+-------------+---------------------+
    |  ack  | buffer_full | gpio_a_high | gpio_b_high |

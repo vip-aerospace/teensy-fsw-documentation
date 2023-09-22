@@ -1,14 +1,22 @@
 var searchData=
 [
-  ['radio_5freset_0',['RADIO_RESET',['../classArtemis_1_1Devices_1_1Astrodev.html#a9b9e01cf351367568694db7a2ec59ee1a7cd86dff63fa4fda2926903733e80610',1,'Artemis::Devices::Astrodev::RADIO_RESET'],['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708',1,'RADIO_RESET:&#160;artemis_defs.h']]],
-  ['receive_1',['RECEIVE',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331a42ddaaef1ffd16ad35901150add8f8f2',1,'Artemis::Devices::Astrodev']]],
-  ['reset_2',['RESET',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331ab5859d8721cfdc0312b2838b9c985bc1',1,'Artemis::Devices::Astrodev']]],
-  ['rfconfig_3',['RFCONFIG',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331a3e0355e0ca9e160e06e0f8170e5c5220',1,'Artemis::Devices::Astrodev']]],
-  ['rfm23_5fchannel_4',['RFM23_CHANNEL',['../artemis__channels_8h.html#a0ff45da0067c1db5dfad1985b537ff9baacc3bd13465ccc2f136b0cbe5a16218d',1,'Artemis::Channels']]],
-  ['rfm98_5fchannel_5',['RFM98_CHANNEL',['../artemis__channels_8h.html#a0ff45da0067c1db5dfad1985b537ff9ba85946c2ac3c642e6736eafa4d2099620',1,'Artemis::Channels']]],
-  ['rpi_6',['RPI',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a853a1b6e6bd8d7ef36bdbbdd4579b4ec',1,'Artemis::Devices::PDU']]],
-  ['rpi_5fchannel_7',['RPI_CHANNEL',['../artemis__channels_8h.html#a0ff45da0067c1db5dfad1985b537ff9ba91ccab1e6850f59ab7f4a5cb99cafb76',1,'Artemis::Channels']]],
-  ['rpi_5fenable_8',['RPI_ENABLE',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae3b2cceacc640b8046fe00b9e92808f7',1,'artemis_defs.h']]],
-  ['rpi_5fnode_5fid_9',['RPI_NODE_ID',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aeaa361fbfeff0986252d36863894082c795',1,'artemis_defs.h']]],
-  ['rx_5fon_10',['RX_ON',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a043d4e3c88132157af563f5ca2c68d52',1,'artemis_defs.h']]]
+  ['scl1_5fi2c_0',['SCL1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2',1,'artemis_defs.h']]],
+  ['sda1_5fi2c_1',['SDA1_I2C',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201',1,'artemis_defs.h']]],
+  ['sdn_2',['SDN',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97adb019b57d8a20743774fb0b26ce10a70',1,'artemis_defs.h']]],
+  ['set_5frtc_3',['SET_RTC',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331a310be94169e23f898116ebfab589ae5a',1,'Artemis::Devices::Astrodev']]],
+  ['settcvconfig_4',['SETTCVCONFIG',['../classArtemis_1_1Devices_1_1Astrodev.html#a72d5f0bd6964b6ba21f1b893e037d331ae5a3838459d2f3ccae4cbeabeaaa199f',1,'Artemis::Devices::Astrodev']]],
+  ['spi0_5fmiso_5',['SPI0_MISO',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1',1,'artemis_defs.h']]],
+  ['spi0_5fmosi_6',['SPI0_MOSI',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467',1,'artemis_defs.h']]],
+  ['spi0_5fsclk_7',['SPI0_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0',1,'artemis_defs.h']]],
+  ['spi1_5fcs1_8',['SPI1_CS1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd',1,'artemis_defs.h']]],
+  ['spi1_5fd0_9',['SPI1_D0',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7',1,'artemis_defs.h']]],
+  ['spi1_5fd1_10',['SPI1_D1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea',1,'artemis_defs.h']]],
+  ['spi1_5fsclk_11',['SPI1_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68',1,'artemis_defs.h']]],
+  ['sw_5f12v_12',['SW_12V',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a84da1ea86cca667bb1eff62a44ca5ba7',1,'Artemis::Devices::PDU']]],
+  ['sw_5f3v3_5f1_13',['SW_3V3_1',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a757e10103956cc4325caddc7687d6b20',1,'Artemis::Devices::PDU']]],
+  ['sw_5f3v3_5f2_14',['SW_3V3_2',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676aa2a1578363b285ca05cd675be1670e15',1,'Artemis::Devices::PDU']]],
+  ['sw_5f5v_5f1_15',['SW_5V_1',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a54cbe9c50468d32cd8c0544e248296b5',1,'Artemis::Devices::PDU']]],
+  ['sw_5f5v_5f2_16',['SW_5V_2',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a0caabe21077aadf966fd77001c068d14',1,'Artemis::Devices::PDU']]],
+  ['sw_5f5v_5f3_17',['SW_5V_3',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a667b163ee86c2aef53cfb8e25f56268c',1,'Artemis::Devices::PDU']]],
+  ['sw_5f5v_5f4_18',['SW_5V_4',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676aec932e7f75f43f8da0736d82ee9a8bc6',1,'Artemis::Devices::PDU']]]
 ];

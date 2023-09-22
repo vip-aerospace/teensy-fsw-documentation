@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['accelx_0',['accelx',['../structArtemis_1_1Devices_1_1IMU_1_1imubeacon.html#aff9d73e6db40a1875bc8b4a7605d5240',1,'Artemis::Devices::IMU::imubeacon']]],
-  ['accely_1',['accely',['../structArtemis_1_1Devices_1_1IMU_1_1imubeacon.html#a794a7ae74082aea2627ad94f4d3c69f0',1,'Artemis::Devices::IMU::imubeacon']]],
-  ['accelz_2',['accelz',['../structArtemis_1_1Devices_1_1IMU_1_1imubeacon.html#ac7d0478bac455b31e3a7ffdf4eea9650',1,'Artemis::Devices::IMU::imubeacon']]],
-  ['ack_3',['ack',['../structArtemis_1_1Devices_1_1Astrodev_1_1response.html#ada5599ccf4dbb0c03cb149159bde76f3',1,'Artemis::Devices::Astrodev::response']]],
-  ['alarm_5fday_4',['alarm_day',['../structArtemis_1_1Devices_1_1Astrodev_1_1realtimeclock.html#a90d35276fb21e5e4290a8b9023c1a087',1,'Artemis::Devices::Astrodev::realtimeclock']]],
-  ['alarm_5fdow_5',['alarm_dow',['../structArtemis_1_1Devices_1_1Astrodev_1_1realtimeclock.html#aebffd2a4b57376fdf66a49344b5152e0',1,'Artemis::Devices::Astrodev::realtimeclock']]],
-  ['alarm_5fhour_6',['alarm_hour',['../structArtemis_1_1Devices_1_1Astrodev_1_1realtimeclock.html#ab0c4acd8fd38eabb762fca187aa98dbb',1,'Artemis::Devices::Astrodev::realtimeclock']]],
-  ['alarm_5fmin_7',['alarm_min',['../structArtemis_1_1Devices_1_1Astrodev_1_1realtimeclock.html#afeeda639e9c7cda2d3464372d38c4336',1,'Artemis::Devices::Astrodev::realtimeclock']]],
-  ['altitude_8',['altitude',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#aa849d766462eeea65743ea7fdfd77357',1,'Artemis::Devices::GPS::gpsbeacon']]],
-  ['angle_9',['angle',['../structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#a1076ed0a00e618d5e8bc8ea0cff01cbd',1,'Artemis::Devices::GPS::gpsbeacon']]],
-  ['astrodev_5fqueue_10',['astrodev_queue',['../artemis__defs_8h.html#af84bb624ddc22f5e1c52dce692eb72b5',1,'astrodev_queue:&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#af84bb624ddc22f5e1c52dce692eb72b5',1,'astrodev_queue:&#160;artemis_defs.cpp']]],
-  ['astrodev_5fqueue_5fmtx_11',['astrodev_queue_mtx',['../artemis__defs_8h.html#a837759409143ac277ec184e7096ffea2',1,'astrodev_queue_mtx:&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a837759409143ac277ec184e7096ffea2',1,'astrodev_queue_mtx:&#160;artemis_defs.cpp']]],
-  ['ax25_5fdestination_12',['ax25_destination',['../structArtemis_1_1Devices_1_1Astrodev_1_1tcv__config.html#ad7a8be61c558cec0cbfdc99314c53821',1,'Artemis::Devices::Astrodev::tcv_config']]],
-  ['ax25_5fpostamble_5flength_13',['ax25_postamble_length',['../structArtemis_1_1Devices_1_1Astrodev_1_1tcv__config.html#a181e5acb258d1bdc903b227e3e547a77',1,'Artemis::Devices::Astrodev::tcv_config']]],
-  ['ax25_5fpreamble_5flength_14',['ax25_preamble_length',['../structArtemis_1_1Devices_1_1Astrodev_1_1tcv__config.html#ae38927263a7fd2caf3ef85452c125b18',1,'Artemis::Devices::Astrodev::tcv_config']]],
-  ['ax25_5fsource_15',['ax25_source',['../structArtemis_1_1Devices_1_1Astrodev_1_1tcv__config.html#ab9f77f02d706991bafa28face2583cd1',1,'Artemis::Devices::Astrodev::tcv_config']]]
+  ['beacon_5finterval_0',['beacon_interval',['../structArtemis_1_1Devices_1_1Astrodev_1_1beacon__config.html#a88f1e451fb426c3681d87299f40de9d7',1,'Artemis::Devices::Astrodev::beacon_config']]],
+  ['buffer_5ffull_1',['buffer_full',['../structArtemis_1_1Devices_1_1Astrodev_1_1response.html#af5f980ca7af260602444e16e18e651f4',1,'Artemis::Devices::Astrodev::response']]],
+  ['busvoltage_2',['busvoltage',['../structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon1.html#afc35efb103cbf44eb78b337b51b47551',1,'Artemis::Devices::CurrentSensors::currentbeacon1::busvoltage'],['../structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon2.html#aae89a138f3958a456e8586afa0add240',1,'Artemis::Devices::CurrentSensors::currentbeacon2::busvoltage']]],
+  ['bytes_5frx_3',['bytes_rx',['../structArtemis_1_1Devices_1_1Astrodev_1_1telemetry.html#a6324ccfb604a4a58a5b74c7aeb9b49d2',1,'Artemis::Devices::Astrodev::telemetry']]],
+  ['bytes_5ftx_4',['bytes_tx',['../structArtemis_1_1Devices_1_1Astrodev_1_1telemetry.html#af77150cd05c6259eceb756ed5964262c',1,'Artemis::Devices::Astrodev::telemetry']]]
 ];

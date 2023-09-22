@@ -108,7 +108,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a05669e23b7fc62344425915bfc1080a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the beacon.  <br /></td></tr>
 <tr class="separator:a05669e23b7fc62344425915bfc1080a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b8e64b23c2f744d8460619c963cb97e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon2.html#a3b8e64b23c2f744d8460619c963cb97e">deci</a> = 0</td></tr>
-<tr class="memdesc:a3b8e64b23c2f744d8460619c963cb97e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classA.html">A</a> decimal identifier for the beacon.  <br /></td></tr>
+<tr class="memdesc:a3b8e64b23c2f744d8460619c963cb97e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A decimal identifier for the beacon.  <br /></td></tr>
 <tr class="separator:a3b8e64b23c2f744d8460619c963cb97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae89a138f3958a456e8586afa0add240"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon2.html#aae89a138f3958a456e8586afa0add240">busvoltage</a> [<a class="el" href="artemis__defs_8h.html#a13eb4f64726e26c58b0c31db0260b7f5">ARTEMIS_CURRENT_SENSOR_COUNT</a> - <a class="el" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>]</td></tr>
 <tr class="memdesc:aae89a138f3958a456e8586afa0add240"><td class="mdescLeft">&#160;</td><td class="mdescRight">The voltage data.  <br /></td></tr>
@@ -120,7 +120,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The second current beacon structure. </p>
 <p>This defines the structure of the second current beacon.</p>
-<p>The second current beacon consists of four members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the voltage data (<code>busvoltage</code>[]), and current data (<code>current</code>[]).<a class="el" href="classA.html">A</a> diagram of the struct is included below.</p>
+<p>The second current beacon consists of four members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the voltage data (<code>busvoltage</code>[]), and current data (<code>current</code>[]).A diagram of the struct is included below.</p>
 <pre class="fragment">    1 byte    4 bytes      4*X bytes       4*X bytes
 +--------+----------+---------------+--------------+
 |  type  |   deci   |  busvoltage[] |   current[]  |
@@ -173,7 +173,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classA.html">A</a> decimal identifier for the beacon. </p>
+<p>A decimal identifier for the beacon. </p>
 <p>This value is the current uptime of the Teensy in milliseconds. By default, it is zero. </p>
 
 </div>

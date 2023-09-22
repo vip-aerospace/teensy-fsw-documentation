@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nodes_0',['NODES',['../artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aea',1,'artemis_defs.h']]]
+  ['teensy_5fpins_0',['TEENSY_PINS',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97',1,'artemis_defs.h']]]
 ];

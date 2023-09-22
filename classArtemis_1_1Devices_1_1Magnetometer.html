@@ -154,7 +154,7 @@ Adafruit_LIS3MDL *&#160;</td><td class="memItemRight" valign="bottom"><b>magneto
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Returns 0 on successful read, -1 if failed. </dd></dl>
 <p>The magnetometer is only polled if it has been set up.</p>
-<p><a class="el" href="classA.html">A</a> packet and magnetometer beacon are created. The beacon is given an identification value.</p>
+<p>A packet and magnetometer beacon are created. The beacon is given an identification value.</p>
 <p>The magnetometer is polled for its most recent measurement. This measurement is then saved in the magnetometer beacon.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> queues for transmission.</p>
 

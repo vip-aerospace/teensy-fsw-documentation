@@ -156,7 +156,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
 <p>It is possible to poll the remaining current sensors if one has not been set up.</p>
-<p><a class="el" href="classA.html">A</a> single packet is used in this function. It is copied as needed. Two current beacons are created, to hold all the current measurements.</p>
+<p>A single packet is used in this function. It is copied as needed. Two current beacons are created, to hold all the current measurements.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type.</p>
 <p>The current sensors are iterated over. Each sensor is polled for its bus voltage and current. The first few sensors, defined by <a class="el" href="artemis__defs_8h.html#a69799b0a5a16e327c77608d3cae7dbb0">ARTEMIS_CURRENT_BEACON_1_COUNT</a>, are stored in the first current beacon's array, with the remainder stored in the second current beacon's array.</p>
 <p>The first beacon is given an identifier value, then copied into the into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> queues for transmission.</p>

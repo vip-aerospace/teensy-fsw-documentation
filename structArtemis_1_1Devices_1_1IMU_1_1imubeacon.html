@@ -108,7 +108,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a223899049ef75c65d30d34a678ed0f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the beacon.  <br /></td></tr>
 <tr class="separator:a223899049ef75c65d30d34a678ed0f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da134fa0b4a700e8c2005095e5cccbe"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1IMU_1_1imubeacon.html#a9da134fa0b4a700e8c2005095e5cccbe">deci</a> = 0</td></tr>
-<tr class="memdesc:a9da134fa0b4a700e8c2005095e5cccbe"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classA.html">A</a> decimal identifier for the beacon.  <br /></td></tr>
+<tr class="memdesc:a9da134fa0b4a700e8c2005095e5cccbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">A decimal identifier for the beacon.  <br /></td></tr>
 <tr class="separator:a9da134fa0b4a700e8c2005095e5cccbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff9d73e6db40a1875bc8b4a7605d5240"><td class="memItemLeft" align="right" valign="top"><a id="aff9d73e6db40a1875bc8b4a7605d5240" name="aff9d73e6db40a1875bc8b4a7605d5240"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>accelx</b> = 0</td></tr>
@@ -142,7 +142,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>imutemp</b> = 0</td>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon structure. </p>
 <p>This defines the structure of the <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon.</p>
-<p>The magnetometer beacon consists of nine members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the accelerometer values for the x, y, and z axes (<code>accelx</code>, <code>accely</code>, <code>accelz</code>), the gyroscope values for the x, y, and z axes (<code>gyrox</code>, <code>gyroy</code>, <code>gyroz</code>), and the <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> temperature (<code>imutemp</code>).<a class="el" href="classA.html">A</a> diagram of the struct is included below.</p>
+<p>The magnetometer beacon consists of nine members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the accelerometer values for the x, y, and z axes (<code>accelx</code>, <code>accely</code>, <code>accelz</code>), the gyroscope values for the x, y, and z axes (<code>gyrox</code>, <code>gyroy</code>, <code>gyroz</code>), and the <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> temperature (<code>imutemp</code>).A diagram of the struct is included below.</p>
 <pre class="fragment">    1 byte   4 bytes  4 bytes    4 bytes    4 bytes    4 bytes   4 bytes   4 bytes   4 bytes
 +--------+--------+----------+----------+----------+---------+---------+---------+-----------+
 |  type  |  deci  |  accelx  |  accely  |  accelz  |  gyrox  |  gyroy  |  gyroz  |  imutemp  |
@@ -160,7 +160,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>imutemp</b> = 0</td>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classA.html">A</a> decimal identifier for the beacon. </p>
+<p>A decimal identifier for the beacon. </p>
 <p>This value is the current uptime of the Teensy in milliseconds. </p>
 
 </div>

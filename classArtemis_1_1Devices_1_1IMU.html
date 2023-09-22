@@ -154,7 +154,7 @@ Adafruit_LSM6DSOX *&#160;</td><td class="memItemRight" valign="bottom"><b>imu</b
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns 0. </dd></dl>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> is only polled if it has been set up.</p>
-<p><a class="el" href="classA.html">A</a> packet and <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon are created. The beacon is given an identification value.</p>
+<p>A packet and <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon are created. The beacon is given an identification value.</p>
 <p>The accelerometer and gyroscope are polled for their most recent measurements. These measurements are then saved in the <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon.</p>
 <p>The packet's header information is filled out, identifying the originator node, destination node, and packet type. The beacon is then copied into the payload of the packet. The packet is then copied into the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> and <a class="el" href="classArtemis_1_1Devices_1_1Astrodev.html" title="The satellite&#39;s Astrodev (Li-3) radio.">Astrodev</a> queues for transmission.</p>
 

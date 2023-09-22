@@ -8,6 +8,5 @@ var searchData=
   ['artemisbeacons_2eh_5',['artemisbeacons.h',['../artemisbeacons_8h.html',1,'']]],
   ['astrodev_2ecpp_6',['astrodev.cpp',['../astrodev_8cpp.html',1,'']]],
   ['astrodev_2eh_7',['astrodev.h',['../astrodev_8h.html',1,'']]],
-  ['astrodev_5fchannel_2ecpp_8',['astrodev_channel.cpp',['../astrodev__channel_8cpp.html',1,'']]],
-  ['autolink_2ecpp_9',['autolink.cpp',['../autolink_8cpp.html',1,'']]]
+  ['astrodev_5fchannel_2ecpp_8',['astrodev_channel.cpp',['../astrodev__channel_8cpp.html',1,'']]]
 ];

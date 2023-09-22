@@ -108,7 +108,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a2b83409d7aa39c657432e36944c29df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the beacon.  <br /></td></tr>
 <tr class="separator:a2b83409d7aa39c657432e36944c29df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a0dfed4fbba9635368a2ed5b11ba45"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1GPS_1_1gpsbeacon.html#aa2a0dfed4fbba9635368a2ed5b11ba45">deci</a> = 0</td></tr>
-<tr class="memdesc:aa2a0dfed4fbba9635368a2ed5b11ba45"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classA.html">A</a> decimal identifier for the beacon.  <br /></td></tr>
+<tr class="memdesc:aa2a0dfed4fbba9635368a2ed5b11ba45"><td class="mdescLeft">&#160;</td><td class="mdescRight">A decimal identifier for the beacon.  <br /></td></tr>
 <tr class="separator:aa2a0dfed4fbba9635368a2ed5b11ba45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7c59e31ab71f8b2961d8ab09158742d"><td class="memItemLeft" align="right" valign="top"><a id="ad7c59e31ab71f8b2961d8ab09158742d" name="ad7c59e31ab71f8b2961d8ab09158742d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>latitude</b> = 0</td></tr>
@@ -174,7 +174,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> =
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon structure. </p>
 <p>This defines the structure of the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon.</p>
-<p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon consists of sixteen members: identifying information for the beacon (<code>type</code> and <code>deci</code>), position data (<code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>angle</code>, and <code>altitude</code>), <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> qualtiy data (<code>satellites</code>, <code>fix</code>, and <code>fixquality</code>), and date/time data (<code>year</code>, <code>month</code>, <code>day</code>, <code>hour</code>, <code>minute</code>, <code>second</code>, and <code>millisecond</code>).<a class="el" href="classA.html">A</a> diagram of the struct is included below.</p>
+<p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon consists of sixteen members: identifying information for the beacon (<code>type</code> and <code>deci</code>), position data (<code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>angle</code>, and <code>altitude</code>), <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> qualtiy data (<code>satellites</code>, <code>fix</code>, and <code>fixquality</code>), and date/time data (<code>year</code>, <code>month</code>, <code>day</code>, <code>hour</code>, <code>minute</code>, <code>second</code>, and <code>millisecond</code>).A diagram of the struct is included below.</p>
 <pre class="fragment">    1 byte   4 bytes  4 bytes      4 bytes       4 bytes   4 bytes   4 bytes      1 byte
 +--------+--------+------------+-------------+---------+---------+------------+--------------+
 |  type  |  deci  |  latitude  |  longitude  |  speed  |  angle  |  altitude  |  satellites  |
@@ -196,7 +196,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> =
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classA.html">A</a> decimal identifier for the beacon. </p>
+<p>A decimal identifier for the beacon. </p>
 <p>This value is the current uptime of the Teensy in milliseconds. </p>
 
 </div>
