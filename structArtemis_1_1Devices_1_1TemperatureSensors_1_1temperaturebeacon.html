@@ -117,8 +117,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The temperature beacon structure. </p>
 <p>This defines the structure of the temperature beacon.</p>
-<p>The temperature beacon consists of three members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), and the temperature data (<code>temperatureC</code>[]). A diagram of the struct is included below.</p>
-<pre class="fragment">    1 byte    4 bytes      4*X bytes 
+<p>The temperature beacon consists of three members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), and the temperature data (<code>temperatureC</code>[]).A diagram of the struct is included below.</p>
+<pre class="fragment">    1 byte    4 bytes      4*X bytes
 +--------+----------+-----------------+
 |  type  |   deci   |  temperatureC[] |
 +--------+----------+-----------------+

@@ -143,9 +143,11 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>imutemp</b> = 0</td>
 <div class="textblock"><p>The <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon structure. </p>
 <p>This defines the structure of the <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> beacon.</p>
 <p>The magnetometer beacon consists of nine members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the accelerometer values for the x, y, and z axes (<code>accelx</code>, <code>accely</code>, <code>accelz</code>), the gyroscope values for the x, y, and z axes (<code>gyrox</code>, <code>gyroy</code>, <code>gyroz</code>), and the <a class="el" href="classArtemis_1_1Devices_1_1IMU.html" title="The satellite&#39;s Inertial Measurement Unit (IMU).">IMU</a> temperature (<code>imutemp</code>).A diagram of the struct is included below.</p>
-<pre class="fragment">    1 byte   4 bytes  4 bytes    4 bytes    4 bytes    4 bytes   4 bytes   4 bytes   4 bytes
+<pre class="fragment">    1 byte   4 bytes  4 bytes    4 bytes    4 bytes    4 bytes   4 bytes
+4 bytes   4 bytes
 +--------+--------+----------+----------+----------+---------+---------+---------+-----------+
-|  type  |  deci  |  accelx  |  accely  |  accelz  |  gyrox  |  gyroy  |  gyroz  |  imutemp  |
+|  type  |  deci  |  accelx  |  accely  |  accelz  |  gyrox  |  gyroy  |
+gyroz  |  imutemp  |
 +--------+--------+----------+----------+----------+---------+---------+---------+-----------+
 </pre> </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a9da134fa0b4a700e8c2005095e5cccbe" name="a9da134fa0b4a700e8c2005095e5cccbe"></a>
