@@ -34,11 +34,6 @@ var NAVTREE =
       [ "Step 5: Run the FSW", "development_environment_setup.html#step5", null ]
     ] ],
     [ "README", "md_include_2README.html", null ],
-    [ "README", "md_README.html", [
-      [ "Ke Ao Cubesat Flight Software (Teensy 4.1)", "md_README.html#autotoc_md0", null ],
-      [ "Development Environment", "md_README.html#autotoc_md1", null ],
-      [ "Updating", "md_README.html#autotoc_md2", null ]
-    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", null ],
@@ -75,7 +70,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classArtemis_1_1Devices_1_1TemperatureSensors.html#a1d1ca304b40d3720d247ed12b2e0733f",
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html"
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
