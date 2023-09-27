@@ -33,7 +33,6 @@ var NAVTREE =
       [ "Step 4: Clone the FSW", "development_environment_setup.html#step4", null ],
       [ "Step 5: Run the FSW", "development_environment_setup.html#step5", null ]
     ] ],
-    [ "README", "md_include_2README.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", null ],
@@ -70,7 +69,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classArtemis_1_1Devices_1_1TemperatureSensors.html#a1d1ca304b40d3720d247ed12b2e0733f",
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html"
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a1eda1b2740006a6cb4e2ff964d191a43"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
