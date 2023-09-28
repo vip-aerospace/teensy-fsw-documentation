@@ -5,5 +5,7 @@ var searchData=
   ['uart4_5frxd_2',['UART4_RXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ad6d99180befea432ef7c2e2d79c151a7',1,'artemis_defs.h']]],
   ['uart4_5ftxd_3',['UART4_TXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a5af9c656005ae9ff4623b4c5f9519d41',1,'artemis_defs.h']]],
   ['uart5_5frxd_4',['UART5_RXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae18fbabff8dd035a0bf4a40e0a9f7081',1,'artemis_defs.h']]],
-  ['uart5_5ftxd_5',['UART5_TXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939',1,'artemis_defs.h']]]
+  ['uart5_5ftxd_5',['UART5_TXD',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939',1,'artemis_defs.h']]],
+  ['uart6_5frx_6',['UART6_RX',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a41715ef80f10fb1c2e185e43d528930e',1,'artemis_defs.h']]],
+  ['uart6_5ftx_7',['UART6_TX',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a20a070fb1b474753d7a4fbe007bac9c5',1,'artemis_defs.h']]]
 ];

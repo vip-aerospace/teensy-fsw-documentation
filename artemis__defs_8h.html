@@ -155,9 +155,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97afda3fe59680bb551a74b8a8fb84346c5">T_GPIO4</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ab6a0d40da4b8d7ed6b92969bf3634502">T_GPIO5</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a4b8a05fe46f9f00cfde68ada938d6c48">T_GPIO6</a>
-, <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708">RADIO_RESET</a>
+, <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a41715ef80f10fb1c2e185e43d528930e">UART6_RX</a>
 , <br />
-&#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd">NIRQ</a>
+&#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a20a070fb1b474753d7a4fbe007bac9c5">UART6_TX</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a2dc46590084d1bbcfafc6ab23fedc619">T_CS1</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae4bc3e40ff962d6af8739230ff14aa3a">T_CS</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467">SPI0_MOSI</a>
@@ -187,7 +187,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a043d4e3c88132157af563f5ca2c68d52">RX_ON</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1">TX_ON</a>
 , <br />
-&#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a888fbd62097190b17ae61eb840dc6bd0">PI_STATUS</a>
+&#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708">RADIO_RESET</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a33d3be6736ade16a839ba54234c47b44">GPS_RSTN</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97abc1134f6f4716ce5a8994477acbf1477">UART2_RXD</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a6b5c5eacbe2040a69f2561e2f97c3dad">UART2_TXD</a>
@@ -197,7 +197,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd">SPI1_CS1</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7">SPI1_D0</a>
 , <br />
-&#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ad21cf704e606f7876b11227e8cdd948c">A16_UNUSED</a>
+&#160;&#160;<a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd">NIRQ</a>
 , <a class="el" href="artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ab78a0152620462e27786280a23a3bd15">AIN2</a>
 <br />
  }</td></tr>
@@ -218,6 +218,18 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:aa10650ef4aa37a20227df31359e77ec5"><td class="memItemLeft" align="right" valign="top"><a id="aa10650ef4aa37a20227df31359e77ec5" name="aa10650ef4aa37a20227df31359e77ec5"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>MV_PER_DEGREE_F</b> = 1.0</td></tr>
+<tr class="separator:aa10650ef4aa37a20227df31359e77ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c15935516f85c6cdf6098f5ae3697a"><td class="memItemLeft" align="right" valign="top"><a id="a98c15935516f85c6cdf6098f5ae3697a" name="a98c15935516f85c6cdf6098f5ae3697a"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>OFFSET_F</b> = 58.0</td></tr>
+<tr class="separator:a98c15935516f85c6cdf6098f5ae3697a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422430a83008e5e3f1c137c05558aae5"><td class="memItemLeft" align="right" valign="top"><a id="a422430a83008e5e3f1c137c05558aae5" name="a422430a83008e5e3f1c137c05558aae5"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>MV_PER_ADC_UNIT</b> = 3300.0 / 1024.0</td></tr>
+<tr class="separator:a422430a83008e5e3f1c137c05558aae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a498897bec91e28c5fe738b871aaec8"><td class="memItemLeft" align="right" valign="top"><a id="a0a498897bec91e28c5fe738b871aaec8" name="a0a498897bec91e28c5fe738b871aaec8"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>heater_threshold</b> = -10.0</td></tr>
+<tr class="separator:a0a498897bec91e28c5fe738b871aaec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd128b0ae3273bf0df0bf5e1f971418"><td class="memItemLeft" align="right" valign="top">std::map&lt; string, <a class="el" href="artemis__defs_8h.html#ac77cd0a84629014c09956c3f475d6aea">NODES</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="artemis__defs_8h.html#a6bd128b0ae3273bf0df0bf5e1f971418">NodeType</a></td></tr>
 <tr class="memdesc:a6bd128b0ae3273bf0df0bf5e1f971418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping of string node types to corresponding node IDs.  <br /></td></tr>
 <tr class="separator:a6bd128b0ae3273bf0df0bf5e1f971418"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,6 +292,9 @@ Threads::Mutex&#160;</td><td class="memItemRight" valign="bottom"><b>spi1_mtx</b
 Threads::Mutex&#160;</td><td class="memItemRight" valign="bottom"><b>i2c1_mtx</b></td></tr>
 <tr class="memdesc:a4d951a21983b7519a768bdf61f6d77d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mutex for the I2C1 interface on the Teensy. <br /></td></tr>
 <tr class="separator:a4d951a21983b7519a768bdf61f6d77d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74284cbc4943cf70f99e110262735836"><td class="memItemLeft" align="right" valign="top"><a id="a74284cbc4943cf70f99e110262735836" name="a74284cbc4943cf70f99e110262735836"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>deploymentmode</b></td></tr>
+<tr class="separator:a74284cbc4943cf70f99e110262735836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The Artemis definitions header file. </p>
@@ -336,9 +351,9 @@ Threads::Mutex&#160;</td><td class="memItemRight" valign="bottom"><b>i2c1_mtx</b
 <p>Current for Artemis OBC v4.23.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Fill out completely. </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad6d99180befea432ef7c2e2d79c151a7" name="adbc205829919a2bf55d1ebcf0e2e1c97ad6d99180befea432ef7c2e2d79c151a7"></a>UART4_RXD&#160;</td><td class="fielddoc"><p>Physical 0: Serial4 Receive </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad6d99180befea432ef7c2e2d79c151a7" name="adbc205829919a2bf55d1ebcf0e2e1c97ad6d99180befea432ef7c2e2d79c151a7"></a>UART4_RXD&#160;</td><td class="fielddoc"><p>Physical 0: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a5af9c656005ae9ff4623b4c5f9519d41" name="adbc205829919a2bf55d1ebcf0e2e1c97a5af9c656005ae9ff4623b4c5f9519d41"></a>UART4_TXD&#160;</td><td class="fielddoc"><p>Physical 1: Serial4 Transmit </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a5af9c656005ae9ff4623b4c5f9519d41" name="adbc205829919a2bf55d1ebcf0e2e1c97a5af9c656005ae9ff4623b4c5f9519d41"></a>UART4_TXD&#160;</td><td class="fielddoc"><p>Physical 1: </p>
 </td></tr>
 <tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97aa45e444bffaf16b2f595f4be765179d4" name="adbc205829919a2bf55d1ebcf0e2e1c97aa45e444bffaf16b2f595f4be765179d4"></a>T_GPIO2&#160;</td><td class="fielddoc"><p>Physical 2: </p>
 </td></tr>
@@ -350,80 +365,75 @@ Threads::Mutex&#160;</td><td class="memItemRight" valign="bottom"><b>i2c1_mtx</b
 </td></tr>
 <tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a4b8a05fe46f9f00cfde68ada938d6c48" name="adbc205829919a2bf55d1ebcf0e2e1c97a4b8a05fe46f9f00cfde68ada938d6c48"></a>T_GPIO6&#160;</td><td class="fielddoc"><p>Physical 6: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708" name="adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708"></a>RADIO_RESET&#160;</td><td class="fielddoc"><p>Physical 7: Digital pin for resetting radio </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a41715ef80f10fb1c2e185e43d528930e" name="adbc205829919a2bf55d1ebcf0e2e1c97a41715ef80f10fb1c2e185e43d528930e"></a>UART6_RX&#160;</td><td class="fielddoc"><p>Physical 7: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd" name="adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd"></a>NIRQ&#160;</td><td class="fielddoc"><p>Physical 8: </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a20a070fb1b474753d7a4fbe007bac9c5" name="adbc205829919a2bf55d1ebcf0e2e1c97a20a070fb1b474753d7a4fbe007bac9c5"></a>UART6_TX&#160;</td><td class="fielddoc"><p>Physical 8: </p>
 </td></tr>
 <tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a2dc46590084d1bbcfafc6ab23fedc619" name="adbc205829919a2bf55d1ebcf0e2e1c97a2dc46590084d1bbcfafc6ab23fedc619"></a>T_CS1&#160;</td><td class="fielddoc"><p>Physical 9: </p>
 </td></tr>
 <tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae4bc3e40ff962d6af8739230ff14aa3a" name="adbc205829919a2bf55d1ebcf0e2e1c97ae4bc3e40ff962d6af8739230ff14aa3a"></a>T_CS&#160;</td><td class="fielddoc"><p>Physical 10: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467" name="adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467"></a>SPI0_MOSI&#160;</td><td class="fielddoc"><p>Physical 11: SPI0 MOSI </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467" name="adbc205829919a2bf55d1ebcf0e2e1c97a28738253ecd3cc301e36b90e5a2f0467"></a>SPI0_MOSI&#160;</td><td class="fielddoc"><p>Physical 11: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1" name="adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1"></a>SPI0_MISO&#160;</td><td class="fielddoc"><p>Physical 12: SPI0 MISO </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1" name="adbc205829919a2bf55d1ebcf0e2e1c97acc8ccb7df34df9e1f8a4e936da9c3ac1"></a>SPI0_MISO&#160;</td><td class="fielddoc"><p>Physical 12: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0" name="adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0"></a>SPI0_SCLK&#160;</td><td class="fielddoc"><p>Physical 13: SPI0 Clock </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0" name="adbc205829919a2bf55d1ebcf0e2e1c97a043149507d6ca2e1ff3205abf8066ef0"></a>SPI0_SCLK&#160;</td><td class="fielddoc"><p>Physical 13: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad11403421ad86777a0780a5a1abd83f7" name="adbc205829919a2bf55d1ebcf0e2e1c97ad11403421ad86777a0780a5a1abd83f7"></a>AIN0&#160;</td><td class="fielddoc"><p>Physical 14: Analog input 0 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad11403421ad86777a0780a5a1abd83f7" name="adbc205829919a2bf55d1ebcf0e2e1c97ad11403421ad86777a0780a5a1abd83f7"></a>AIN0&#160;</td><td class="fielddoc"><p>Physical 14: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97aebd46c0aa1e49de7a99380bb345e4e04" name="adbc205829919a2bf55d1ebcf0e2e1c97aebd46c0aa1e49de7a99380bb345e4e04"></a>AIN1&#160;</td><td class="fielddoc"><p>Physical 15: Analog input 1 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97aebd46c0aa1e49de7a99380bb345e4e04" name="adbc205829919a2bf55d1ebcf0e2e1c97aebd46c0aa1e49de7a99380bb345e4e04"></a>AIN1&#160;</td><td class="fielddoc"><p>Physical 15: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2" name="adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2"></a>SCL1_I2C&#160;</td><td class="fielddoc"><p>Physical 16: I2C1 Clock </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2" name="adbc205829919a2bf55d1ebcf0e2e1c97a182936a49eefde8ff6168f5ec585aab2"></a>SCL1_I2C&#160;</td><td class="fielddoc"><p>Physical 16: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201" name="adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201"></a>SDA1_I2C&#160;</td><td class="fielddoc"><p>Physical 17: I2C1 Data </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201" name="adbc205829919a2bf55d1ebcf0e2e1c97a2fee3151e1565feb5e0ab6c199104201"></a>SDA1_I2C&#160;</td><td class="fielddoc"><p>Physical 17: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a521174b5879c70f749b318ee320ae237" name="adbc205829919a2bf55d1ebcf0e2e1c97a521174b5879c70f749b318ee320ae237"></a>I2C2_SDA&#160;</td><td class="fielddoc"><p>Physical 18: I2C2 Data </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a521174b5879c70f749b318ee320ae237" name="adbc205829919a2bf55d1ebcf0e2e1c97a521174b5879c70f749b318ee320ae237"></a>I2C2_SDA&#160;</td><td class="fielddoc"><p>Physical 18: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a053174e10cd69227c064c7df870b3958" name="adbc205829919a2bf55d1ebcf0e2e1c97a053174e10cd69227c064c7df870b3958"></a>I2C2_SCL&#160;</td><td class="fielddoc"><p>Physical 19: I2C2 Clock </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a053174e10cd69227c064c7df870b3958" name="adbc205829919a2bf55d1ebcf0e2e1c97a053174e10cd69227c064c7df870b3958"></a>I2C2_SCL&#160;</td><td class="fielddoc"><p>Physical 19: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97adf240be12a6248ba0651d6f8c1a3b834" name="adbc205829919a2bf55d1ebcf0e2e1c97adf240be12a6248ba0651d6f8c1a3b834"></a>AIN3&#160;</td><td class="fielddoc"><p>Physical 20: Analog input 3 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97adf240be12a6248ba0651d6f8c1a3b834" name="adbc205829919a2bf55d1ebcf0e2e1c97adf240be12a6248ba0651d6f8c1a3b834"></a>AIN3&#160;</td><td class="fielddoc"><p>Physical 20: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ac158a505d3211303f76657940efae895" name="adbc205829919a2bf55d1ebcf0e2e1c97ac158a505d3211303f76657940efae895"></a>AIN4&#160;</td><td class="fielddoc"><p>Physical 21: Analog input 4 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ac158a505d3211303f76657940efae895" name="adbc205829919a2bf55d1ebcf0e2e1c97ac158a505d3211303f76657940efae895"></a>AIN4&#160;</td><td class="fielddoc"><p>Physical 21: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a863dcb4c6d837defcdb0377a00435c5b" name="adbc205829919a2bf55d1ebcf0e2e1c97a863dcb4c6d837defcdb0377a00435c5b"></a>AIN5&#160;</td><td class="fielddoc"><p>Physical 22: Analog input 5 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a863dcb4c6d837defcdb0377a00435c5b" name="adbc205829919a2bf55d1ebcf0e2e1c97a863dcb4c6d837defcdb0377a00435c5b"></a>AIN5&#160;</td><td class="fielddoc"><p>Physical 22: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad2364bb0573ddfa36277cd7d5283e74a" name="adbc205829919a2bf55d1ebcf0e2e1c97ad2364bb0573ddfa36277cd7d5283e74a"></a>AIN6&#160;</td><td class="fielddoc"><p>Physical 23: Analog input 6 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad2364bb0573ddfa36277cd7d5283e74a" name="adbc205829919a2bf55d1ebcf0e2e1c97ad2364bb0573ddfa36277cd7d5283e74a"></a>AIN6&#160;</td><td class="fielddoc"><p>Physical 23: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a36712793727e4b910c13bcb7aec5dc4f" name="adbc205829919a2bf55d1ebcf0e2e1c97a36712793727e4b910c13bcb7aec5dc4f"></a>I2C1_SCL&#160;</td><td class="fielddoc"><p>Physical 24: I2C1 Clock </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a36712793727e4b910c13bcb7aec5dc4f" name="adbc205829919a2bf55d1ebcf0e2e1c97a36712793727e4b910c13bcb7aec5dc4f"></a>I2C1_SCL&#160;</td><td class="fielddoc"><p>Physical 24: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97adb8948c23833892c537f2bda850872e7" name="adbc205829919a2bf55d1ebcf0e2e1c97adb8948c23833892c537f2bda850872e7"></a>I2C1_SDA&#160;</td><td class="fielddoc"><p>Physical 25: I2C1 Data </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97adb8948c23833892c537f2bda850872e7" name="adbc205829919a2bf55d1ebcf0e2e1c97adb8948c23833892c537f2bda850872e7"></a>I2C1_SDA&#160;</td><td class="fielddoc"><p>Physical 25: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea" name="adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea"></a>SPI1_D1&#160;</td><td class="fielddoc"><p>Physical 26: SPI1 Data </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea" name="adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea"></a>SPI1_D1&#160;</td><td class="fielddoc"><p>Physical 26: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68" name="adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68"></a>SPI1_SCLK&#160;</td><td class="fielddoc"><p>Physical 27: SPI1 Clock </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68" name="adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68"></a>SPI1_SCLK&#160;</td><td class="fielddoc"><p>Physical 27: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939" name="adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939"></a>UART5_TXD&#160;</td><td class="fielddoc"><p>Physical 28: Serial5 Transmit </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939" name="adbc205829919a2bf55d1ebcf0e2e1c97a07db7e9a6786472a12c2be80f8300939"></a>UART5_TXD&#160;</td><td class="fielddoc"><p>Physical 28: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae18fbabff8dd035a0bf4a40e0a9f7081" name="adbc205829919a2bf55d1ebcf0e2e1c97ae18fbabff8dd035a0bf4a40e0a9f7081"></a>UART5_RXD&#160;</td><td class="fielddoc"><p>Physical 29: Serial5 Receive </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae18fbabff8dd035a0bf4a40e0a9f7081" name="adbc205829919a2bf55d1ebcf0e2e1c97ae18fbabff8dd035a0bf4a40e0a9f7081"></a>UART5_RXD&#160;</td><td class="fielddoc"><p>Physical 29: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a043d4e3c88132157af563f5ca2c68d52" name="adbc205829919a2bf55d1ebcf0e2e1c97a043d4e3c88132157af563f5ca2c68d52"></a>RX_ON&#160;</td><td class="fielddoc"><p>Physical 30: <br  />
- </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a043d4e3c88132157af563f5ca2c68d52" name="adbc205829919a2bf55d1ebcf0e2e1c97a043d4e3c88132157af563f5ca2c68d52"></a>RX_ON&#160;</td><td class="fielddoc"><p>Physical 30: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1" name="adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1"></a>TX_ON&#160;</td><td class="fielddoc"><p>Physical 31: <br  />
- </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1" name="adbc205829919a2bf55d1ebcf0e2e1c97abe09b698fc01ae991b2480d400f577c1"></a>TX_ON&#160;</td><td class="fielddoc"><p>Physical 31: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a888fbd62097190b17ae61eb840dc6bd0" name="adbc205829919a2bf55d1ebcf0e2e1c97a888fbd62097190b17ae61eb840dc6bd0"></a>PI_STATUS&#160;</td><td class="fielddoc"><p>Physical 32: <br  />
- </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708" name="adbc205829919a2bf55d1ebcf0e2e1c97a41bc9f7d7e998af6e1c9c6ba90e24708"></a>RADIO_RESET&#160;</td><td class="fielddoc"><p>Physical 32: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a33d3be6736ade16a839ba54234c47b44" name="adbc205829919a2bf55d1ebcf0e2e1c97a33d3be6736ade16a839ba54234c47b44"></a>GPS_RSTN&#160;</td><td class="fielddoc"><p>Physical 33: <br  />
- </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a33d3be6736ade16a839ba54234c47b44" name="adbc205829919a2bf55d1ebcf0e2e1c97a33d3be6736ade16a839ba54234c47b44"></a>GPS_RSTN&#160;</td><td class="fielddoc"><p>Physical 33: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97abc1134f6f4716ce5a8994477acbf1477" name="adbc205829919a2bf55d1ebcf0e2e1c97abc1134f6f4716ce5a8994477acbf1477"></a>UART2_RXD&#160;</td><td class="fielddoc"><p>Physical 34: Serial2 Receive </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97abc1134f6f4716ce5a8994477acbf1477" name="adbc205829919a2bf55d1ebcf0e2e1c97abc1134f6f4716ce5a8994477acbf1477"></a>UART2_RXD&#160;</td><td class="fielddoc"><p>Physical 34: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a6b5c5eacbe2040a69f2561e2f97c3dad" name="adbc205829919a2bf55d1ebcf0e2e1c97a6b5c5eacbe2040a69f2561e2f97c3dad"></a>UART2_TXD&#160;</td><td class="fielddoc"><p>Physical 35: Serial2 Transmit </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97a6b5c5eacbe2040a69f2561e2f97c3dad" name="adbc205829919a2bf55d1ebcf0e2e1c97a6b5c5eacbe2040a69f2561e2f97c3dad"></a>UART2_TXD&#160;</td><td class="fielddoc"><p>Physical 35: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae3b2cceacc640b8046fe00b9e92808f7" name="adbc205829919a2bf55d1ebcf0e2e1c97ae3b2cceacc640b8046fe00b9e92808f7"></a>RPI_ENABLE&#160;</td><td class="fielddoc"><p>Physical 36: Digital pin for enabling Raspberry Pi </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae3b2cceacc640b8046fe00b9e92808f7" name="adbc205829919a2bf55d1ebcf0e2e1c97ae3b2cceacc640b8046fe00b9e92808f7"></a>RPI_ENABLE&#160;</td><td class="fielddoc"><p>Physical 36: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97adb019b57d8a20743774fb0b26ce10a70" name="adbc205829919a2bf55d1ebcf0e2e1c97adb019b57d8a20743774fb0b26ce10a70"></a>SDN&#160;</td><td class="fielddoc"><p>Physical 37: <br  />
- </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97adb019b57d8a20743774fb0b26ce10a70" name="adbc205829919a2bf55d1ebcf0e2e1c97adb019b57d8a20743774fb0b26ce10a70"></a>SDN&#160;</td><td class="fielddoc"><p>Physical 37: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd" name="adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd"></a>SPI1_CS1&#160;</td><td class="fielddoc"><p>Physical 38: SPI1 Chip Select </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd" name="adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd"></a>SPI1_CS1&#160;</td><td class="fielddoc"><p>Physical 38: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7" name="adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7"></a>SPI1_D0&#160;</td><td class="fielddoc"><p>Physical 39: SPI1 Data </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7" name="adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7"></a>SPI1_D0&#160;</td><td class="fielddoc"><p>Physical 39: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ad21cf704e606f7876b11227e8cdd948c" name="adbc205829919a2bf55d1ebcf0e2e1c97ad21cf704e606f7876b11227e8cdd948c"></a>A16_UNUSED&#160;</td><td class="fielddoc"><p>Physical 40: Analog input 16 (unused) </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd" name="adbc205829919a2bf55d1ebcf0e2e1c97ab6c06d9faecfce59a7da45b7944780bd"></a>NIRQ&#160;</td><td class="fielddoc"><p>Physical 40: </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ab78a0152620462e27786280a23a3bd15" name="adbc205829919a2bf55d1ebcf0e2e1c97ab78a0152620462e27786280a23a3bd15"></a>AIN2&#160;</td><td class="fielddoc"><p>Physical 41: Analog input 2 </p>
+<tr><td class="fieldname"><a id="adbc205829919a2bf55d1ebcf0e2e1c97ab78a0152620462e27786280a23a3bd15" name="adbc205829919a2bf55d1ebcf0e2e1c97ab78a0152620462e27786280a23a3bd15"></a>AIN2&#160;</td><td class="fielddoc"><p>Physical 41: </p>
 </td></tr>
 </table>
 
