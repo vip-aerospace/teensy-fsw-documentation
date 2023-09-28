@@ -18,5 +18,6 @@ var searchData=
   ['sw_5f5v_5f1_15',['SW_5V_1',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a54cbe9c50468d32cd8c0544e248296b5',1,'Artemis::Devices::PDU']]],
   ['sw_5f5v_5f2_16',['SW_5V_2',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a0caabe21077aadf966fd77001c068d14',1,'Artemis::Devices::PDU']]],
   ['sw_5f5v_5f3_17',['SW_5V_3',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a667b163ee86c2aef53cfb8e25f56268c',1,'Artemis::Devices::PDU']]],
-  ['sw_5f5v_5f4_18',['SW_5V_4',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676aec932e7f75f43f8da0736d82ee9a8bc6',1,'Artemis::Devices::PDU']]]
+  ['sw_5f5v_5f4_18',['SW_5V_4',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676aec932e7f75f43f8da0736d82ee9a8bc6',1,'Artemis::Devices::PDU']]],
+  ['switchbeacon_19',['SwitchBeacon',['../namespaceArtemis_1_1Devices.html#acefa807c92c3f7feaf9364660066898ea55235364b0861ef9be9d24464826d14e',1,'Artemis::Devices']]]
 ];

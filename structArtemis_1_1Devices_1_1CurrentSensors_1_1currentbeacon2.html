@@ -121,13 +121,11 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>The second current beacon structure. </p>
 <p>This defines the structure of the second current beacon.</p>
 <p>The second current beacon consists of four members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the voltage data (<code>busvoltage</code>[]), and current data (<code>current</code>[]).A diagram of the struct is included below.</p>
-<pre class="fragment">    1 byte    4 bytes      4*X bytes       4*X bytes
-+--------+----------+---------------+--------------+
-|  type  |   deci   |  busvoltage[] |   current[]  |
-+--------+----------+---------------+--------------+
-    (Note: X = ARTEMIS_CURRENT_SENSOR_COUNT -
-ARTEMIS_CURRENT_BEACON_1_COUNT)
-</pre> </div><h2 class="groupheader">Member Data Documentation</h2>
+<pre class="fragment"> 1 byte 4 bytes 4*X bytes      4*X bytes
++------+-------+--------------+-----------+
+| type | deci  | busvoltage[] | current[] |
++------+-------+--------------+-----------+
+(Note: X = ARTEMIS_CURRENT_SENSOR_COUNT - ARTEMIS_CURRENT_BEACON_1_COUNT)</pre> </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aae89a138f3958a456e8586afa0add240" name="aae89a138f3958a456e8586afa0add240"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae89a138f3958a456e8586afa0add240">&#9670;&#160;</a></span>busvoltage</h2>
 

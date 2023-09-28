@@ -10,6 +10,7 @@ var annotated_dup =
         [ "PDU", "classArtemis_1_1Devices_1_1PDU.html", "classArtemis_1_1Devices_1_1PDU" ],
         [ "RFM23", "classArtemis_1_1Devices_1_1RFM23.html", "classArtemis_1_1Devices_1_1RFM23" ],
         [ "RFM98", "classArtemis_1_1Devices_1_1RFM98.html", "classArtemis_1_1Devices_1_1RFM98" ],
+        [ "Switches", "classArtemis_1_1Devices_1_1Switches.html", "classArtemis_1_1Devices_1_1Switches" ],
         [ "TemperatureSensors", "classArtemis_1_1Devices_1_1TemperatureSensors.html", "classArtemis_1_1Devices_1_1TemperatureSensors" ]
       ] ]
     ] ],

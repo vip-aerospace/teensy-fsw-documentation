@@ -175,19 +175,18 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>millisecond</b> =
 <div class="textblock"><p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon structure. </p>
 <p>This defines the structure of the <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon.</p>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> beacon consists of sixteen members: identifying information for the beacon (<code>type</code> and <code>deci</code>), position data (<code>latitude</code>, <code>longitude</code>, <code>speed</code>, <code>angle</code>, and <code>altitude</code>), <a class="el" href="classArtemis_1_1Devices_1_1GPS.html" title="The satellite&#39;s Global Positioning System (GPS).">GPS</a> qualtiy data (<code>satellites</code>, <code>fix</code>, and <code>fixquality</code>), and date/time data (<code>year</code>, <code>month</code>, <code>day</code>, <code>hour</code>, <code>minute</code>, <code>second</code>, and <code>millisecond</code>).A diagram of the struct is included below.</p>
-<pre class="fragment">    1 byte   4 bytes  4 bytes      4 bytes       4 bytes   4 bytes   4
-bytes      1 byte
-+--------+--------+------------+-------------+---------+---------+------------+--------------+
-|  type  |  deci  |  latitude  |  longitude  |  speed  |  angle  |
-altitude  |  satellites  |
-+--------+--------+------------+-------------+---------+---------+------------+--------------+
-    1 byte   1 byte         1 byte   1 byte    1 byte  1 byte   1 byte 1
-byte     2 bytes
-+--------+--------------+--------+---------+-------+--------+----------+----------+-------------+
-|  fix   |  fixquality  |  year  |  month  |  day  |  hour  |  minute  |
-second  | millisecond |
-+--------+--------------+--------+---------+-------+--------+----------+----------+-------------+
-</pre> </div><h2 class="groupheader">Member Data Documentation</h2>
+<pre class="fragment"> 1 byte 4 bytes 4 bytes    4 bytes     4 bytes 4 bytes 4 bytes    1 byte
++------+-------+----------+-----------+-------+-------+----------+------------+
+| type | deci  | latitude | longitude | speed | angle | altitude | satellites |
++------+-------+----------+-----------+-------+-------+----------+------------+
+ 1 byte 1 byte       1 byte 1 byte  1 byte 1 byte 1 byte   1 byte
++------+------------+------+-------+------+------+--------+--------+
+| fix  | fixquality | year | month | day  | hour | minute | second |
++------+------------+------+-------+------+------+--------+--------+
+2 bytes
++-------------+
+| millisecond |
++-------------+</pre> </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa2a0dfed4fbba9635368a2ed5b11ba45" name="aa2a0dfed4fbba9635368a2ed5b11ba45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2a0dfed4fbba9635368a2ed5b11ba45">&#9670;&#160;</a></span>deci</h2>
 

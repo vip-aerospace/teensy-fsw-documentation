@@ -29,7 +29,7 @@ var searchData=
   ['spi1_5fcs1_26',['SPI1_CS1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97ae52c8e5255eefaed16c6aadc11c288bd',1,'artemis_defs.h']]],
   ['spi1_5fd0_27',['SPI1_D0',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97afb86a5e4b087d93edf068a44d838e4c7',1,'artemis_defs.h']]],
   ['spi1_5fd1_28',['SPI1_D1',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a33320a0d266012a3611f311160badfea',1,'artemis_defs.h']]],
-  ['spi1_5fmtx_29',['spi1_mtx',['../artemis__defs_8cpp.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx:&#160;artemis_defs.cpp'],['../artemis__defs_8h.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx:&#160;artemis_defs.cpp']]],
+  ['spi1_5fmtx_29',['spi1_mtx',['../artemis__defs_8h.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx:&#160;artemis_defs.cpp'],['../artemis__defs_8cpp.html#a3f559eeee6c726bf8b51b84a2cfa3d07',1,'spi1_mtx:&#160;artemis_defs.cpp']]],
   ['spi1_5fsclk_30',['SPI1_SCLK',['../artemis__defs_8h.html#adbc205829919a2bf55d1ebcf0e2e1c97a379103637f1d04a26747b83835163e68',1,'artemis_defs.h']]],
   ['spi_5fmiso_31',['spi_miso',['../structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a9834c915f9e38d9e2554191a53201de8',1,'Artemis::Devices::RFM98::rfm98_config::pins::spi_miso'],['../structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#a6c421bfe044dbdf23cc6c08a111ab532',1,'Artemis::Devices::RFM23::rfm23_config::pins::spi_miso']]],
   ['spi_5fmosi_32',['spi_mosi',['../structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a5b732903a24b461ede70cc1e5afa72fe',1,'Artemis::Devices::RFM98::rfm98_config::pins::spi_mosi'],['../structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config_1_1pins.html#abd86bf7cc05738bd435a0c54658f40ab',1,'Artemis::Devices::RFM23::rfm23_config::pins::spi_mosi']]],
@@ -44,9 +44,13 @@ var searchData=
   ['sw_5f5v_5f2_41',['SW_5V_2',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a0caabe21077aadf966fd77001c068d14',1,'Artemis::Devices::PDU']]],
   ['sw_5f5v_5f3_42',['SW_5V_3',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a667b163ee86c2aef53cfb8e25f56268c',1,'Artemis::Devices::PDU']]],
   ['sw_5f5v_5f4_43',['SW_5V_4',['../classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676aec932e7f75f43f8da0736d82ee9a8bc6',1,'Artemis::Devices::PDU']]],
-  ['sw_5fstate_44',['sw_state',['../structArtemis_1_1Devices_1_1PDU_1_1pdu__packet.html#abcc0549394817dc60ff74e184ca63fba',1,'Artemis::Devices::PDU::pdu_packet::sw_state'],['../structArtemis_1_1Devices_1_1PDU_1_1pdu__telem.html#adfce2b65e871eec9013474618cccaeb9',1,'Artemis::Devices::PDU::pdu_telem::sw_state']]],
-  ['sync0_45',['SYNC0',['../classArtemis_1_1Devices_1_1Astrodev.html#a1061dc267a388aaeac84e869542edb15',1,'Artemis::Devices::Astrodev']]],
-  ['sync0_46',['sync0',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a03e30f7b4d3e39fd48b83e0185181aa2',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
-  ['sync1_47',['sync1',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a304f9089167476d871ef52e837835806',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
-  ['sync1_48',['SYNC1',['../classArtemis_1_1Devices_1_1Astrodev.html#a744424ba4d6476e2ee356b63bb7d80fc',1,'Artemis::Devices::Astrodev']]]
+  ['sw_5fstate_44',['sw_state',['../structArtemis_1_1Devices_1_1PDU_1_1pdu__telem.html#adfce2b65e871eec9013474618cccaeb9',1,'Artemis::Devices::PDU::pdu_telem::sw_state'],['../structArtemis_1_1Devices_1_1PDU_1_1pdu__packet.html#abcc0549394817dc60ff74e184ca63fba',1,'Artemis::Devices::PDU::pdu_packet::sw_state']]],
+  ['switchbeacon_45',['switchbeacon',['../structArtemis_1_1Devices_1_1Switches_1_1switchbeacon.html',1,'Artemis::Devices::Switches']]],
+  ['switchbeacon_46',['SwitchBeacon',['../namespaceArtemis_1_1Devices.html#acefa807c92c3f7feaf9364660066898ea55235364b0861ef9be9d24464826d14e',1,'Artemis::Devices']]],
+  ['switches_47',['Switches',['../classArtemis_1_1Devices_1_1Switches.html',1,'Artemis::Devices']]],
+  ['switches_48',['switches',['../structArtemis_1_1Devices_1_1Switches_1_1switchbeacon.html#af0ef8dd026dd383bdf2461bd6472eb8c',1,'Artemis::Devices::Switches::switchbeacon']]],
+  ['sync0_49',['SYNC0',['../classArtemis_1_1Devices_1_1Astrodev.html#a1061dc267a388aaeac84e869542edb15',1,'Artemis::Devices::Astrodev']]],
+  ['sync0_50',['sync0',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a03e30f7b4d3e39fd48b83e0185181aa2',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
+  ['sync1_51',['sync1',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a304f9089167476d871ef52e837835806',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
+  ['sync1_52',['SYNC1',['../classArtemis_1_1Devices_1_1Astrodev.html#a744424ba4d6476e2ee356b63bb7d80fc',1,'Artemis::Devices::Astrodev']]]
 ];

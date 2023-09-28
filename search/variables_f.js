@@ -13,8 +13,9 @@ var searchData=
   ['status_10',['status',['../unionArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header_1_1header__size__response.html#a44d71f309bb6ac88e62d78ef8afd3e12',1,'Artemis::Devices::Astrodev::frame::frame_header::header::header_size_response']]],
   ['sw_11',['sw',['../structArtemis_1_1Devices_1_1PDU_1_1pdu__packet.html#ababaae69eb3d6b8b04f3de3758fabde9',1,'Artemis::Devices::PDU::pdu_packet']]],
   ['sw_5fstate_12',['sw_state',['../structArtemis_1_1Devices_1_1PDU_1_1pdu__packet.html#abcc0549394817dc60ff74e184ca63fba',1,'Artemis::Devices::PDU::pdu_packet::sw_state'],['../structArtemis_1_1Devices_1_1PDU_1_1pdu__telem.html#adfce2b65e871eec9013474618cccaeb9',1,'Artemis::Devices::PDU::pdu_telem::sw_state']]],
-  ['sync0_13',['SYNC0',['../classArtemis_1_1Devices_1_1Astrodev.html#a1061dc267a388aaeac84e869542edb15',1,'Artemis::Devices::Astrodev']]],
-  ['sync0_14',['sync0',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a03e30f7b4d3e39fd48b83e0185181aa2',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
-  ['sync1_15',['sync1',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a304f9089167476d871ef52e837835806',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
-  ['sync1_16',['SYNC1',['../classArtemis_1_1Devices_1_1Astrodev.html#a744424ba4d6476e2ee356b63bb7d80fc',1,'Artemis::Devices::Astrodev']]]
+  ['switches_13',['switches',['../structArtemis_1_1Devices_1_1Switches_1_1switchbeacon.html#af0ef8dd026dd383bdf2461bd6472eb8c',1,'Artemis::Devices::Switches::switchbeacon']]],
+  ['sync0_14',['SYNC0',['../classArtemis_1_1Devices_1_1Astrodev.html#a1061dc267a388aaeac84e869542edb15',1,'Artemis::Devices::Astrodev']]],
+  ['sync0_15',['sync0',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a03e30f7b4d3e39fd48b83e0185181aa2',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]],
+  ['sync1_16',['SYNC1',['../classArtemis_1_1Devices_1_1Astrodev.html#a744424ba4d6476e2ee356b63bb7d80fc',1,'Artemis::Devices::Astrodev']]],
+  ['sync1_17',['sync1',['../structArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header_1_1header.html#a304f9089167476d871ef52e837835806',1,'Artemis::Devices::Astrodev::frame::frame_header::header']]]
 ];

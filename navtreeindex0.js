@@ -117,6 +117,7 @@ var NAVTREEINDEX0 =
 "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898ea11b8b8485101830bbd4a024b21357ab6":[5,0,0,4,0,6],
 "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898ea1c92a02823260e0144c823291dd65d71":[5,0,0,4,0,3],
 "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898ea2cbfe063b47d6bf88549b5c06856df80":[5,0,0,4,0,0],
+"artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898ea55235364b0861ef9be9d24464826d14e":[5,0,0,4,0,7],
 "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898ea8344f79db12f2e143a381f00c8ce997e":[5,0,0,4,0,2],
 "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898eaa1acd4f6f1cb200e5be563b047afc132":[5,0,0,4,0,1],
 "artemisbeacons_8h.html#acefa807c92c3f7feaf9364660066898eaac0f4918bf91f2ebe5cb8d691d728b60":[5,0,0,4,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classArtemis_1_1Devices_1_1RFM98.html#a8c1457ab82f3385b8ce6c030c1353347":[4,0,0,0,7,4],
 "classArtemis_1_1Devices_1_1RFM98.html#ab421a881982055832cdf78470ecd0b3a":[4,0,0,0,7,1],
 "classArtemis_1_1Devices_1_1RFM98.html#ac6580504c05c5879e9560fcf1b5e0518":[4,0,0,0,7,2],
-"classArtemis_1_1Devices_1_1TemperatureSensors.html":[4,0,0,0,8],
-"classArtemis_1_1Devices_1_1TemperatureSensors.html#a19a6ef414936c6d522a6d8637f468f65":[4,0,0,0,8,2]
+"classArtemis_1_1Devices_1_1Switches.html":[4,0,0,0,8]
 };

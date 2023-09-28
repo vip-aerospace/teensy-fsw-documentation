@@ -110,20 +110,23 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acb12eaeef17253f770d4ba05707347a0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html#acb12eaeef17253f770d4ba05707347a0">deci</a> = 0</td></tr>
 <tr class="memdesc:acb12eaeef17253f770d4ba05707347a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A decimal identifier for the beacon.  <br /></td></tr>
 <tr class="separator:acb12eaeef17253f770d4ba05707347a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a137eec6242bf552cfe86e94c6060aa3e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html#a137eec6242bf552cfe86e94c6060aa3e">temperatureC</a> [<a class="el" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>]</td></tr>
-<tr class="memdesc:a137eec6242bf552cfe86e94c6060aa3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temperature data.  <br /></td></tr>
-<tr class="separator:a137eec6242bf552cfe86e94c6060aa3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7486f7e1252ffdade751a83300459b94"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html#a7486f7e1252ffdade751a83300459b94">tmp36_temperatureC</a> [<a class="el" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>]</td></tr>
+<tr class="memdesc:a7486f7e1252ffdade751a83300459b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temperature data for each TMP36 sensor.  <br /></td></tr>
+<tr class="separator:a7486f7e1252ffdade751a83300459b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413d570020166a37c277066d65f8dd95"><td class="memItemLeft" align="right" valign="top"><a id="a413d570020166a37c277066d65f8dd95" name="a413d570020166a37c277066d65f8dd95"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>teensy_temperatureC</b> = 0</td></tr>
+<tr class="memdesc:a413d570020166a37c277066d65f8dd95"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temperature of the Teensy. <br /></td></tr>
+<tr class="separator:a413d570020166a37c277066d65f8dd95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The temperature beacon structure. </p>
 <p>This defines the structure of the temperature beacon.</p>
-<p>The temperature beacon consists of three members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), and the temperature data (<code>temperatureC</code>[]).A diagram of the struct is included below.</p>
-<pre class="fragment">    1 byte    4 bytes      4*X bytes
-+--------+----------+-----------------+
-|  type  |   deci   |  temperatureC[] |
-+--------+----------+-----------------+
-    (Note: X = ARTEMIS_TEMP_SENSOR_COUNT)
-</pre> </div><h2 class="groupheader">Member Data Documentation</h2>
+<p>The temperature beacon consists of four members: the type of beacon (<code>type</code>), the decimal identifier (<code>deci</code>), the temperature data of the TEMP36 sensors (<code>tmp36_temperatureC</code>[]), and the temperature of the Teensy (<code>teensy_temperatureC</code>).A diagram of the struct is included below.</p>
+<pre class="fragment"> 1 byte  4 bytes 4*X bytes              4 bytes
++-------+-------+----------------------+---------------------+
+| type  | deci  | tmp36_temperatureC[] | teensy_temperatureC |
++-------+-------+----------------------+---------------------+
+(Note: X = ARTEMIS_TEMP_SENSOR_COUNT)</pre> </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="acb12eaeef17253f770d4ba05707347a0" name="acb12eaeef17253f770d4ba05707347a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb12eaeef17253f770d4ba05707347a0">&#9670;&#160;</a></span>deci</h2>
 
@@ -141,19 +144,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a137eec6242bf552cfe86e94c6060aa3e" name="a137eec6242bf552cfe86e94c6060aa3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a137eec6242bf552cfe86e94c6060aa3e">&#9670;&#160;</a></span>temperatureC</h2>
+<a id="a7486f7e1252ffdade751a83300459b94" name="a7486f7e1252ffdade751a83300459b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7486f7e1252ffdade751a83300459b94">&#9670;&#160;</a></span>tmp36_temperatureC</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Artemis::Devices::TemperatureSensors::temperaturebeacon::temperatureC[<a class="el" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>]</td>
+          <td class="memname">float Artemis::Devices::TemperatureSensors::temperaturebeacon::tmp36_temperatureC[<a class="el" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The temperature data. </p>
+<p>The temperature data for each TMP36 sensor. </p>
 <p>The temperature values are stored as an array of floating-point values. The length of the array is defined by the <a class="el" href="artemis__defs_8h.html#a3b4152ba9546ee95b13dfb8d46b282c4">ARTEMIS_TEMP_SENSOR_COUNT</a> constant. </p>
 
 </div>

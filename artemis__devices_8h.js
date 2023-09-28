@@ -10,5 +10,7 @@ var artemis__devices_8h =
     [ "Artemis::Devices::CurrentSensors::currentbeacon1", "structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon1.html", "structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon1" ],
     [ "Artemis::Devices::CurrentSensors::currentbeacon2", "structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon2.html", "structArtemis_1_1Devices_1_1CurrentSensors_1_1currentbeacon2" ],
     [ "Artemis::Devices::TemperatureSensors", "classArtemis_1_1Devices_1_1TemperatureSensors.html", "classArtemis_1_1Devices_1_1TemperatureSensors" ],
-    [ "Artemis::Devices::TemperatureSensors::temperaturebeacon", "structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html", "structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon" ]
+    [ "Artemis::Devices::TemperatureSensors::temperaturebeacon", "structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html", "structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon" ],
+    [ "Artemis::Devices::Switches", "classArtemis_1_1Devices_1_1Switches.html", "classArtemis_1_1Devices_1_1Switches" ],
+    [ "Artemis::Devices::Switches::switchbeacon", "structArtemis_1_1Devices_1_1Switches_1_1switchbeacon.html", "structArtemis_1_1Devices_1_1Switches_1_1switchbeacon" ]
 ];
