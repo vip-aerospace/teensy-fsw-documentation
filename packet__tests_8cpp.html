@@ -98,26 +98,26 @@ $(document).ready(function(){initNavTree('packet__tests_8cpp.html',''); initResi
 
 <p>Defines packet tests.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="packet__tests_8h_source.html">tests/packet_tests.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;tests/packet_tests.h&quot;</code><br />
 <code>#include &lt;<a class="el" href="pdu_8h_source.html">pdu.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac2a78e22fb368c479c15d1dbc25fcf6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="packet__tests_8cpp.html#ac2a78e22fb368c479c15d1dbc25fcf6e">send_test_packets</a> ()</td></tr>
-<tr class="memdesc:ac2a78e22fb368c479c15d1dbc25fcf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and adds packets to queues to test channel functionality.  <br /></td></tr>
-<tr class="separator:ac2a78e22fb368c479c15d1dbc25fcf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a660cca8a647c714961d509a29a019e8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="packet__tests_8cpp.html#a660cca8a647c714961d509a29a019e8a">run_test</a> ()</td></tr>
+<tr class="memdesc:a660cca8a647c714961d509a29a019e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and adds packets to queues to test channel functionality.  <br /></td></tr>
+<tr class="separator:a660cca8a647c714961d509a29a019e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines packet tests. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ac2a78e22fb368c479c15d1dbc25fcf6e" name="ac2a78e22fb368c479c15d1dbc25fcf6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2a78e22fb368c479c15d1dbc25fcf6e">&#9670;&#160;</a></span>send_test_packets()</h2>
+<a id="a660cca8a647c714961d509a29a019e8a" name="a660cca8a647c714961d509a29a019e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660cca8a647c714961d509a29a019e8a">&#9670;&#160;</a></span>run_test()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void send_test_packets </td>
+          <td class="memname">void run_test </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -128,17 +128,17 @@ Functions</h2></td></tr>
 <p>Creates and adds packets to queues to test channel functionality. </p>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Raspberry Pi indirect tests</h2>
-<p>These tests are enabled using the TEST_PI macro in the <a class="el" href="packet__tests_8h.html" title="Header file for packet tests.">packet_tests.h</a> header file. It creates a packet with a command to turn off the Raspberry Pi and adds it to the main_queue.</p>
+<p>These tests are enabled using the TEST_PI macro in the packet_tests.h header file. It creates a packet with a command to turn off the Raspberry Pi and adds it to the main_queue.</p>
 <h2><a class="anchor" id="autotoc_md11"></a>
 Raspberry Pi direct tests</h2>
-<p>These tests are enabled using the TEST_I2C_PI macro in the <a class="el" href="packet__tests_8h.html" title="Header file for packet tests.">packet_tests.h</a> header file. It creates a packet with a command to the Raspberry Pi to take a picture and adds it to the rpi_queue.</p>
+<p>These tests are enabled using the TEST_I2C_PI macro in the packet_tests.h header file. It creates a packet with a command to the Raspberry Pi to take a picture and adds it to the rpi_queue.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>The packet header type is directly written as 0x800, which should be CommandTakePicture. This is unimplemented in the PacketComm protocol. </dd></dl>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Astrodev tests</h2>
-<p>These tests are enabled using the <a class="el" href="packet__tests_8h.html#a1fedb7a59159de5a1961f09b3160a2ac">TEST_ASTRODEV</a> macro in the <a class="el" href="packet__tests_8h.html" title="Header file for packet tests.">packet_tests.h</a> header file. It creates a pong packet destined for the ground node and adds it to the main_queue.</p>
+<p>These tests are enabled using the TEST_ASTRODEV macro in the packet_tests.h header file. It creates a pong packet destined for the ground node and adds it to the main_queue.</p>
 <h2><a class="anchor" id="autotoc_md13"></a>
 PDU tests</h2>
-<p>These tests are enabled using the <a class="el" href="packet__tests_8h.html#ae4398f445664cbf83730f3da81abab83">TEST_PDU</a> macro in the <a class="el" href="packet__tests_8h.html" title="Header file for packet tests.">packet_tests.h</a> header file. It creates a packet with a command to the PDU to enable all switches and adds it to the main_queue.</p>
+<p>These tests are enabled using the TEST_PDU macro in the packet_tests.h header file. It creates a packet with a command to the PDU to enable all switches and adds it to the main_queue.</p>
 
 </div>
 </div>

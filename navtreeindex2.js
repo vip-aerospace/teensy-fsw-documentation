@@ -1,10 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a1eda1b2740006a6cb4e2ff964d191a43":[4,0,0,0,7,0,0,1],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a5b732903a24b461ede70cc1e5afa72fe":[4,0,0,0,7,0,0,4],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a873c3c34d8a2f6844e1cf7a29d96cd27":[4,0,0,0,7,0,0,5],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a9834c915f9e38d9e2554191a53201de8":[4,0,0,0,7,0,0,3],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#add8c11c1b2cb0955288203f21261f019":[4,0,0,0,7,0,0,2],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#ae2bd7fdc4d150a4bb36ea8aefc99e917":[4,0,0,0,7,0,0,0],
 "structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html":[4,0,0,0,8,0],
 "structArtemis_1_1Devices_1_1TemperatureSensors_1_1temperaturebeacon.html#a137eec6242bf552cfe86e94c6060aa3e":[4,0,0,0,8,0,1],
@@ -13,6 +8,9 @@ var NAVTREEINDEX2 =
 "structthread__struct.html":[4,0,1],
 "structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659":[4,0,1,0],
 "structthread__struct.html#af49b5ae735600c96cc13a0efeeff9dce":[4,0,1,1],
+"tests_8h.html":[5,0,0,2,0],
+"tests_8h.html#a660cca8a647c714961d509a29a019e8a":[5,0,0,2,0,0],
+"tests_8h_source.html":[5,0,0,2,0],
 "todo.html":[2],
 "unionArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header.html":[4,0,0,0,0,2,0],
 "unionArtemis_1_1Devices_1_1Astrodev_1_1frame_1_1frame__header.html#a6d442e5bc488810ec12d49a177e9ea71":[4,0,0,0,0,2,0,2],
