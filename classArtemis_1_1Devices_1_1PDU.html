@@ -164,9 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb4df2add19e14500a7e1ce3d9f2ffc4"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1PDU.html#aeb4df2add19e14500a7e1ce3d9f2ffc4">set_switch</a> (<a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676">PDU_SW</a> sw, uint8_t enable)</td></tr>
 <tr class="memdesc:aeb4df2add19e14500a7e1ce3d9f2ffc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a switch on the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a>.  <br /></td></tr>
 <tr class="separator:aeb4df2add19e14500a7e1ce3d9f2ffc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19022d613c171c5ef6d869646571e01f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a19022d613c171c5ef6d869646571e01f">get_switch</a> (<a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676">PDU_SW</a> sw)</td></tr>
-<tr class="memdesc:a19022d613c171c5ef6d869646571e01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of a switch on the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a>.  <br /></td></tr>
-<tr class="separator:a19022d613c171c5ef6d869646571e01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a185a8feab73b0e2987030c4f679326"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a5a185a8feab73b0e2987030c4f679326">get_switch</a> (<a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676">PDU_SW</a> sw, string &amp;ret)</td></tr>
+<tr class="memdesc:a5a185a8feab73b0e2987030c4f679326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of a switch on the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a>.  <br /></td></tr>
+<tr class="separator:a5a185a8feab73b0e2987030c4f679326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cfbb10f09a7fce8d6da353dd8209472"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a1cfbb10f09a7fce8d6da353dd8209472">send</a> (<a class="el" href="structArtemis_1_1Devices_1_1PDU_1_1pdu__packet.html">pdu_packet</a> packet)</td></tr>
 <tr class="memdesc:a1cfbb10f09a7fce8d6da353dd8209472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a> packet to the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a>.  <br /></td></tr>
 <tr class="separator:a1cfbb10f09a7fce8d6da353dd8209472"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,7 +227,7 @@ Public Attributes</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a8861790b9a83b683cef70d04b1535676a70a707408a55a78f090c7e2ff92bd331" name="a8861790b9a83b683cef70d04b1535676a70a707408a55a78f090c7e2ff92bd331"></a>VBATT&#160;</td><td class="fielddoc"><p>The battery voltage switch. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050" name="a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050"></a>WDT&#160;</td><td class="fielddoc"><p>??? </p>
+<tr><td class="fieldname"><a id="a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050" name="a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050"></a>WDT&#160;</td><td class="fielddoc"><p>The <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a>'s WatchDog Timer (WDT). </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a8861790b9a83b683cef70d04b1535676acbce0d57d41e8814b3afac0c35804072" name="a8861790b9a83b683cef70d04b1535676acbce0d57d41e8814b3afac0c35804072"></a>HBRIDGE1&#160;</td><td class="fielddoc"><p>The first H-bridge. </p>
 </td></tr>
@@ -326,8 +326,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a19022d613c171c5ef6d869646571e01f" name="a19022d613c171c5ef6d869646571e01f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19022d613c171c5ef6d869646571e01f">&#9670;&#160;</a></span>get_switch()</h2>
+<a id="a5a185a8feab73b0e2987030c4f679326" name="a5a185a8feab73b0e2987030c4f679326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a185a8feab73b0e2987030c4f679326">&#9670;&#160;</a></span>get_switch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,8 +336,18 @@ Public Attributes</h2></td></tr>
           <td class="memname">int32_t Artemis::Devices::PDU::get_switch </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676">PDU_SW</a>&#160;</td>
-          <td class="paramname"><em>sw</em></td><td>)</td>
+          <td class="paramname"><em>sw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>ret</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -413,7 +423,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int32_t Always returns zero. </dd></dl>
 <p>The packet is copied into a character array.</p>
-<p>The payload of the packet is extracted by ignoring the header data. It is converted to ASCII characters, then sent to the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a> via the serial connection.</p>
+<p>The payload of the packet is converted to ASCII characters, then sent to the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The satellite&#39;s Power Distribution Unit (PDU).">PDU</a> via the serial connection.</p>
 <p>The raw packet contents are also printed to the Teensy's serial connection for debugging purposes.</p>
 
 </div>
@@ -495,7 +505,7 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a667b163ee86c2aef53cfb8e25f56268c"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a667b163ee86c2aef53cfb8e25f56268c">Artemis::Devices::PDU::PDU_SW::SW_5V_3</a></div><div class="ttdeci">@ SW_5V_3</div><div class="ttdoc">The third 5V switch.</div></div>
 <div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a6ce5f855f667c4a7b51360d8c37e2e66"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a6ce5f855f667c4a7b51360d8c37e2e66">Artemis::Devices::PDU::PDU_SW::BURN</a></div><div class="ttdeci">@ BURN</div><div class="ttdoc">The burnwire.</div></div>
 <div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a70a707408a55a78f090c7e2ff92bd331"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a70a707408a55a78f090c7e2ff92bd331">Artemis::Devices::PDU::PDU_SW::VBATT</a></div><div class="ttdeci">@ VBATT</div><div class="ttdoc">The battery voltage switch.</div></div>
-<div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050">Artemis::Devices::PDU::PDU_SW::WDT</a></div><div class="ttdeci">@ WDT</div><div class="ttdoc">???</div></div>
+<div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a718c477b513c08090cb3a4c141bd0050">Artemis::Devices::PDU::PDU_SW::WDT</a></div><div class="ttdeci">@ WDT</div><div class="ttdoc">The PDU's WatchDog Timer (WDT).</div></div>
 <div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a757e10103956cc4325caddc7687d6b20"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a757e10103956cc4325caddc7687d6b20">Artemis::Devices::PDU::PDU_SW::SW_3V3_1</a></div><div class="ttdeci">@ SW_3V3_1</div><div class="ttdoc">The first 3.3V switch.</div></div>
 <div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a7ac812f17938cbae36f9b256134addbb"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a7ac812f17938cbae36f9b256134addbb">Artemis::Devices::PDU::PDU_SW::HBRIDGE2</a></div><div class="ttdeci">@ HBRIDGE2</div><div class="ttdoc">The first H-bridge.</div></div>
 <div class="ttc" id="aclassArtemis_1_1Devices_1_1PDU_html_a8861790b9a83b683cef70d04b1535676a84da1ea86cca667bb1eff62a44ca5ba7"><div class="ttname"><a href="classArtemis_1_1Devices_1_1PDU.html#a8861790b9a83b683cef70d04b1535676a84da1ea86cca667bb1eff62a44ca5ba7">Artemis::Devices::PDU::PDU_SW::SW_12V</a></div><div class="ttdeci">@ SW_12V</div><div class="ttdoc">The 12V switch.</div></div>

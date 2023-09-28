@@ -31,7 +31,7 @@ var classArtemis_1_1Devices_1_1PDU =
       [ "DataSwitchTelem", "classArtemis_1_1Devices_1_1PDU.html#a84d4d27e60ecdbfb39e0efee97e46811abc25a0d118d60e6988fc23fade2486a0", null ]
     ] ],
     [ "PDU", "classArtemis_1_1Devices_1_1PDU.html#a0ea529ffe5935cb7c4a5a819f4470da5", null ],
-    [ "get_switch", "classArtemis_1_1Devices_1_1PDU.html#a19022d613c171c5ef6d869646571e01f", null ],
+    [ "get_switch", "classArtemis_1_1Devices_1_1PDU.html#a5a185a8feab73b0e2987030c4f679326", null ],
     [ "recv", "classArtemis_1_1Devices_1_1PDU.html#a0b4b9f69845422a7a4b16fd4ac84afa8", null ],
     [ "send", "classArtemis_1_1Devices_1_1PDU.html#a1cfbb10f09a7fce8d6da353dd8209472", null ],
     [ "set_switch", "classArtemis_1_1Devices_1_1PDU.html#aeb4df2add19e14500a7e1ce3d9f2ffc4", null ],
