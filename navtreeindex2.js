@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a873c3c34d8a2f6844e1cf7a29d96cd27":[4,0,0,0,7,0,0,5],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a9834c915f9e38d9e2554191a53201de8":[4,0,0,0,7,0,0,3],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#add8c11c1b2cb0955288203f21261f019":[4,0,0,0,7,0,0,2],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#ae2bd7fdc4d150a4bb36ea8aefc99e917":[4,0,0,0,7,0,0,0],

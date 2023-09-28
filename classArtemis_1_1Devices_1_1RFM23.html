@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a95667d870fa06f55899eb73048077743"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a95667d870fa06f55899eb73048077743">get_tsen</a> ()</td></tr>
 <tr class="memdesc:a95667d870fa06f55899eb73048077743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a>'s temperature.  <br /></td></tr>
 <tr class="separator:a95667d870fa06f55899eb73048077743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4af4b15242a025c576a6e330b9a54b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#acc4af4b15242a025c576a6e330b9a54b">read_rssi</a> ()</td></tr>
+<tr class="memdesc:acc4af4b15242a025c576a6e330b9a54b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Received Signal Strength Indicator (RSSI).  <br /></td></tr>
+<tr class="separator:acc4af4b15242a025c576a6e330b9a54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The satellite's <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> radio. </p>
@@ -258,6 +261,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acc4af4b15242a025c576a6e330b9a54b" name="acc4af4b15242a025c576a6e330b9a54b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4af4b15242a025c576a6e330b9a54b">&#9670;&#160;</a></span>read_rssi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t Artemis::Devices::RFM23::read_rssi </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Received Signal Strength Indicator (RSSI). </p>
+<dl class="section return"><dt>Returns</dt><dd>int32_t The RSSI value of the last received packet. </dd></dl>
+
+</div>
+</div>
 <a id="aba7c2567bd47861fca0319cb70c0b8f3" name="aba7c2567bd47861fca0319cb70c0b8f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba7c2567bd47861fca0319cb70c0b8f3">&#9670;&#160;</a></span>recv()</h2>
 
@@ -347,7 +370,7 @@ Public Member Functions</h2></td></tr>
 <p>The <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> is put into transmit state by setting the transmit pin high and the receive pin low.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>This is reversed. Is this a bug or is the documentation incorrect? The datasheet for the RFM22B states to set the TX_ANT pin high and RX_ANT pin low to transmit. <a href="https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf">https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf</a> </dd></dl>
 <p>The header and payload of the packet are merged into one.</p>
-<p>The SPI interface is locked for the exclusive use by the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> channel. The packet is then sent using the RadioHead library call. The <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> is then put into sleep mode, and the sent packet is printed to the Teensy's serial console.</p>
+<p>The SPI interface is locked for the exclusive use by the <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> channel. The packet is then sent using the RadioHead library call. The <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html" title="The satellite&#39;s RFM23 radio.">RFM23</a> is then put into sleep mode.</p>
 
 </div>
 </div>

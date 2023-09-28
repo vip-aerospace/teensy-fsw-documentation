@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classArtemis_1_1Devices_1_1Switches.html":[4,0,0,0,8],
 "classArtemis_1_1Devices_1_1TemperatureSensors.html":[4,0,0,0,9],
 "classArtemis_1_1Devices_1_1TemperatureSensors.html#a19a6ef414936c6d522a6d8637f468f65":[4,0,0,0,9,2],
 "classArtemis_1_1Devices_1_1TemperatureSensors.html#a1d1ca304b40d3720d247ed12b2e0733f":[4,0,0,0,9,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config.html#ae33029d0ba5cf14dafa236538df1d84c":[4,0,0,0,7,0,3],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html":[4,0,0,0,7,0,0],
 "structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a1eda1b2740006a6cb4e2ff964d191a43":[4,0,0,0,7,0,0,1],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a5b732903a24b461ede70cc1e5afa72fe":[4,0,0,0,7,0,0,4],
-"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a873c3c34d8a2f6844e1cf7a29d96cd27":[4,0,0,0,7,0,0,5]
+"structArtemis_1_1Devices_1_1RFM98_1_1rfm98__config_1_1pins.html#a5b732903a24b461ede70cc1e5afa72fe":[4,0,0,0,7,0,0,4]
 };
